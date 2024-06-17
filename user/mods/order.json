@@ -1,0 +1,25 @@
+{
+    "order": [
+        "fika-server",
+        "leaves-relooted",
+        "leaves-loot_fuckery",
+        "ACOG4Life-OpticRework",
+        "Fontaine-FOV-Fix",
+        "tyfon-uifixes",
+        "ExpandedTaskText",
+        "BetterKeys",
+        "MoreCheckmarksBackend",
+        "AAAArtemTrader",
+        "AAArtemEquipment",
+        "Lotus",
+        "acidphantasm-scorpion",
+        "Virtual's Custom Quest Loader",
+        "odt-softcore-2.1.1",
+        "AAServerValueModifier",
+        "AlgorithmicLevelProgression",
+        "zzSkwizzy-NoDiscardLimit",
+        "DanW-SPTQuestingBots",
+        "SWAG",
+        "zSolarint-SAIN-ServerMod"
+    ]
+}

@@ -1,0 +1,12 @@
+Bot Name,Bot Nickname,Bot Difficulty,Bot Level,Assignment Status,Quest Name,Objective Name,Step Number,Start Time,End Time
+Bot1,"MadDutch",normal,2,Active,"Spawn Rush","Spawn Rush: Objective #1","1","18:42:54","N/A",
+Bot2,"Bnuy",hard,6,Completed,"Shooting Cans","Zone Sandbox_2_AGS_exploration","1","18:42:54","18:43:41",
+Bot2,"Bnuy",hard,6,Active,"Shooting Cans","Zone Sandbox_2_Kord_exploration","1","18:43:47","N/A",
+Bot3,"nooky",normal,12,Failed,"First in Line","Zone Sandbox_1_MedicalArea_exploration","1","18:43:00","18:44:03",
+Bot3,"nooky",normal,12,Active,"Emercom Checkpoint","Emercom Checkpoint: Objective #2","1","18:44:09","N/A",
+Bot4,"kikirio",normal,24,Completed,"Saving the Mole","Zone Sandbox_5_DeadGroup_exploration","1","18:43:00","18:43:06",
+Bot4,"kikirio",normal,24,Pending,"Saving the Mole","Item TerraGroup scientist's hard drive","1","18:43:11","N/A",
+Bot8,"BlackDeathGER",easy,14,Pending,"TerraGroup Office","TerraGroup Office: Objective #6","1","18:43:06","N/A",
+Bot9,"Aki-chan",easy,2,Pending,"Saving the Mole","Zone Sandbox_5_Office_exploration","1","18:43:06","N/A",
+Bot7,"bitwarrior",easy,16,Completed,"Boss Hunter","Spawn Point (-10.6 24.0 22.9)","1","18:43:06","18:43:49",
+Bot7,"bitwarrior",easy,16,Active,"Boss Hunter","Spawn Point (-13.1 23.9 98.9)","1","18:43:54","N/A",

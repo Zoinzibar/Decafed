@@ -1,0 +1,1973 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (12/06/2024 16:56:38)
+[Info   :   BepInEx] Running under Unity v0.14.1.2919
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [aki_PrePatch 3.8.3.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [Aki.PrePatch.AkiBotsPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 36 plugins to load
+[Info   :   BepInEx] Loading [AKI.Core 3.8.3]
+[Info   :  AKI.Core] Loading: Aki.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  AKI.Core] Completed: Aki.Core
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 0.4.0.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.4.3]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :ModulePatch] Enabled patch GroupPointCachePatch
+[Info   :ModulePatch] Enabled patch BotVoxelesPersonalActivatePatch
+[Info   :ModulePatch] Enabled patch GroupPointGetByIdPatch
+[Info   :   BepInEx] Loading [SAIN 2.3.3]
+[Info   :ModulePatch] Enabled patch FixPatrolDataPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch CalcPowerPatch
+[Info   :ModulePatch] Enabled patch BulletImpactSuppressionPatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch HealCancelPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch AimRotateSpeedPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotRecoilPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch NoTeleportPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch FallSoundPatch
+[Info   :ModulePatch] Enabled patch TurnSoundPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch SetInHandsGrenadePatch
+[Info   :ModulePatch] Enabled patch SetInHandsFoodPatch
+[Info   :ModulePatch] Enabled patch SetInHandsMedsPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch SetPartPriorityPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPostPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePosePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch RecoilPatch
+[Info   :ModulePatch] Enabled patch LoseRecoilPatch
+[Info   :ModulePatch] Enabled patch EndRecoilPatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :ModulePatch] Enabled patch AddComponentPatch
+[Info   :   BepInEx] Loading [That's Lit 1.383.25]
+[Info   :ModulePatch] Enabled patch SeenCoefPatch
+[Info   :ModulePatch] Enabled patch EncounteringPatch
+[Info   :ModulePatch] Enabled patch ExtraVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch InitiateShotMonitor
+[Info   :ModulePatch] Enabled patch BlindFirePatch
+[Info   :ModulePatch] Enabled patch SAINNoBushOverride
+[Info   :That's Lit] Update Notifier not found.
+[Info   :   BepInEx] Loading [AKI.Custom 3.8.3]
+[Info   :AKI.Custom] Loading: Aki.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch BotCalledDataTryCallPatch
+[Info   :ModulePatch] Enabled patch BotCallForHelpCallBotPatch
+[Info   :ModulePatch] Enabled patch BotOwnerDisposePatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :ModulePatch] Enabled patch AddSptBotSettingsPatch
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Info   :ModulePatch] Enabled patch SetLocationIdOnRaidStartPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :ModulePatch] Enabled patch FixBrokenSpawnOnSandboxPatch
+[Info   :ModulePatch] Enabled patch BTRPathLoadPatch
+[Info   :ModulePatch] Enabled patch BTRActivateTraderDialogPatch
+[Info   :ModulePatch] Enabled patch BTRInteractionPatch
+[Info   :ModulePatch] Enabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Enabled patch BTRBotAttachPatch
+[Info   :ModulePatch] Enabled patch BTRReceiveDamageInfoPatch
+[Info   :ModulePatch] Enabled patch BTRTurretCanShootPatch
+[Info   :ModulePatch] Enabled patch BTRTurretDefaultAimingPositionPatch
+[Info   :ModulePatch] Enabled patch BTRIsDoorsClosedPath
+[Info   :ModulePatch] Enabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BTRTransferItemsPatch
+[Info   :ModulePatch] Enabled patch BTREndRaidItemDeliveryPatch
+[Info   :ModulePatch] Enabled patch BTRDestroyAtRaidEndPatch
+[Warning:  HarmonyX] BTRVehicleMovementSpeedPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void VehicleBase::Update() instead of virtual void VehicleBase::Update().
+[Info   :ModulePatch] Enabled patch BTRVehicleMovementSpeedPatch
+[Info   :ModulePatch] Enabled patch ScavItemCheckmarkPatch
+[Info   :ModulePatch] Enabled patch ResetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch CultistAmuletRemovalPatch
+[Info   :ModulePatch] Enabled patch HalloweenExtractPatch
+[Info   :ModulePatch] Enabled patch ClampRagdollPatch
+[Info   :AKI.Custom] Completed: Aki.Custom
+[Info   :   BepInEx] Loading [AKI.Singleplayer 3.8.3]
+[Info   :AKI.Singleplayer] Loading: Aki.SinglePlayer
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Info   :ModulePatch] Enabled patch InRaidQuestAvailablePatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch MidRaidAchievementChangePatch
+[Info   :ModulePatch] Enabled patch GetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch PurchaseTraderServicePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch HideoutQuestIgnorePatch
+[Info   :ModulePatch] Enabled patch LightKeeperServicesPatch
+[Info   :ModulePatch] Enabled patch ScavEncyclopediaPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch ArmorDamageCounterPatch
+[Info   :AKI.Singleplayer] Completed: Aki.SinglePlayer
+[Info   :   BepInEx] Loading [AKI.Debugging 3.8.3]
+[Info   :AKI.Debugging] Loading: Aki.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :AKI.Debugging] Completed: Aki.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 0.9.8910]
+[Info   :ModulePatch] Enabled patch FikaVersionLabel_Patch
+[Info   :ModulePatch] Enabled patch DisableReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] Enabled patch DeathFade_Patch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WeatherNode_Patch
+[Info   :ModulePatch] Enabled patch EnvironmentUIRoot_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   :ModulePatch] Enabled patch Minefield_method_2_Patch
+[Info   :ModulePatch] Enabled patch BotCacher_Patch
+[Info   :ModulePatch] Enabled patch InventoryScroll_Patch
+[Info   :ModulePatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   :ModulePatch] Enabled patch TOS_Patch
+[Info   :ModulePatch] Disabled patch BotDifficultyPatch
+[Info   :ModulePatch] Disabled patch AirdropPatch
+[Info   :ModulePatch] Disabled patch AirdropFlarePatch
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Disabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Disabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Disabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch MaxBotPatch
+[Info   :ModulePatch] Disabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch DogtagPatch
+[Info   :ModulePatch] Disabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Disabled patch BTRInteractionPatch
+[Info   :ModulePatch] Disabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Disabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch_Override
+[Info   :ModulePatch] Enabled patch ScavProfileLoad_Override
+[Info   :ModulePatch] Enabled patch MaxBotPatch_Override
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch_Override
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch_Override
+[Info   :ModulePatch] Enabled patch FikaAirdropFlare_Patch
+[Info   : Fika.Core] Fika is loaded! Running version: 0.9.8910.17192
+[Info   :RequestHandler] [REQUEST]: /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/airdrop/config
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] UseBTR: True
+[Info   : Fika.Core] FriendlyFire: True
+[Info   : Fika.Core] DynamicVExfils: False
+[Info   : Fika.Core] AllowFreeCam: True
+[Info   : Fika.Core] AllowItemSending: True
+[Info   : Fika.Core] ForceSaveOnDeath: False
+[Info   :ModulePatch] Enabled patch ItemContext_Patch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   :   BepInEx] Loading [That's Lit Sync 1.383.18]
+[Info   :   BepInEx] Loading [Graphics 1.6.2]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [DanW-QuestingBots 0.6.1]
+[Info   :DanW-QuestingBots] Loading QuestingBots...
+[Info   :DanW-QuestingBots] Loading QuestingBots...getting configuration data...
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetConfig
+[Info   :DanW-QuestingBots] Loading QuestingBots...enabling patches...
+[Info   :ModulePatch] Enabled patch TarkovInitPatch
+[Info   :ModulePatch] Enabled patch AddActivePlayerPatch
+[Info   :ModulePatch] Enabled patch BotsControllerStopPatch
+[Info   :ModulePatch] Enabled patch OnGameStartedPatch
+[Info   :ModulePatch] Enabled patch BotOwnerBrainActivatePatch
+[Info   :ModulePatch] Enabled patch IsFollowerSuitableForBossPatch
+[Info   :ModulePatch] Enabled patch OnBeenKilledByAggressorPatch
+[Info   :ModulePatch] Enabled patch AirdropLandPatch
+[Info   :DanW-QuestingBots] Found type for ServerRequestPatch: Class267
+[Info   :ModulePatch] Enabled patch ServerRequestPatch
+[Info   :ModulePatch] Enabled patch CheckLookEnemyPatch
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for sleeping: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, BossKolontay, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, FlBoarCl, FlBoarSt, FlKlnAslt, KolonSec, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for questing: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, BossKolontay, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, FlBoarCl, FlBoarSt, FlKlnAslt, KolonSec, BigPipe, BirdEye, SectantWarrior, SectantPriest
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for following: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, BossKolontay, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, FlBoarCl, FlBoarSt, FlKlnAslt, KolonSec, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...done.
+[Info   :   BepInEx] Loading [dvize.Donuts 1.4.4]
+[Info   :ModulePatch] Enabled patch NewGameDonutsPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch MatchEndPlayerDisposePatch
+[Info   :ModulePatch] Enabled patch PatchStandbyTeleport
+[Info   :ModulePatch] Enabled patch BotProfilePreparationHook
+[Info   :ModulePatch] Enabled patch AddEnemyPatch
+[Warning:dvize.Donuts] Found file at: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\dvize.Donuts\ScenarioConfig.json
+[Warning:dvize.Donuts] Found file at: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\dvize.Donuts\RandomScenarioConfig.json
+[Warning:dvize.Donuts] Adding scenario: live-like
+[Warning:dvize.Donuts] Adding scenario: live-like-alt
+[Warning:dvize.Donuts] Adding scenario: live-like-alt-2
+[Warning:dvize.Donuts] Adding scenario: quietraids
+[Warning:dvize.Donuts] Adding scenario: boss-mania
+[Warning:dvize.Donuts] Adding scenario: crazyraids
+[Warning:dvize.Donuts] Adding scenario: impossibleraids
+[Warning:dvize.Donuts] Adding scenario: morescavs
+[Warning:dvize.Donuts] Adding scenario: morepmcs
+[Warning:dvize.Donuts] Adding scenario: no-starting-pmcs
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-live-like
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-live-like-alt
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-morescavs
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-quietraids
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-late-scavs
+[Warning:dvize.Donuts] Adding scenario: scav-raids
+[Warning:dvize.Donuts] Adding random scenario: Live Like (Random)
+[Warning:dvize.Donuts] Adding random scenario: Starting PMCs Only (Random)
+[Warning:dvize.Donuts] Adding random scenario: Whole Lotta Scavs (Random)
+[Warning:dvize.Donuts] Adding random scenario: I Like Pain (Random)
+[Warning:dvize.Donuts] Adding random scenario: Quiet Raids (Random)
+[Info   :   BepInEx] Loading [SPT-UseLooseLoot 1.1.2]
+[Info   :ModulePatch] Enabled patch MakeFoodMedsUsablePatch
+[Info   :SPT-UseLooseLoot] [UseLooseLoot] Loaded.
+[Info   :   BepInEx] Loading [EFTReflection 1.2.1]
+[Info   :   BepInEx] Loading [EFTApi 1.2.1]
+[Info   :   BepInEx] Loading [EFTConfiguration 1.2.1]
+[Info   :   BepInEx] Loading [EFTUtils 1.2.1]
+[Info   :   BepInEx] Loading [GamePanelHUDCore 3.1.0]
+[Info   :   BepInEx] Loading [GamePanelHUDCompass 3.1.0]
+[Info   :   BepInEx] Loading [GamePanelHUDGrenade 3.1.0]
+[Info   :   BepInEx] Loading [GamePanelHUDHealth 3.1.0]
+[Info   :   BepInEx] Loading [GamePanelHUDHit 3.1.0]
+[Info   :   BepInEx] Loading [GamePanelHUDKill 3.1.0]
+[Info   :   BepInEx] Loading [GamePanelHUDWeapon 3.1.0]
+[Info   :   BepInEx] Loading [DynamicMaps 0.3.1.3]
+[Info   :ModulePatch] Enabled patch BattleUIScreenShowPatch
+[Info   :ModulePatch] Enabled patch CommonUIAwakePatch
+[Info   :ModulePatch] Enabled patch MapScreenShowPatch
+[Info   :ModulePatch] Enabled patch MapScreenClosePatch
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch GameWorldUnregisterPlayerPatch
+[Info   :ModulePatch] Enabled patch GameWorldRegisterLootItemPatch
+[Info   :ModulePatch] Enabled patch GameWorldDestroyLootPatch
+[Info   :ModulePatch] Enabled patch AirdropBoxOnBoxLandPatch
+[Info   :ModulePatch] Enabled patch PlayerOnDeadPatch
+[Info   :ModulePatch] Enabled patch PlayerInventoryThrowItemPatch
+[Info   :   BepInEx] Loading [SamSWAT.FOV 1.0.0]
+[Info   :ModulePatch] Enabled patch FovPatch
+[Info   :ModulePatch] Enabled patch PlayerSpringPatch
+[Info   :ModulePatch] Enabled patch SettingsApplierPatch
+[Info   :   BepInEx] Loading [SirTyler-BetterKeys 1.2.3]
+[Info   :RequestHandler] Request GET json: 666c649000017156028c2690:http://127.0.0.1:6969/BetterKeys/GetInfo
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] http://127.0.0.1:6969/BetterKeys/GetInfo
+[Info   :ModulePatch] Enabled patch GridItemViewUpdateInfoPatch
+[Info   :   BepInEx] Loading [VCQL-Zones 2.0.1]
+[Info   :ModulePatch] Enabled patch GameWorldPatch
+[Info   :   BepInEx] Loading [FOVFix 1.0.0]
+[Info   :ModulePatch] Enabled patch PwaWeaponParamsPatch
+[Info   :ModulePatch] Enabled patch FreeLookPatch
+[Info   :ModulePatch] Enabled patch LerpCameraPatch
+[Info   :ModulePatch] Enabled patch IsAimingPatch
+[Info   :ModulePatch] Enabled patch ChangeAimingModePatch
+[Info   :ModulePatch] Enabled patch SetScopeModePatch
+[Info   :ModulePatch] Enabled patch OperationSetScopeModePatch
+[Info   :ModulePatch] Enabled patch KeyInputPatch
+[Info   :ModulePatch] Enabled patch AimingSensitivityPatch
+[Info   :   BepInEx] Loading [LootingBots 1.3.2]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [Tyfon.UIFixes 1.6.7]
+[Info   :ModulePatch] Enabled patch DialogWindowPatch
+[Info   :ModulePatch] Enabled patch SplitDialogPatch
+[Info   :ModulePatch] Enabled patch ClickOutPatch
+[Info   :ModulePatch] Enabled patch ClickOutSplitDialogPatch
+[Info   :ModulePatch] Enabled patch FixMailRecieveAllPatch
+[Info   :ModulePatch] Enabled patch QuestTooltipPatch
+[Info   :ModulePatch] Enabled patch ArmorTooltipPatch
+[Info   :ModulePatch] Enabled patch FixWeaponBindsDisplayPatch
+[Info   :ModulePatch] Enabled patch MoneyPatch
+[Info   :ModulePatch] Enabled patch BarterPatch
+[Info   :ModulePatch] Enabled patch FixHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch RestoreHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch SaveHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch CloseHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch FastHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch FixHideoutSearchAgainPatch
+[Info   :ModulePatch] Enabled patch SelectAreaPatch
+[Info   :ModulePatch] Enabled patch ChangeLevelPatch
+[Info   :ModulePatch] Enabled patch PickInitialLevelPatch
+[Info   :ModulePatch] Enabled patch ClearLevelPatch
+[Info   :ModulePatch] Enabled patch SaveInspectWindowSizePatch
+[Info   :ModulePatch] Enabled patch AddInspectWindowButtonsPatch
+[Info   :ModulePatch] Enabled patch GrowInspectWindowDescriptionPatch
+[Info   :ModulePatch] Enabled patch LeftRightKeybindsPatch
+[Info   :ModulePatch] Enabled patch AddShowHideModStatsButtonPatch
+[Info   :ModulePatch] Enabled patch CalculateModStatsPatch
+[Info   :ModulePatch] Enabled patch CompareModStatsPatch
+[Info   :ModulePatch] Enabled patch FormatCompactValuesPatch
+[Info   :ModulePatch] Enabled patch FormatFullValuesPatch
+[Info   :ModulePatch] Enabled patch RemoveDoorActionsPatch
+[Info   :ModulePatch] Enabled patch EnhanceStashScrollingPatch
+[Info   :ModulePatch] Enabled patch EnchanceTraderStashScrollingPatch
+[Info   :ModulePatch] Enabled patch EnhanceFleaScrollingPatch
+[Info   :ModulePatch] Enabled patch EnhanceMailScrollingPatch
+[Info   :ModulePatch] Enabled patch MouseScrollingSpeedPatch
+[Info   :ModulePatch] Enabled patch ContainerStackPatch
+[Info   :ModulePatch] Enabled patch TopUpStackPatch
+[Info   :ModulePatch] Enabled patch DetectSwapSourceContainerPatch
+[Info   :ModulePatch] Enabled patch CleanupSwapSourceContainerPatch
+[Info   :ModulePatch] Enabled patch GridViewCanAcceptSwapPatch
+[Info   :ModulePatch] Enabled patch DetectGridHighlightPrecheckPatch
+[Info   :ModulePatch] Enabled patch DetectSlotHighlightPrecheckPatch
+[Info   :ModulePatch] Enabled patch SlotCanAcceptSwapPatch
+[Info   :ModulePatch] Enabled patch DetectFilterForSwapPatch
+[Info   :ModulePatch] Enabled patch SwapOperationRaiseEventsPatch
+[Info   :ModulePatch] Enabled patch RememberSwapGridHoverPatch
+[Info   :ModulePatch] Enabled patch InspectWindowUpdateStatsOnSwapPatch
+[Info   :ModulePatch] Enabled patch SyncStashScrollPatch
+[Info   :ModulePatch] Enabled patch SyncTraderStashScrollPatch
+[Info   :ModulePatch] Enabled patch SyncOfferStashScrollPatch
+[Info   :ModulePatch] Enabled patch TransferConfirmPatch
+[Info   :ModulePatch] Enabled patch DetectWeaponPresetCloseTypePatch
+[Info   :ModulePatch] Enabled patch ConfirmDiscardWeaponPresetChangesPatch
+[Info   :ModulePatch] Enabled patch EditBuildScreenZoomPatch
+[Info   :ModulePatch] Enabled patch WeaponModdingScreenZoomPatch
+[Info   :ModulePatch] Enabled patch MoveTaskbarPatch
+[Info   :ModulePatch] Enabled patch DoNotToggleOnMouseOverPatch
+[Info   :ModulePatch] Enabled patch ToggleOnOpenPatch
+[Info   :ModulePatch] Enabled patch OfferItemFixMaskPatch
+[Info   :ModulePatch] Enabled patch OfferViewTweaksPatch
+[Info   :ModulePatch] Enabled patch RagfairScreenShowPatch
+[Info   :ModulePatch] Enabled patch OfferViewListCategoryPickedPatch
+[Info   :ModulePatch] Enabled patch OfferViewListDoneLoadingPatch
+[Info   :ModulePatch] Enabled patch ChangedViewListTypePatch
+[Info   :ModulePatch] Enabled patch PlaceOfferClickPatch
+[Info   :ModulePatch] Enabled patch ClosePatch
+[Info   :ModulePatch] Enabled patch ManageTaskPatch
+[Info   :ModulePatch] Enabled patch AddButtonPatch
+[Info   :ModulePatch] Enabled patch AssortUnlocksPatch
+[Info   :ModulePatch] Enabled patch AutofillQuestItemsPatch
+[Info   :ModulePatch] Enabled patch DeclareSubInteractionsInventoryPatch
+[Info   :ModulePatch] Enabled patch CreateSubInteractionsInventoryPatch
+[Warning:  HarmonyX] DeclareSubInteractionsTradingPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual System.Collections.Generic.IEnumerable<EFT.InventoryLogic.EItemInfoButton> ItemInfoInteractionsAbstractClass::get_SubInteractions() instead of virtual System.Collections.Generic.IEnumerable<EFT.InventoryLogic.EItemInfoButton> ItemInfoInteractionsAbstractClass::get_SubInteractions().
+[Info   :ModulePatch] Enabled patch DeclareSubInteractionsTradingPatch
+[Warning:  HarmonyX] CreateSubInteractionsTradingPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void ItemInfoInteractionsAbstractClass::CreateSubInteractions(EFT.InventoryLogic.EItemInfoButton parentInteraction, ISubInteractions subInteractionsWrapper) instead of virtual void ItemInfoInteractionsAbstractClass::CreateSubInteractions(EFT.InventoryLogic.EItemInfoButton parentInteraction, ISubInteractions subInteractionsWrapper).
+[Info   :ModulePatch] Enabled patch CreateSubInteractionsTradingPatch
+[Info   :ModulePatch] Enabled patch SniffInteractionButtonCreationPatch
+[Info   :ModulePatch] Enabled patch ChangeInteractionButtonCreationPatch
+[Info   :ModulePatch] Enabled patch GetTraderScreensGroupPatch
+[Info   :ModulePatch] Enabled patch SwitchOnClickPatch
+[Info   :ModulePatch] Enabled patch RememberAutoselectPatch
+[Info   :ModulePatch] Enabled patch RestoreAutoselectPatch
+[Info   :ModulePatch] Enabled patch SniffChatPanelClosePatch
+[Info   :ModulePatch] Enabled patch ReopenMessagesPatch
+[Info   :ModulePatch] Enabled patch FocusTradeQuantityPatch
+[Info   :ModulePatch] Enabled patch RememberRepairerPatch
+[Info   :ModulePatch] Enabled patch DefaultMaxRepairPatch
+[Info   :ModulePatch] Enabled patch GridWindowButtonsPatch
+[Info   :ModulePatch] Enabled patch LoadMagPresetsPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch ContextMenuShortcutPatch
+[Info   :ModulePatch] Enabled patch OpenSortingTablePatch
+[Info   :ModulePatch] Enabled patch EnableContextMenuPatch
+[Info   :ModulePatch] Enabled patch SlowLoadingPatch
+[Info   :   BepInEx] Loading [MoreCheckmarks 1.5.13]
+[Info   :   BepInEx] Loading [DrakiaXYZ-TaskListFixes 1.4.0]
+[Info   :ModulePatch] Enabled patch TasksScreenShowPatch
+[Info   :ModulePatch] Enabled patch QuestProgressViewPatch
+[Info   :ModulePatch] Enabled patch QuestsSortPanelSortPatch
+[Info   :ModulePatch] Enabled patch QuestsSortPanelShowRestoreSortPatch
+[Info   :ModulePatch] Enabled patch TasksScreenSortRememberPatch
+[Info   :ModulePatch] Enabled patch QuestStringFieldComparePatch
+[Info   :ModulePatch] Enabled patch QuestLocationComparePatch
+[Info   :ModulePatch] Enabled patch QuestStatusComparePatch
+[Info   :ModulePatch] Enabled patch QuestProgressComparePatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-QuestTracker 1.2.0]
+[Info   :ModulePatch] Enabled patch MainMenuControllerShowScreenPatch
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :ModulePatch] Enabled patch TasksScreenShowPatch
+[Info   :ModulePatch] Enabled patch TasksScreenClosePatch
+[Info   :ModulePatch] Enabled patch NotesTaskStatusPatch
+[Info   :ModulePatch] Enabled patch TasksScreenStatusComparePatch
+[Info   :ModulePatch] Enabled patch QuestsScreenShowPatch
+[Info   :ModulePatch] Enabled patch QuestsScreenClosePatch
+[Info   :ModulePatch] Enabled patch QuestsListItemUpdateViewPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Info   :ModulePatch] Enabled patch AmandsPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Message:EFTVersion] GameVersion:0.14.1.29197 AkiVersion:3.8.3 FikaVersion:0.9.8910.17192
+[Info   :ModulePatch] Enabled patch GamePlayerOwnerPatchs
+[Info   :ModulePatch] Enabled patch TriggerWithIdPatchs
+[Info   :ModulePatch] Enabled patch CursorLockStatePatch
+[Info   :ModulePatch] Enabled patch CursorVisiblePatch
+[Message: ModVerify] aki-core PluginVersion:3.8.3 FileVersion:3.8.3.0 CRC32:4547F944
+[Message: ModVerify] DrakiaXYZ-BigBrain PluginVersion:0.4.0.0 FileVersion:0.4.0.0 CRC32:9FD4581
+[Message: ModVerify] DrakiaXYZ-Waypoints PluginVersion:1.4.3 FileVersion:1.4.3.0 CRC32:91E1DD91
+[Message: ModVerify] SAIN PluginVersion:2.3.3 FileVersion:2.3.3 CRC32:3BBB7F2A
+[Message: ModVerify] ThatsLit.Core PluginVersion:1.383.25 FileVersion:1.383.25 CRC32:43D0CA96
+[Message: ModVerify] aki-custom PluginVersion:3.8.3 FileVersion:3.8.3.0 CRC32:C4EDC987
+[Message: ModVerify] aki-singleplayer PluginVersion:3.8.3 FileVersion:3.8.3.0 CRC32:129014C4
+[Message: ModVerify] aki-debugging PluginVersion:3.8.3 FileVersion:3.8.3.0 CRC32:AC66EC44
+[Message: ModVerify] Fika.Core PluginVersion:0.9.8910 FileVersion:0.9.8910.17192 CRC32:FB05CB4D
+[Message: ModVerify] ThatsLit.Sync PluginVersion:1.383.18 FileVersion:0.0.0.0 CRC32:935DE573
+[Message: ModVerify] AmandsGraphics PluginVersion:1.6.2 FileVersion:1.6.2.0 CRC32:8AE58AB2
+[Message: ModVerify] ConfigurationManager PluginVersion:18.0.1 FileVersion:18.0.1.0 CRC32:923AEE97
+[Message: ModVerify] SPTQuestingBots PluginVersion:0.6.1 FileVersion:0.6.1.0 CRC32:5DE0C5AB
+[Message: ModVerify] dvize.Donuts PluginVersion:1.4.4 FileVersion:1.3.1.0 CRC32:EA4C61E8
+[Message: ModVerify] Gaylatea-UseLooseLoot PluginVersion:1.1.2 FileVersion:1.1.2 CRC32:D0B59398
+[Message: ModVerify] EFTReflection PluginVersion:1.2.1 FileVersion:1.2.1.0 CRC32:A74F9C84
+[Message: ModVerify] EFTApi PluginVersion:1.2.1 FileVersion:1.2.1.0 CRC32:6544901F
+[Message: ModVerify] EFTConfiguration PluginVersion:1.2.1 FileVersion:1.2.1.0 CRC32:E06E6741
+[Message: ModVerify] EFTUtils PluginVersion:1.2.1 FileVersion:1.2.1.0 CRC32:1204884E
+[Message: ModVerify] GamePanelHUDCore PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:2BEF7E14
+[Message: ModVerify] GamePanelHUDCompass PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:81307779
+[Message: ModVerify] GamePanelHUDGrenade PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:E5E9E139
+[Message: ModVerify] GamePanelHUDHealth PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:85042912
+[Message: ModVerify] GamePanelHUDHit PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:C2BC7E47
+[Message: ModVerify] GamePanelHUDKill PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:C61396BF
+[Message: ModVerify] GamePanelHUDWeapon PluginVersion:3.1.0 FileVersion:3.1.0.0  CRC32:1E084237
+[Message: ModVerify] DynamicMaps PluginVersion:0.3.1.3 FileVersion:0.3.1.3 CRC32:B851C7A3
+[Message: ModVerify] SamSWAT.FOV PluginVersion:1.0.0 FileVersion:1.0.0.0 CRC32:FC7BB7B5
+[Message: ModVerify] SirTyler-BetterKeys PluginVersion:1.2.3 FileVersion:1.2.3.0 CRC32:91DA46EF
+[Message: ModVerify] VCQLQuestZones PluginVersion:2.0.1 FileVersion:1.0.0.0 CRC32:CB1EE3BC
+[Message: ModVerify] FOVFix PluginVersion:1.0.0 FileVersion:1.0.0.0 CRC32:A444FD19
+[Message: ModVerify] skwizzy.LootingBots PluginVersion:1.3.2 FileVersion:0.0.0.0 CRC32:3ABEEC37
+[Message: ModVerify] Tyfon.UIFixes PluginVersion:1.6.7 FileVersion:1.6.7.0 CRC32:737E9E3B
+[Message: ModVerify] MoreCheckmarks PluginVersion:1.5.13 FileVersion:1.5.13.0 CRC32:687A2C09
+[Message: ModVerify] DrakiaXYZ-TaskListFixes PluginVersion:1.4.0 FileVersion:1.4.0.0 CRC32:B7ABE3FF
+[Message: ModVerify] DrakiaXYZ-QuestTracker PluginVersion:1.2.0 FileVersion:1.2.0.0 CRC32:696246B6
+[Info   :MoreCheckmarks] MoreCheckmarks Started
+[Info   :MoreCheckmarks] Configs loaded
+[Info   :MoreCheckmarks] Assets loaded
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/items
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_6.bundle
+[Info   :BundleManager] MOD: Loading locally tacticalvest6.bundle
+[Info   :BundleManager] MOD: Loading locally artemgpnvgblack.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_7.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_3.bundle
+[Info   :BundleManager] MOD: Loading locally assets/content/items/item_keycard_lab_mesh
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_7.bundle
+[Info   :BundleManager] MOD: Loading locally Pants/artem_pants_1.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_6.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_2.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet6.bundle
+[Info   :BundleManager] MOD: Loading locally artemgpnvgod.bundle
+[Info   :BundleManager] MOD: Loading locally artemgpnvgwhite.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_1.bundle
+[Info   :BundleManager] MOD: Loading locally ghostmaskr.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_8.bundle
+[Info   :BundleManager] MOD: Loading locally artemitembox.bundle
+[Info   :BundleManager] MOD: Loading locally artemballisticmask.bundle
+[Info   :BundleManager] MOD: Loading locally artemvest6.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet20.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet11.bundle
+[Info   :BundleManager] MOD: Loading locally ghostmask1.bundle
+[Info   :BundleManager] MOD: Loading locally Pants/artem_pants_3.bundle
+[Info   :BundleManager] MOD: Loading locally artemgasmask1.bundle
+[Info   :BundleManager] MOD: Loading locally tacticalvest3.bundle
+[Info   :BundleManager] MOD: Loading locally artemtacticalvest1.bundle
+[Info   :BundleManager] MOD: Loading locally Pants/artem_pants_2.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_8.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_9.bundle
+[Info   :BundleManager] MOD: Loading locally artemmedbox.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet8.bundle
+[Info   :BundleManager] MOD: Loading locally nikomask1.bundle
+[Info   :BundleManager] MOD: Loading locally artemballisticmask2.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_3.bundle
+[Info   :BundleManager] MOD: Loading locally assets/content/items/item_keycard_labs_spec.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_2.bundle
+[Info   :BundleManager] MOD: Loading locally artemtacticalvest4.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet2.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/testhands.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/testshirt.bundle
+[Info   :BundleManager] MOD: Loading locally Pants/Graves_Pants.bundle
+[Info   :BundleManager] MOD: Loading locally artemtacticalvest5.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet18.bundle
+[Info   :BundleManager] MOD: Loading locally artemvest8.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_5.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet13.bundle
+[Info   :BundleManager] MOD: Loading locally Pants/artem_pants_5.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet10.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet12.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_1.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_4.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet16.bundle
+[Info   :BundleManager] MOD: Loading locally ghostmaskb.bundle
+[Info   :BundleManager] MOD: Loading locally Hands/artem_hands_5.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet4.bundle
+[Info   :BundleManager] MOD: Loading locally artemtachelmet5.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_9.bundle
+[Info   :BundleManager] MOD: Loading locally Tops/artem_top_4.bundle
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Questing Bots Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Looting Bots Detected.]
+[Info   :FikaModHandler] Adding com.spt-aki.core, AKI.Core to loaded mods.
+[Info   :FikaModHandler] Adding xyz.drakia.bigbrain, DrakiaXYZ-BigBrain to loaded mods.
+[Info   :FikaModHandler] Adding xyz.drakia.waypoints, DrakiaXYZ-Waypoints to loaded mods.
+[Info   :FikaModHandler] Adding me.sol.sain, SAIN to loaded mods.
+[Info   :FikaModHandler] Adding bastudio.thatslit, That's Lit to loaded mods.
+[Info   :FikaModHandler] Adding com.spt-aki.custom, AKI.Custom to loaded mods.
+[Info   :FikaModHandler] Adding com.spt-aki.singleplayer, AKI.Singleplayer to loaded mods.
+[Info   :FikaModHandler] Adding com.spt-aki.debugging, AKI.Debugging to loaded mods.
+[Info   :FikaModHandler] Adding com.fika.core, Fika.Core to loaded mods.
+[Info   :FikaModHandler] Adding bastudio.thatslit.sync, That's Lit Sync to loaded mods.
+[Info   :FikaModHandler] Adding com.Amanda.Graphics, Graphics to loaded mods.
+[Info   :FikaModHandler] Adding com.bepis.bepinex.configurationmanager, Configuration Manager to loaded mods.
+[Info   :FikaModHandler] Adding com.DanW.QuestingBots, DanW-QuestingBots to loaded mods.
+[Info   :FikaModHandler] Adding com.dvize.Donuts, dvize.Donuts to loaded mods.
+[Info   :FikaModHandler] Adding com.gaylatea.uselooseloot, SPT-UseLooseLoot to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.EFTReflection, EFTReflection to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.EFTApi, EFTApi to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.EFTConfiguration, EFTConfiguration to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.EFTUtils, EFTUtils to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDCore, GamePanelHUDCore to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDCompass, GamePanelHUDCompass to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDGrenade, GamePanelHUDGrenade to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDHealth, GamePanelHUDHealth to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDHit, GamePanelHUDHit to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDKill, GamePanelHUDKill to loaded mods.
+[Info   :FikaModHandler] Adding com.kmyuhkyuk.GamePanelHUDWeapon, GamePanelHUDWeapon to loaded mods.
+[Info   :FikaModHandler] Adding com.mpstark.DynamicMaps, DynamicMaps to loaded mods.
+[Info   :FikaModHandler] Adding com.samswat.fov, SamSWAT.FOV to loaded mods.
+[Info   :FikaModHandler] Adding com.SirTyler.BetterKeys, SirTyler-BetterKeys to loaded mods.
+[Info   :FikaModHandler] Adding com.virtual.vcql, VCQL-Zones to loaded mods.
+[Info   :FikaModHandler] Adding FOVFix, FOVFix to loaded mods.
+[Info   :FikaModHandler] Adding me.skwizzy.lootingbots, LootingBots to loaded mods.
+[Info   :FikaModHandler] Adding Tyfon.UIFixes, Tyfon.UIFixes to loaded mods.
+[Info   :FikaModHandler] Adding VIP.TommySoucy.MoreCheckmarks, MoreCheckmarks to loaded mods.
+[Info   :FikaModHandler] Adding xyz.drakia.tasklistfixes, DrakiaXYZ-TaskListFixes to loaded mods.
+[Info   :FikaModHandler] Adding xyz.drakia.questtracker, DrakiaXYZ-QuestTracker to loaded mods.
+[Info   :FikaModHandler] Loaded 36 mods!
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :ModulePatch] Server version: SPT-AKI 3.8.3 - 01783e
+[Info   :DynamicMaps] Trying to attach to MapScreen
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Customs_TarkovDev\Customs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Customs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Factory_TarkovDev\Factory_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Factory (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\GroundZero_TarkovDev\GroundZero_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Ground Zero (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Interchange_TarkovDev\Interchange_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Interchange (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Labs_TarkovDev\Labs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Labs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Lighthouse_TarkovData\Lighthouse_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Lighthouse (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Reserve_TarkovData\Reserve_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Reserve (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Shoreline_TarkovData\Shoreline_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Shoreline (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Streets_TarkovData\Streets_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Streets of Tarkov (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\Games\GPTST\SPTARKOV\BepInEx\plugins\DynamicMaps\Maps\Woods_TarkovData\Woods_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Woods (TarkovData)
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Lighthouse_TarkovData/Layers/lighthouse_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_3.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_4.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_0.png
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :DanW-QuestingBots] Logging path: D:\Games\GPTST\SPTARKOV/BepInEx/plugins/DanW-SPTQuestingBots/log/
+[Info   :DanW-QuestingBots] Found 62 non-EFT quests for bigmap
+[Info   :DanW-QuestingBots] Found 33 non-EFT quests for factory4_day
+[Info   :DanW-QuestingBots] Found 82 non-EFT quests for Interchange
+[Info   :DanW-QuestingBots] Found 53 non-EFT quests for laboratory
+[Info   :DanW-QuestingBots] Found 63 non-EFT quests for Lighthouse
+[Info   :DanW-QuestingBots] Found 54 non-EFT quests for RezervBase
+[Info   :DanW-QuestingBots] Found 40 non-EFT quests for Sandbox
+[Info   :DanW-QuestingBots] Found 50 non-EFT quests for Shoreline
+[Info   :DanW-QuestingBots] Found 109 non-EFT quests for TarkovStreets
+[Info   :DanW-QuestingBots] Found 37 non-EFT quests for Woods
+[Info   :DanW-QuestingBots] Validated all quest files
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :LootingBots] Initializing item appraiser
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Started
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Introduction. queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Started
+[Info   :MoreCheckmarks] Quest EVENT: Party Supplies queststatus set to Started
+[Info   :MoreCheckmarks] Quest Prove Yourself queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Route queststatus set to Started
+[Info   :MoreCheckmarks] Quest Mysterious Hotline queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grab That Cash, Make a Stash queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to Started
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :Coop Game Mode] CoopGame::Create
+[Info   :Coop Game Mode] Setting Spawn Point to: 8a478f38-07d3-4e3d-8322-d2f1f6137aff
+[Info   :Coop Game Mode] Creating CoopHandler
+[Info   :Fika.Server] Started Fika Server
+[Info   :Coop Game Mode] FikaServer has started!
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Started
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Introduction. queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Started
+[Info   :MoreCheckmarks] Quest EVENT: Party Supplies queststatus set to Started
+[Info   :MoreCheckmarks] Quest Prove Yourself queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Route queststatus set to Started
+[Info   :MoreCheckmarks] Quest Mysterious Hotline queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grab That Cash, Make a Stash queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to Started
+[Info   :Coop Game Mode] Setting game status to: COMPLETE
+[Info   :Coop Game Mode] Starting task to wait for other players.
+[Info   :ModulePatch] Enabled patch AmandsPainkillerAddEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainkillerDeleteEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainTogglePatch
+[Warning:ThatsLitPlayer] [.CanLoad.Update]: [[That's Lit] Can load players. Time: 180.0449]
+[Info   : Fika.Core] Retrieving Core settings
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: test, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: test, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: test, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: test, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sptUsec, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sptUsec, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sptUsec, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sptUsec, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sptBear, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sptBear, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sptBear, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sptBear, difficulty: impossible
+[Info   :ModulePatch] Open: 49  Closed: 76  Locked: 9
+[Info   :Coop Game Mode] Location: Sandbox
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap
+[Warning:ModulePatch] Set max bot cap to: 16
+[Info   :DanW-QuestingBots] Max total bots on the map (Sandbox) at the same time: 16
+[Info   :DanW-QuestingBots] Found 9 locked doors
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetAllQuestTemplates
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetAllQuestTemplates
+[Warning:DanW-QuestingBots] Waiting for LoadQuest until next frame... (Cycle times: 6, Total time: 6)
+[Warning: DynamicAI] QuestingBots detected, destroying DynamicAI component. Use QuestingBots AI limiter instead!
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/bossKolontay
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/bossKolontay
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/followerKolontayAssault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/followerKolontayAssault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/followerKolontaySecurity
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/followerKolontaySecurity
+[Info   :ModulePatch] 18:56:45 Loading bot: zicoman profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: laser50 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: wara profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: 5o2 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: halik92 profile from server. Role: sptBear Side: Bear
+[Warning:DanW-QuestingBots] Waiting for LoadQuest until next frame...done. (Cycle times: 6, 6, 6, 6, 3, Total time: 8363)
+[Info   :DanW-QuestingBots] Found trigger Sandbox_2_AGS_exploration for quest: Shooting Cans
+[Warning:DanW-QuestingBots] Waiting for ProcessTrigger until next frame... (Cycle times: 11, Total time: 11)
+[Info   :ModulePatch] 18:56:45 Loading bot: MadDutch profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: Hupfi profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: LunnayaLuna profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Found trigger Sandbox_2_Kord_exploration for quest: Shooting Cans
+[Info   :ModulePatch] 18:56:45 Loading bot: K4_a profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: IhanaMies profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: GopnikWarrior profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: Digi profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: RedBeard profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Found trigger Sandbox_3_Vino_exploration for quest: Luxurious Life
+[Info   :ModulePatch] 18:56:45 Loading bot: bluehead profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Adjusting position for zone Sandbox_5_Office_exploration to (-13.5, 30.3, 51.3)
+[Info   :DanW-QuestingBots] Found trigger Sandbox_5_Office_exploration for quest: Saving the Mole
+[Info   :DanW-QuestingBots] Found trigger Sandbox_5_DeadGroup_exploration for quest: Saving the Mole
+[Info   :DanW-QuestingBots] Found trigger Sandbox_5_Laborant_exploration for quest: Saving the Mole
+[Info   :ModulePatch] 18:56:45 Loading bot: Tyrian profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: SlejmUr profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: TorturedChunk profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Adjusting position for zone Sandbox_1_MedicalArea_exploration to (156.2, 23.3, -83.6)
+[Info   :DanW-QuestingBots] Found trigger Sandbox_1_MedicalArea_exploration for quest: First in Line
+[Warning:DanW-QuestingBots] Waiting for ProcessTrigger until next frame...done. (Cycle times: 11, 7, 8, 7, 1, Total time: 214)
+[Warning:DanW-QuestingBots] Waiting for LocateQuestItems until next frame... (Cycle times: 6, Total time: 6)
+[Info   :ModulePatch] 18:56:45 Loading bot: 3371 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:56:45 Loading bot: Traveler profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Found Bottle of Le Jean wine for quest Luxurious Life
+[Info   :DanW-QuestingBots] Found TerraGroup scientist's hard drive for quest Saving the Mole
+[Info   :ModulePatch] 18:56:45 Loading bot: Kilgor616 profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:45 Loading bot: Jiro profile from server. Role: sptUsec Side: Usec
+[Warning:DanW-QuestingBots] Waiting for LocateQuestItems until next frame...done. (Cycle times: 6, 6, 0, Total time: 62)
+[Info   :DanW-QuestingBots] Loading custom quests...
+[Info   :DanW-QuestingBots] Loading custom quests...found 40 custom quests.
+[Info   :ModulePatch] 18:56:45 Loading bot: ChazLTK profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:45 Loading bot: Gleneth profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Finished loading quest data.
+[Info   :DanW-QuestingBots] Finding static paths...
+[Info   :DanW-QuestingBots] Found a static path from (124.0, 31.3, 257.7) to (98.8, 33.1, 278.3) for Capital Insight Sniping: Objective #1 in Capital Insight Sniping
+[Info   :DanW-QuestingBots] Found a static path from (124.0, 31.3, 257.7) to (105.3, 32.9, 263.4) for Capital Insight Sniping: Objective #2 in Capital Insight Sniping
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-44.1, 29.7, 59.1) for TerraGroup Office Upstairs: Objective #1 in TerraGroup Office Upstairs
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-26.8, 29.7, 55.4) for TerraGroup Office Upstairs: Objective #2 in TerraGroup Office Upstairs
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-12.3, 29.7, 65.2) for TerraGroup Office Upstairs: Objective #3 in TerraGroup Office Upstairs
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-20.8, 29.7, 75.0) for TerraGroup Office Upstairs: Objective #4 in TerraGroup Office Upstairs
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-23.3, 29.7, 84.5) for TerraGroup Office Upstairs: Objective #5 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.5, 29.7, 56.1) to (-11.4, 29.7, 56.4) for TerraGroup Office Upstairs: Objective #6 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.5, 29.7, 56.1) to (-17.8, 29.7, 53.5) for TerraGroup Office Upstairs: Objective #7 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.5, 29.7, 56.1) to (-17.5, 29.7, 46.1) for TerraGroup Office Upstairs: Objective #8 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.5, 29.7, 56.1) to (-14.1, 29.7, 41.3) for TerraGroup Office Upstairs: Objective #9 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Waiting for findStaticPaths until next frame... (Cycle times: 11, Total time: 11)
+[Info   :ModulePatch] 18:56:46 Loading bot: HiddenCirno profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: VIPkiller17 profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Barlog_M profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Cheese profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: matt profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Lave profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Props profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: vampuico profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Digi profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Hobbes profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Bepis profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Zmyh profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-4.1, 29.7, 65.0) for TerraGroup Office Upstairs Sniping: Objective #1 in TerraGroup Office Upstairs Sniping
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-20.3, 29.7, 90.4) for TerraGroup Office Upstairs Sniping: Objective #2 in TerraGroup Office Upstairs Sniping
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.5, 29.7, 56.1) to (-10.9, 29.7, 47.5) for TerraGroup Office Quest Room Camping: Objective #1 in TerraGroup Office Quest Room Camping
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-19.7, 29.7, 69.5) for TerraGroup Office Upstairs Camping: Objective #1 in TerraGroup Office Upstairs Camping
+[Info   :DanW-QuestingBots] Found a static path from (-40.5, 29.7, 56.1) to (-32.0, 29.7, 56.0) for TerraGroup Office Upstairs Camping: Objective #2 in TerraGroup Office Upstairs Camping
+[Warning:DanW-QuestingBots] Waiting for findStaticPaths until next frame...done. (Cycle times: 11, 1, Total time: 34)
+[Info   :DanW-QuestingBots] Finding static paths...done.
+[Info   :ModulePatch] 18:56:46 Loading bot: Jester_Stacks profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:56:46 Loading bot: Альвиан Сметана profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:56:46 Loading bot: Сильвестр Саратовский profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:56:46 Loading bot: Шурик Фрезер profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:56:46 Loading bot: Ромчик Панкреатит profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:56:46 Loading bot: Олежа Локализатор profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:56:46 Loading bot: Аркадий Затвор profile from server. Role: assault Side: Savage
+[Info   :Coop Game Mode] CreateExfiltrationPointAndInitDeathHandler
+[Info   :DynamicMaps] Trying to attach peek component to BattleUI
+[Info   :FikaAirdropsManager] Initializing...
+[Info   :RequestHandler] [REQUEST]: /singleplayer/sandbox/maxpatrol
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/sandbox/maxpatrol
+[Info   :QuestTrackerComponent] QuestTrackerComponent Awake
+[Info   :QuestTrackerPanelComponent] QuestTrackerPanelComponent Awake
+[Info   :RequestHandler] Request GET json: 666c649000017156028c2690:http://127.0.0.1:6969/vcql/zones/get
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] http://127.0.0.1:6969/vcql/zones/get
+[Warning:FikaAirdropsManager] Destroying AirdropsManager
+[Info   :ModulePatch] 18:57:01 Loading bot: Bulld0z3r profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:01 Loading bot: nidhoeggr profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:01 Loading bot: captainfoam profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:01 Loading bot: MechanicMan396 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:01 Loading bot: FlashMode profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:01 Loading bot: matt profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:01 Loading bot: Terkoiz profile from server. Role: sptBear Side: Bear
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Info   :ModulePatch] 18:57:02 Loading bot: _物是人非 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:02 Loading bot: Саша Бокс profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:02 Loading bot: Лаша Спартаковский profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:02 Loading bot: CouponBugDotCom profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:02 Loading bot: NORVINSK_EVANGELION profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:02 Loading bot: halik92 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:02 Loading bot: Jester_Stacks profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:02 Loading bot: NORVINSK_EVANGELION profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Bepis profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Belette profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: 老人 profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Fiaf profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: Nasc profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Grasyl profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: OutsiderH profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Glukhar_111 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: gaylatea profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: joshj5Hawk profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: aburiu profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: MrFandor1n profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: MusicManiac profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Севастьян Тридемакс profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:03 Loading bot: Vega profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: epidemicz profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Kaeno profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: Nightingale profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Brin profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:03 Loading bot: Security-Sama profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:03 Loading bot: Юрец Вроттердам profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:03 Loading bot: Саша Шапито profile from server. Role: assault Side: Savage
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot MechanicMan396: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot MechanicMan396 (Name: Bot1, Level: 11): sptBear
+[Info   :DanW-QuestingBots] MechanicMan396 (Name: Bot1, Level: 11) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #1: MechanicMan396 (Name: Bot1, Level: 11) (Bear)
+[Info   :DanW-QuestingBots] MechanicMan396 (Name: Bot1, Level: 11) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for MechanicMan396 (Name: Bot1, Level: 11) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) is now doing Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Warning:ModulePatch] Updated spt bot captainfoam: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot captainfoam (Name: Bot2, Level: 10): sptBear
+[Info   :DanW-QuestingBots] captainfoam (Name: Bot2, Level: 10) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #2: captainfoam (Name: Bot2, Level: 10) (Bear)
+[Info   :DanW-QuestingBots] captainfoam (Name: Bot2, Level: 10) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for captainfoam (Name: Bot2, Level: 10) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot captainfoam (Name: Bot2, Level: 10) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line). Trying anyway. Distance from end of path to objective: 2.819752
+[Info   :DanW-QuestingBots] Bot captainfoam (Name: Bot2, Level: 10) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 15.54399
+[Warning:ModulePatch] Updated spt bot FlashMode: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot FlashMode (Name: Bot3, Level: 6): sptBear
+[Info   :DanW-QuestingBots] FlashMode (Name: Bot3, Level: 6) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #3: FlashMode (Name: Bot3, Level: 6) (Bear)
+[Info   :DanW-QuestingBots] FlashMode (Name: Bot3, Level: 6) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for FlashMode (Name: Bot3, Level: 6) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) is now doing Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 5.956314
+[Info   :ModulePatch] 18:57:05 Loading bot: Jester_Stacks profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Distance to objective: 10.3129, Distance to end of path: 9.923418, Missing distance: 2.819752
+[Warning:DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line). Giving up. Remaining distance to objective: 10.3129
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) has failed Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :ModulePatch] 18:57:05 Loading bot: Егор Румын profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:06 Loading bot: joshj5Hawk profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:06 Loading bot: Virtual profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:06 Loading bot: ODT profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:06 Loading bot: Трифон Жиган profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated spt bot Bulld0z3r: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Bulld0z3r (Name: Bot4, Level: 6): sptUsec
+[Info   :DanW-QuestingBots] Bulld0z3r (Name: Bot4, Level: 6) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #4: Bulld0z3r (Name: Bot4, Level: 6) (Usec)
+[Info   :DanW-QuestingBots] Bulld0z3r (Name: Bot4, Level: 6) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Bulld0z3r (Name: Bot4, Level: 6) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) is now doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Warning:ModulePatch] Updated spt bot _物是人非: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot _物是人非 (Name: Bot6, Level: 6): sptBear
+[Info   :DanW-QuestingBots] _物是人非 (Name: Bot6, Level: 6) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #5: _物是人非 (Name: Bot6, Level: 6) (Bear)
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Саша Бокс (Name: Bot5, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #6: Саша Бокс (Name: Bot5, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] _物是人非 (Name: Bot6, Level: 6) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for _物是人非 (Name: Bot6, Level: 6) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) is now doing Step #1 for objective Olive Restaurant: Objective #3 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Саша Бокс (Name: Bot5, Level: 1) is a Scav
+[Info   :ModulePatch] 18:57:07 Loading bot: jbs4bmx profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:07 Loading bot: Drill profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:08 Loading bot: Junko Space Mommy profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:08 Loading bot: Conqueror_Alex profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:09 Loading bot: Fiaf profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:10 Loading bot: Ричи Крокодил profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) is now doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) was previously doing Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :ModulePatch] 18:57:10 Loading bot: Carl profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:10 Loading bot: YankeeNoodle742 profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:11 Loading bot: DevilFlippy profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Саша Бокс (Name: Bot5, Level: 1) (Scav) was killed by MechanicMan396 (Name: Bot1, Level: 11) (PMC)
+[Info   :DanW-QuestingBots] Boss Саша Бокс (Name: Bot5, Level: 1) is now dead.
+[Info   :ModulePatch] 18:57:12 Loading bot: NORVINSK_EVANGELION profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:13 Loading bot: ANIME profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) has completed Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Preventing Bulld0z3r (Name: Bot4, Level: 6) from looting
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Лаша Спартаковский (Name: Bot8, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #7: Лаша Спартаковский (Name: Bot8, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Лаша Спартаковский (Name: Bot8, Level: 1) is a Scav
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Юрец Вроттердам (Name: Bot7, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #8: Юрец Вроттердам (Name: Bot7, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Юрец Вроттердам (Name: Bot7, Level: 1) is a Scav
+[Info   :ModulePatch] 18:57:13 Loading bot: TimmyGG profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:14 Loading bot: gasmo profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:14 Loading bot: Revingly profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:15 Loading bot: Ngst profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:15 Loading bot: SamSWAT profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:17 Loading bot: Ilhsiek profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:17 Loading bot: MedDeatH profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:18 Loading bot: Ratthew profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) is now doing Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) was previously doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 4.135775
+[Info   :ModulePatch] 18:57:19 Loading bot: lualeet profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) must unlock door door_Sandbox_Area_05_00007...
+[Info   :DanW-QuestingBots] FlashMode (Name: Bot3, Level: 6) does not have the key for door door_Sandbox_Area_05_00007. Selecting another objective...
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) has failed Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole
+[Info   :ModulePatch] 18:57:20 Loading bot: LimboFPS profile from server. Role: sptUsec Side: Usec
+[Warning:ModulePatch] Updated spt bot matt: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot matt (Name: Bot9, Level: 49): sptBear
+[Info   :DanW-QuestingBots] matt (Name: Bot9, Level: 49) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #9: matt (Name: Bot9, Level: 49) (Bear)
+[Info   :DanW-QuestingBots] matt (Name: Bot9, Level: 49) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for matt (Name: Bot9, Level: 49) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :ModulePatch] 18:57:20 Loading bot: ChiNoel profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 9.399994
+[Info   :ModulePatch] 18:57:20 Loading bot: RedBeard profile from server. Role: sptUsec Side: Usec
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] MapScreen: Loading map Ground Zero (TarkovDev)
+[Info   :ModulePatch] 18:57:22 Loading bot: Aki-chan profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:23 Loading bot: ixcetotis profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:23 Loading bot: Rhyufer profile from server. Role: sptBear Side: Bear
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :ModulePatch] 18:57:23 Loading bot: Traveler profile from server. Role: sptBear Side: Bear
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Саша Шапито (Name: Bot11, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #10: Саша Шапито (Name: Bot11, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Саша Шапито (Name: Bot11, Level: 1) is a Scav
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Аркадий Затвор (Name: Bot10, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #11: Аркадий Затвор (Name: Bot10, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Bot Саша Шапито (Name: Bot11, Level: 1) is now a follower for Аркадий Затвор (Name: Bot10, Level: 1)
+[Info   :DanW-QuestingBots] Аркадий Затвор (Name: Bot10, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) is now doing Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) was previously doing Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) cannot find a complete path to its objective (Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 5.844366
+[Info   :ModulePatch] 18:57:25 Loading bot: Valens profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:25 Loading bot: CrocodileJonesy profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) must unlock door door_Sandbox_Area_05_00007...
+[Info   :DanW-QuestingBots] FlashMode (Name: Bot3, Level: 6) does not have the key for door door_Sandbox_Area_05_00007. Selecting another objective...
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) has failed Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Distance to objective: 10.92019, Distance to end of path: 9.410954, Missing distance: 5.844366
+[Warning:DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) cannot find a complete path to its objective (Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole). Giving up. Remaining distance to objective: 10.92019
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) has failed Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :ModulePatch] 18:57:26 Loading bot: Thunderbags profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) is now doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) was previously doing Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :ModulePatch] 18:57:31 Loading bot: NugentGL profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:32 Loading bot: archon0ne profile from server. Role: sptBear Side: Bear
+[Info   :DynamicMaps] Showing map in raid
+[Info   :ModulePatch] 18:57:35 Loading bot: Tyfon profile from server. Role: sptUsec Side: Usec
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :ModulePatch] 18:57:39 Loading bot: Corty profile from server. Role: sptUsec Side: Usec
+[Warning:ModulePatch] Updated spt bot Bepis: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Bepis (Name: Bot12, Level: 10): sptUsec
+[Info   :DanW-QuestingBots] Bepis (Name: Bot12, Level: 10) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #12: Bepis (Name: Bot12, Level: 10) (Usec)
+[Info   :DanW-QuestingBots] Bepis (Name: Bot12, Level: 10) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Bepis (Name: Bot12, Level: 10) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Bepis (Name: Bot12, Level: 10) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :ModulePatch] 18:57:47 Loading bot: PaPaSamBuBu profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:47 Loading bot: CrocodileJonesy profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:47 Loading bot: SamSWAT profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:57:47 Loading bot: Архипп Питерский profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:47 Loading bot: Валера Палач profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:47 Loading bot: Марк Грузин profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:47 Loading bot: Мэн Тайчин profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:47 Loading bot: Мишган Хромой profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:47 Loading bot: Герчик Дрищ profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Bot Bepis (Name: Bot12, Level: 10) has completed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Preventing Bepis (Name: Bot12, Level: 10) from looting
+[Info   :ModulePatch] 18:57:51 Loading bot: MeowletteBlackpaw profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:52 Loading bot: Юрий Трехмерный profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:54 Loading bot: Прохор Шиза profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:54 Loading bot: Филат Толич profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Bot Bepis (Name: Bot12, Level: 10) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot Bepis (Name: Bot12, Level: 10) was previously doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :ModulePatch] 18:57:57 Loading bot: Dirtbikercj profile from server. Role: sptBear Side: Bear
+[Info   :ModulePatch] 18:57:57 Loading bot: Созон Шниперсон profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:58 Loading bot: Марат Верстак profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:57:59 Loading bot: Katto profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:58:01 Loading bot: Вовчик Базука profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] FlashMode (Name: Bot3, Level: 6) (PMC) was killed by Bulld0z3r (Name: Bot4, Level: 6) (PMC)
+[Info   :DanW-QuestingBots] Bot FlashMode (Name: Bot3, Level: 6) has failed Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Boss FlashMode (Name: Bot3, Level: 6) is now dead.
+[Info   :ModulePatch] 18:58:03 Loading bot: Офицерский Зебра profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:58:06 Loading bot: jennacide profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Лаша Спартаковский (Name: Bot8, Level: 1) (Scav) was killed by captainfoam (Name: Bot2, Level: 10) (PMC)
+[Info   :DanW-QuestingBots] Boss Лаша Спартаковский (Name: Bot8, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) has completed Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Preventing matt (Name: Bot9, Level: 49) from looting
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) was previously doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 7.58905
+[Info   :ModulePatch] 18:58:15 Loading bot: Doge profile from server. Role: sptBear Side: Bear
+[Info   :DanW-QuestingBots] Preventing Bepis (Name: Bot12, Level: 10) from looting
+[Info   :ModulePatch] 18:58:18 Loading bot: Gleneth profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] matt (Name: Bot9, Level: 49) (PMC) was killed by Zoinzizoin (Name: Main_PlayerSuperior(Clone), Level: 7) (PMC)
+[Info   :DanW-QuestingBots] Bot matt (Name: Bot9, Level: 49) has failed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss matt (Name: Bot9, Level: 49) is now dead.
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) has completed Step #1 for objective Olive Restaurant: Objective #3 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Instructing _物是人非 (Name: Bot6, Level: 6) to loot now
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) is now doing Step #1 for objective Olive Restaurant: Objective #5 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) was previously doing Step #1 for objective Olive Restaurant: Objective #3 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) has completed Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Preventing MechanicMan396 (Name: Bot1, Level: 11) from looting
+[Info   :ModulePatch] 18:58:29 Loading bot: 冰淇淋 profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 18:58:30 Loading bot: Серый Кафтан profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) is now doing Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) was previously doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 4.135775
+[Info   :ModulePatch] 18:58:35 Loading bot: Никита Небоскрёб profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Distance to objective: 11.13452, Distance to end of path: 9.798326, Missing distance: 4.135775
+[Warning:DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole). Giving up. Remaining distance to objective: 11.13452
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) has failed Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole
+[Info   :ModulePatch] 18:58:40 Loading bot: Санёк Монгол profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) has completed Step #1 for objective Olive Restaurant: Objective #5 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Instructing _物是人非 (Name: Bot6, Level: 6) to loot now
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[MoveNext().teleport()]:] : [Bot2 has teleported because they were stuck after vaulting, and no human players are visible to them, and no human players are close.]
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) is now doing Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) was previously doing Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 5.956314
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) is now doing Step #1 for objective Olive Restaurant: Objective #4 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) was previously doing Step #1 for objective Olive Restaurant: Objective #5 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) must unlock door door_Sandbox_Area_03_00068...
+[Info   :DanW-QuestingBots] _物是人非 (Name: Bot6, Level: 6) does not have the key for door door_Sandbox_Area_03_00068. Selecting another objective...
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) has failed Step #1 for objective Olive Restaurant: Objective #4 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] MechanicMan396 (Name: Bot1, Level: 11) (PMC) was killed by Bulld0z3r (Name: Bot4, Level: 6) (PMC)
+[Info   :DanW-QuestingBots] Bot MechanicMan396 (Name: Bot1, Level: 11) has failed Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Boss MechanicMan396 (Name: Bot1, Level: 11) is now dead.
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) is now doing Step #1 for objective Olive Restaurant: Objective #2 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) was previously doing Step #1 for objective Olive Restaurant: Objective #4 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bepis (Name: Bot12, Level: 10) (PMC) was killed by Аркадий Затвор (Name: Bot10, Level: 1) (Scav)
+[Info   :DanW-QuestingBots] Bot Bepis (Name: Bot12, Level: 10) has failed Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss Bepis (Name: Bot12, Level: 10) is now dead.
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) has completed Step #1 for objective Olive Restaurant: Objective #2 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Instructing _物是人非 (Name: Bot6, Level: 6) to loot now
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) is now doing Step #2 for objective Olive Restaurant: Objective #2 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) was previously doing Step #1 for objective Olive Restaurant: Objective #4 in quest Olive Restaurant
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Сильвестр Саратовский (Name: Bot13, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #13: Сильвестр Саратовский (Name: Bot13, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Севастьян Тридемакс (Name: Bot14, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #14: Севастьян Тридемакс (Name: Bot14, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Сильвестр Саратовский (Name: Bot13, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Bot Севастьян Тридемакс (Name: Bot14, Level: 1) is now a follower for Сильвестр Саратовский (Name: Bot13, Level: 1)
+[Info   :DanW-QuestingBots] Севастьян Тридемакс (Name: Bot14, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Preventing _物是人非 (Name: Bot6, Level: 6) from looting
+[Info   :DanW-QuestingBots] Сильвестр Саратовский (Name: Bot13, Level: 1) (Scav) was killed by captainfoam (Name: Bot2, Level: 10) (PMC)
+[Info   :DanW-QuestingBots] Boss Сильвестр Саратовский (Name: Bot13, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) must unlock door door_Sandbox_Area_05_00007...
+[Info   :DanW-QuestingBots] Bulld0z3r (Name: Bot4, Level: 6) does not have the key for door door_Sandbox_Area_05_00007. Selecting another objective...
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) has failed Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) is now doing Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) was previously doing Step #1 for objective Zone Sandbox_5_Office_exploration in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) cannot find a complete path to its objective (Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 5.844366
+[Info   :DanW-QuestingBots] Севастьян Тридемакс (Name: Bot14, Level: 1) (Scav) was killed by captainfoam (Name: Bot2, Level: 10) (PMC)
+[Info   :DanW-QuestingBots] Boss Севастьян Тридемакс (Name: Bot14, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) must unlock door door_Sandbox_Area_05_00007...
+[Info   :DanW-QuestingBots] Bulld0z3r (Name: Bot4, Level: 6) does not have the key for door door_Sandbox_Area_05_00007. Selecting another objective...
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) has failed Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Distance to objective: 10.83138, Distance to end of path: 9.308231, Missing distance: 5.844366
+[Warning:DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) cannot find a complete path to its objective (Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole). Giving up. Remaining distance to objective: 10.83138
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) has failed Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) was previously doing Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 7.58905
+[Info   :DanW-QuestingBots] Юрец Вроттердам (Name: Bot7, Level: 1) (Scav) was killed by _物是人非 (Name: Bot6, Level: 6) (PMC)
+[Info   :DanW-QuestingBots] Boss Юрец Вроттердам (Name: Bot7, Level: 1) is now dead.
+[Info   :ModulePatch] 18:59:47 Loading bot: Вадимка Новогодний profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:47 Loading bot: Глеб Пукан profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:47 Loading bot: Богдан Рыло profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:47 Loading bot: Пахомий Пукан profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:47 Loading bot: Мартын Нервный profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:48 Loading bot: Костыль Злой profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:48 Loading bot: Колька Пукан profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:48 Loading bot: Артур Черный profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:49 Loading bot: Семён Сырой profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:50 Loading bot: Игорян Хук profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:50 Loading bot: Мишган Сиська profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:51 Loading bot: Офицерский Щур profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Аркадий Затвор (Name: Bot10, Level: 1) (Scav) was killed by captainfoam (Name: Bot2, Level: 10) (PMC)
+[Info   :DanW-QuestingBots] Boss Аркадий Затвор (Name: Bot10, Level: 1) is now dead.
+[Info   :ModulePatch] 18:59:53 Loading bot: Никанор Ковальски profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:53 Loading bot: Васян Крутой profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:53 Loading bot: Корнелий Сухарик profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:55 Loading bot: Дэнчик Вупсень profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 18:59:56 Loading bot: Пися Упитыш profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] captainfoam (Name: Bot2, Level: 10) (PMC) was killed by _物是人非 (Name: Bot6, Level: 6) (PMC)
+[Info   :DanW-QuestingBots] Bot captainfoam (Name: Bot2, Level: 10) has failed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss captainfoam (Name: Bot2, Level: 10) is now dead.
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Ромчик Панкреатит (Name: Bot15, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #15: Ромчик Панкреатит (Name: Bot15, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Ромчик Панкреатит (Name: Bot15, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Preventing _物是人非 (Name: Bot6, Level: 6) from looting
+[Info   :DanW-QuestingBots] Ромчик Панкреатит (Name: Bot15, Level: 1) (Scav) was killed by Bulld0z3r (Name: Bot4, Level: 6) (PMC)
+[Info   :DanW-QuestingBots] Boss Ромчик Панкреатит (Name: Bot15, Level: 1) is now dead.
+[Warning:ModulePatch] Updated spt bot vampuico: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot vampuico (Name: Bot16, Level: 12): sptUsec
+[Info   :DanW-QuestingBots] vampuico (Name: Bot16, Level: 12) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #16: vampuico (Name: Bot16, Level: 12) (Usec)
+[Info   :DanW-QuestingBots] vampuico (Name: Bot16, Level: 12) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for vampuico (Name: Bot16, Level: 12) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot vampuico (Name: Bot16, Level: 12) is now doing Step #1 for objective Oasis Sniping: Objective #3 in quest Oasis Sniping
+[Warning:ModulePatch] Updated spt bot MusicManiac: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot MusicManiac (Name: Bot17, Level: 20): sptUsec
+[Info   :DanW-QuestingBots] MusicManiac (Name: Bot17, Level: 20) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #17: MusicManiac (Name: Bot17, Level: 20) (Usec)
+[Info   :DanW-QuestingBots] MusicManiac (Name: Bot17, Level: 20) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for MusicManiac (Name: Bot17, Level: 20) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot MusicManiac (Name: Bot17, Level: 20) is now doing Step #1 for objective Kyshperski: Objective #3 in quest Kyshperski
+[Info   :DanW-QuestingBots] Bot vampuico (Name: Bot16, Level: 12) cannot find a complete path to its objective (Step #1 for objective Oasis Sniping: Objective #3 in quest Oasis Sniping). Trying anyway. Distance from end of path to objective: 4.5
+[Info   :DanW-QuestingBots] Bot MusicManiac (Name: Bot17, Level: 20) is now a follower for vampuico (Name: Bot16, Level: 12)
+[Info   :DanW-QuestingBots] Bot vampuico (Name: Bot16, Level: 12) is no longer doing Step #1 for objective Oasis Sniping: Objective #3 in quest Oasis Sniping
+[Info   :DanW-QuestingBots] Bot vampuico (Name: Bot16, Level: 12) is now doing Step #1 for objective Oasis Sniping: Objective #2 in quest Oasis Sniping
+[Warning:DanW-QuestingBots] Selected new quest for vampuico (Name: Bot16, Level: 12) because it has too many followers for its previous quest
+[Info   :DanW-QuestingBots] Bot MusicManiac (Name: Bot17, Level: 20) is no longer doing Step #1 for objective Kyshperski: Objective #3 in quest Kyshperski
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Шурик Фрезер (Name: Bot18, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #18: Шурик Фрезер (Name: Bot18, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Шурик Фрезер (Name: Bot18, Level: 1) is a Scav
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Вадимка Новогодний (Name: Bot19, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #19: Вадимка Новогодний (Name: Bot19, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Вадимка Новогодний (Name: Bot19, Level: 1) is a Scav
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Богдан Рыло (Name: Bot20, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #20: Богдан Рыло (Name: Bot20, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Богдан Рыло (Name: Bot20, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Богдан Рыло (Name: Bot20, Level: 1) (Scav) was killed by vampuico (Name: Bot16, Level: 12) (PMC)
+[Info   :DanW-QuestingBots] Boss Богдан Рыло (Name: Bot20, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] _物是人非 (Name: Bot6, Level: 6) (PMC) was killed by Bulld0z3r (Name: Bot4, Level: 6) (PMC)
+[Info   :DanW-QuestingBots] Bot _物是人非 (Name: Bot6, Level: 6) has failed Step #2 for objective Olive Restaurant: Objective #2 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Boss _物是人非 (Name: Bot6, Level: 6) is now dead.
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bulld0z3r (Name: Bot4, Level: 6) (PMC) was killed by vampuico (Name: Bot16, Level: 12) (PMC)
+[Info   :DanW-QuestingBots] Bot Bulld0z3r (Name: Bot4, Level: 6) has failed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss Bulld0z3r (Name: Bot4, Level: 6) is now dead.
+[Warning:ModulePatch] Updated spt bot K4_a: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot K4_a (Name: Bot21, Level: 9): sptBear
+[Info   :DanW-QuestingBots] K4_a (Name: Bot21, Level: 9) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #21: K4_a (Name: Bot21, Level: 9) (Bear)
+[Info   :DanW-QuestingBots] K4_a (Name: Bot21, Level: 9) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for K4_a (Name: Bot21, Level: 9) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 7.58905
+[Warning:ModulePatch] Updated spt bot Fiaf: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Fiaf (Name: Bot22, Level: 4): sptBear
+[Info   :DanW-QuestingBots] Fiaf (Name: Bot22, Level: 4) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #22: Fiaf (Name: Bot22, Level: 4) (Bear)
+[Info   :DanW-QuestingBots] Fiaf (Name: Bot22, Level: 4) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Fiaf (Name: Bot22, Level: 4) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Fiaf (Name: Bot22, Level: 4) is now doing Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs
+[Info   :DanW-QuestingBots] Bot Fiaf (Name: Bot22, Level: 4) cannot find a complete path to its objective (Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs). Trying anyway. Distance from end of path to objective: 7.449997
+[Info   :ModulePatch] 19:01:47 Loading bot: Богдан БОБР profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:01:47 Loading bot: Даня Дерзкий profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:01:47 Loading bot: Петро Ловелас profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:01:47 Loading bot: Джонатан Фрол profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:01:53 Loading bot: Савелий Щур profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:01:54 Loading bot: Гарик Чукча profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Preventing MusicManiac (Name: Bot17, Level: 20) from looting
+[Info   :DanW-QuestingBots] Bot Fiaf (Name: Bot22, Level: 4) is now a follower for K4_a (Name: Bot21, Level: 9)
+[Info   :DanW-QuestingBots] Bot Fiaf (Name: Bot22, Level: 4) is no longer doing Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs
+[Info   :ModulePatch] 19:01:59 Loading bot: Витёк Лыжи profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated spt bot Digi: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Digi (Name: Bot23, Level: 43): sptUsec
+[Info   :DanW-QuestingBots] Digi (Name: Bot23, Level: 43) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #23: Digi (Name: Bot23, Level: 43) (Usec)
+[Info   :DanW-QuestingBots] Digi (Name: Bot23, Level: 43) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Digi (Name: Bot23, Level: 43) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Digi (Name: Bot23, Level: 43) is now doing Step #1 for objective Olive Restaurant: Objective #1 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot Digi (Name: Bot23, Level: 43) cannot find a complete path to its objective (Step #1 for objective Olive Restaurant: Objective #1 in quest Olive Restaurant). Trying anyway. Distance from end of path to objective: 28.51805
+[Info   :ModulePatch] 19:02:01 Loading bot: Вадимка Табурет profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] vampuico (Name: Bot16, Level: 12) (PMC) was killed by Fiaf (Name: Bot22, Level: 4) (PMC)
+[Info   :DanW-QuestingBots] Bot vampuico (Name: Bot16, Level: 12) has failed Step #1 for objective Oasis Sniping: Objective #3 in quest Oasis Sniping
+[Info   :DanW-QuestingBots] Bot vampuico (Name: Bot16, Level: 12) has failed Step #1 for objective Oasis Sniping: Objective #2 in quest Oasis Sniping
+[Info   :DanW-QuestingBots] Boss vampuico (Name: Bot16, Level: 12) is now dead.
+[Info   :DanW-QuestingBots] MusicManiac (Name: Bot17, Level: 20) (PMC) was killed by Саша Шапито (Name: Bot11, Level: 1) (Scav)
+[Info   :DanW-QuestingBots] Bot MusicManiac (Name: Bot17, Level: 20) has failed Step #1 for objective Kyshperski: Objective #3 in quest Kyshperski
+[Info   :DanW-QuestingBots] Boss MusicManiac (Name: Bot17, Level: 20) is now dead.
+[Info   :ModulePatch] 19:02:07 Loading bot: Альвиан Корешок profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:02:08 Loading bot: Юра Баклажан profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:02:14 Loading bot: Илюха Заводской profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:02:17 Loading bot: Паисий Окурок profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Шурик Фрезер (Name: Bot18, Level: 1) (Scav) was killed by Digi (Name: Bot23, Level: 43) (PMC)
+[Info   :DanW-QuestingBots] Boss Шурик Фрезер (Name: Bot18, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Preventing Fiaf (Name: Bot22, Level: 4) from looting
+[Error  :LootingBots] ([assault] Bot19) Has been stuck trying to reach: Duffle bag. Ignoring
+[Warning:ModulePatch] Updated spt bot Barlog_M: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Barlog_M (Name: Bot24, Level: 4): sptUsec
+[Info   :DanW-QuestingBots] Barlog_M (Name: Bot24, Level: 4) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #24: Barlog_M (Name: Bot24, Level: 4) (Usec)
+[Info   :DanW-QuestingBots] Barlog_M (Name: Bot24, Level: 4) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Barlog_M (Name: Bot24, Level: 4) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Barlog_M (Name: Bot24, Level: 4) is now doing Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :DanW-QuestingBots] Bot Barlog_M (Name: Bot24, Level: 4) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line). Trying anyway. Distance from end of path to objective: 2.819752
+[Info   :DanW-QuestingBots] Саша Шапито (Name: Bot11, Level: 1) (Scav) was killed by Zoinzizoin (Name: Main_PlayerSuperior(Clone), Level: 7) (PMC)
+[Info   :DanW-QuestingBots] Boss Саша Шапито (Name: Bot11, Level: 1) is now dead.
+[Warning:ModulePatch] Updated spt bot CrocodileJonesy: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot CrocodileJonesy (Name: Bot25, Level: 12): sptUsec
+[Info   :DanW-QuestingBots] CrocodileJonesy (Name: Bot25, Level: 12) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #25: CrocodileJonesy (Name: Bot25, Level: 12) (Usec)
+[Info   :DanW-QuestingBots] CrocodileJonesy (Name: Bot25, Level: 12) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for CrocodileJonesy (Name: Bot25, Level: 12) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot CrocodileJonesy (Name: Bot25, Level: 12) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Preventing CrocodileJonesy (Name: Bot25, Level: 12) from looting
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Error  :LootingBots] ([assault] Bot19) Has been stuck trying to reach: Dead Scav. Ignoring
+[Info   :ModulePatch] 19:03:29 Loading bot: Владик Борзый profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Владик Борзый (Name: Bot26, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #26: Владик Борзый (Name: Bot26, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Владик Борзый (Name: Bot26, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] CrocodileJonesy (Name: Bot25, Level: 12) (PMC) was killed by Digi (Name: Bot23, Level: 43) (PMC)
+[Info   :DanW-QuestingBots] Bot CrocodileJonesy (Name: Bot25, Level: 12) has failed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss CrocodileJonesy (Name: Bot25, Level: 12) is now dead.
+[Info   :ModulePatch] 19:03:47 Loading bot: Эдуард Сиплый profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:03:48 Loading bot: Jeo profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Barlog_M (Name: Bot24, Level: 4) (PMC) was killed by Вадимка Новогодний (Name: Bot19, Level: 1) (Scav)
+[Info   :DanW-QuestingBots] Bot Barlog_M (Name: Bot24, Level: 4) has failed Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :DanW-QuestingBots] Boss Barlog_M (Name: Bot24, Level: 4) is now dead.
+[Info   :DanW-QuestingBots] Digi (Name: Bot23, Level: 43) (PMC) was killed by Fiaf (Name: Bot22, Level: 4) (PMC)
+[Info   :DanW-QuestingBots] Bot Digi (Name: Bot23, Level: 43) has failed Step #1 for objective Olive Restaurant: Objective #1 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Boss Digi (Name: Bot23, Level: 43) is now dead.
+[Info   :DanW-QuestingBots] Вадимка Новогодний (Name: Bot19, Level: 1) (Scav) was killed by K4_a (Name: Bot21, Level: 9) (PMC)
+[Info   :DanW-QuestingBots] Boss Вадимка Новогодний (Name: Bot19, Level: 1) is now dead.
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot26] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :DanW-QuestingBots] Владик Борзый (Name: Bot26, Level: 1) (Scav) was killed by K4_a (Name: Bot21, Level: 9) (PMC)
+[Info   :DanW-QuestingBots] Boss Владик Борзый (Name: Bot26, Level: 1) is now dead.
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Даня Дерзкий (Name: Bot27, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #27: Даня Дерзкий (Name: Bot27, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Даня Дерзкий (Name: Bot27, Level: 1) is a Scav
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Петро Ловелас (Name: Bot28, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #28: Петро Ловелас (Name: Bot28, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Петро Ловелас (Name: Bot28, Level: 1) is a Scav
+[Info   :DynamicMaps] Showing map in raid
+[Info   :ModulePatch] 19:05:40 Loading bot: Серый Сова profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Серый Сова (Name: Bot29, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #29: Серый Сова (Name: Bot29, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Серый Сова (Name: Bot29, Level: 1) is a Scav
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :ModulePatch] 19:05:47 Loading bot: Егор Инвестор profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated spt bot Jeo: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Jeo (Name: Bot30, Level: 15): sptUsec
+[Info   :DanW-QuestingBots] Jeo (Name: Bot30, Level: 15) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #30: Jeo (Name: Bot30, Level: 15) (Usec)
+[Info   :DanW-QuestingBots] Jeo (Name: Bot30, Level: 15) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Jeo (Name: Bot30, Level: 15) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line). Trying anyway. Distance from end of path to objective: 2.819752
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) has completed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Preventing K4_a (Name: Bot21, Level: 9) from looting
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) was previously doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 9.399994
+[Warning:ModulePatch] Updated spt bot Traveler: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Traveler (Name: Bot31, Level: 2): sptUsec
+[Info   :DanW-QuestingBots] Traveler (Name: Bot31, Level: 2) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #31: Traveler (Name: Bot31, Level: 2) (Usec)
+[Info   :DanW-QuestingBots] Traveler (Name: Bot31, Level: 2) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Traveler (Name: Bot31, Level: 2) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Traveler (Name: Bot31, Level: 2) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot Traveler (Name: Bot31, Level: 2) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans). Trying anyway. Distance from end of path to objective: 7.58905
+[Info   :DanW-QuestingBots] Distance to objective: 10.32289, Distance to end of path: 9.87617, Missing distance: 2.819752
+[Warning:DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line). Giving up. Remaining distance to objective: 10.32289
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has failed Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :ModulePatch] 19:06:47 Loading bot: oroku profile from server. Role: sptUsec Side: Usec
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has completed Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Instructing Jeo (Name: Bot30, Level: 15) to loot now
+[Warning:ModulePatch] Updated spt bot oroku: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot oroku (Name: Bot32, Level: 4): sptUsec
+[Info   :DanW-QuestingBots] oroku (Name: Bot32, Level: 4) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #32: oroku (Name: Bot32, Level: 4) (Usec)
+[Info   :DanW-QuestingBots] oroku (Name: Bot32, Level: 4) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for oroku (Name: Bot32, Level: 4) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot oroku (Name: Bot32, Level: 4) is now doing Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line
+[Info   :DanW-QuestingBots] Bot oroku (Name: Bot32, Level: 4) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_1_MedicalArea_exploration in quest First in Line). Trying anyway. Distance from end of path to objective: 2.819752
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot28] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Preventing Fiaf (Name: Bot22, Level: 4) from looting
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has completed Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Instructing Jeo (Name: Bot30, Level: 15) to loot now
+[Info   :DanW-QuestingBots] Петро Ловелас (Name: Bot28, Level: 1) (Scav) was killed by Fiaf (Name: Bot22, Level: 4) (PMC)
+[Info   :DanW-QuestingBots] Boss Петро Ловелас (Name: Bot28, Level: 1) is now dead.
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Skyside Hotel: Objective #1 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Preventing Traveler (Name: Bot31, Level: 2) from looting
+[Info   :DanW-QuestingBots] Fiaf (Name: Bot22, Level: 4) (PMC) was killed by Traveler (Name: Bot31, Level: 2) (PMC)
+[Info   :DanW-QuestingBots] Bot Fiaf (Name: Bot22, Level: 4) has failed Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs
+[Info   :DanW-QuestingBots] Follower Fiaf (Name: Bot22, Level: 4) for K4_a (Name: Bot21, Level: 9) is now dead.
+[Info   :DanW-QuestingBots] Preventing oroku (Name: Bot32, Level: 4) from looting
+[Info   :DanW-QuestingBots] Даня Дерзкий (Name: Bot27, Level: 1) (Scav) was killed by oroku (Name: Bot32, Level: 4) (PMC)
+[Error  :      SAIN] [SAIN.SAINComponent.Classes.Enemy.SAINEnemyController] : [[Update().Update().checkDiscrepency()]:] : [Bot's Goal Enemy is not null, but SAIN enemy is null.]
+[Info   :DanW-QuestingBots] Boss Даня Дерзкий (Name: Bot27, Level: 1) is now dead.
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Эдуард Сиплый (Name: Bot33, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #33: Эдуард Сиплый (Name: Bot33, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Эдуард Сиплый (Name: Bot33, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] K4_a (Name: Bot21, Level: 9) (PMC) was killed by Zoinzizoin (Name: Main_PlayerSuperior(Clone), Level: 7) (PMC)
+[Info   :DanW-QuestingBots] Bot K4_a (Name: Bot21, Level: 9) has failed Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss K4_a (Name: Bot21, Level: 9) is now dead.
+[Info   :ModulePatch] 19:07:47 Loading bot: Кот Сиплый profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:07:47 Loading bot: Solarint profile from server. Role: sptUsec Side: Usec
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has completed Step #1 for objective Skyside Hotel: Objective #1 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Instructing Jeo (Name: Bot30, Level: 15) to loot now
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Skyside Hotel: Objective #3 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Skyside Hotel: Objective #1 in quest Skyside Hotel
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Альвиан Сметана (Name: Bot34, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #34: Альвиан Сметана (Name: Bot34, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Альвиан Сметана (Name: Bot34, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has completed Step #1 for objective Skyside Hotel: Objective #3 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Instructing Jeo (Name: Bot30, Level: 15) to loot now
+[Info   :DanW-QuestingBots] Bot oroku (Name: Bot32, Level: 4) needs to heal
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Skyside Hotel: Objective #2 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Skyside Hotel: Objective #3 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has completed Step #1 for objective Skyside Hotel: Objective #2 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Instructing Jeo (Name: Bot30, Level: 15) to loot now
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Skyside Hotel: Objective #4 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Skyside Hotel: Objective #2 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Preventing oroku (Name: Bot32, Level: 4) from looting
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has completed Step #1 for objective Skyside Hotel: Objective #4 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Instructing Jeo (Name: Bot30, Level: 15) to loot now
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) is now doing Step #1 for objective Skyside Hotel: Objective #5 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) was previously doing Step #1 for objective Skyside Hotel: Objective #4 in quest Skyside Hotel
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Архипп Питерский (Name: Bot35, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #35: Архипп Питерский (Name: Bot35, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Архипп Питерский (Name: Bot35, Level: 1) is a Scav
+[Warning:ModulePatch] Updated spt bot RedBeard: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot RedBeard (Name: Bot36, Level: 10): sptBear
+[Info   :DanW-QuestingBots] RedBeard (Name: Bot36, Level: 10) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #36: RedBeard (Name: Bot36, Level: 10) (Bear)
+[Info   :DanW-QuestingBots] RedBeard (Name: Bot36, Level: 10) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for RedBeard (Name: Bot36, Level: 10) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #1 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Серый Сова (Name: Bot29, Level: 1) (Scav) was killed by Traveler (Name: Bot31, Level: 2) (PMC)
+[Info   :DanW-QuestingBots] Boss Серый Сова (Name: Bot29, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #1 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #2 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #2 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #3 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Error  :LootingBots] ([assault] Bot34) Has been stuck trying to reach: Bot24. Ignoring
+[Warning:ModulePatch] Updated spt bot Tyrian: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Tyrian (Name: Bot37, Level: 2): sptBear
+[Info   :DanW-QuestingBots] Tyrian (Name: Bot37, Level: 2) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #37: Tyrian (Name: Bot37, Level: 2) (Bear)
+[Info   :DanW-QuestingBots] Tyrian (Name: Bot37, Level: 2) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for Tyrian (Name: Bot37, Level: 2) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Tyrian (Name: Bot37, Level: 2) is now doing Step #1 for objective Underground North: Objective #3 in quest Underground North
+[Info   :DanW-QuestingBots] Jeo (Name: Bot30, Level: 15) (PMC) was killed by oroku (Name: Bot32, Level: 4) (PMC)
+[Info   :DanW-QuestingBots] Bot Jeo (Name: Bot30, Level: 15) has failed Step #1 for objective Skyside Hotel: Objective #5 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Boss Jeo (Name: Bot30, Level: 15) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #3 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Кот Сиплый (Name: Bot38, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #38: Кот Сиплый (Name: Bot38, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Кот Сиплый (Name: Bot38, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #4 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Эдуард Сиплый (Name: Bot33, Level: 1) (Scav) was killed by Traveler (Name: Bot31, Level: 2) (PMC)
+[Info   :DanW-QuestingBots] Boss Эдуард Сиплый (Name: Bot33, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #4 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #5 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :ModulePatch] 19:09:48 Loading bot: Кот Мурманский profile from server. Role: assault Side: Savage
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot38] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :      SAIN] [SAIN.Components.BotController.BotExtractManager] : [[TryFindExfilForBot()]:] : [Bot38 has selected Nakatani_stairs_free_exit for extraction]
+[Info   :DanW-QuestingBots] Boss Кот Сиплый (Name: Bot38, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #5 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #1 for objective Capital Insight: Objective #1 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #5 for objective Capital Insight: Objective #5 in quest Capital Insight
+[Warning:ModulePatch] Updated spt bot VIPkiller17: sptUsec to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot VIPkiller17 (Name: Bot39, Level: 3): sptUsec
+[Info   :DanW-QuestingBots] VIPkiller17 (Name: Bot39, Level: 3) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #39: VIPkiller17 (Name: Bot39, Level: 3) (Usec)
+[Info   :DanW-QuestingBots] VIPkiller17 (Name: Bot39, Level: 3) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for VIPkiller17 (Name: Bot39, Level: 3) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot VIPkiller17 (Name: Bot39, Level: 3) is now doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Saving the Mole
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Марк Грузин (Name: Bot40, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #40: Марк Грузин (Name: Bot40, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Марк Грузин (Name: Bot40, Level: 1) is a Scav
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[MoveNext().teleport()]:] : [Bot40 has teleported because they were stuck after vaulting, and no human players are visible to them, and no human players are close.]
+[Info   :DanW-QuestingBots] Альвиан Сметана (Name: Bot34, Level: 1) (Scav) was killed by Traveler (Name: Bot31, Level: 2) (PMC)
+[Info   :DanW-QuestingBots] Boss Альвиан Сметана (Name: Bot34, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #1 for objective Capital Insight: Objective #1 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #1 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #1 for objective Capital Insight: Objective #1 in quest Capital Insight
+[Info   :DanW-QuestingBots] Архипп Питерский (Name: Bot35, Level: 1) (Scav) was killed by Tyrian (Name: Bot37, Level: 2) (PMC)
+[Info   :DanW-QuestingBots] Boss Архипп Питерский (Name: Bot35, Level: 1) is now dead.
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Трифон Жиган (Name: Bot41, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #41: Трифон Жиган (Name: Bot41, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Трифон Жиган (Name: Bot41, Level: 1) is a Scav
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Ричи Крокодил (Name: Bot42, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #42: Ричи Крокодил (Name: Bot42, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Ричи Крокодил (Name: Bot42, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #1 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #2 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #1 for objective Capital Insight: Objective #1 in quest Capital Insight
+[Info   :DanW-QuestingBots] Preventing Traveler (Name: Bot31, Level: 2) from looting
+[Info   :DanW-QuestingBots] Bot Ричи Крокодил (Name: Bot42, Level: 1) is now a follower for Трифон Жиган (Name: Bot41, Level: 1)
+[Info   :DanW-QuestingBots] Traveler (Name: Bot31, Level: 2) (PMC) was killed by Zoinzizoin (Name: Main_PlayerSuperior(Clone), Level: 7) (PMC)
+[Info   :DanW-QuestingBots] Bot Traveler (Name: Bot31, Level: 2) has failed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Boss Traveler (Name: Bot31, Level: 2) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #2 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :ModulePatch] 19:10:50 Loading bot: Герчик Бардак profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 19:10:50 Loading bot: Maksim Petrov profile from server. Role: sptUsec Side: Usec
+[Info   :ModulePatch] 19:10:50 Loading bot: Давид Кепка profile from server. Role: assault Side: Savage
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #3 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #1 for objective Capital Insight: Objective #1 in quest Capital Insight
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bot Tyrian (Name: Bot37, Level: 2) needs to heal
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Error  :LootingBots] ([assault] Bot42) Has been stuck trying to reach: Bot29. Ignoring
+[Info   :ModulePatch] 19:11:00 Loading bot: Вася Небоскрёб profile from server. Role: assault Side: Savage
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #3 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #4 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #1 for objective Capital Insight: Objective #1 in quest Capital Insight
+[Info   :DanW-QuestingBots] Preventing oroku (Name: Bot32, Level: 4) from looting
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #4 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Warning:ModulePatch] Updated spt bot zicoman: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot zicoman (Name: Bot43, Level: 20): sptBear
+[Info   :DanW-QuestingBots] zicoman (Name: Bot43, Level: 20) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #43: zicoman (Name: Bot43, Level: 20) (Bear)
+[Info   :DanW-QuestingBots] zicoman (Name: Bot43, Level: 20) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for zicoman (Name: Bot43, Level: 20) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot zicoman (Name: Bot43, Level: 20) is now doing Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole
+[Info   :DanW-QuestingBots] Bot zicoman (Name: Bot43, Level: 20) cannot find a complete path to its objective (Step #1 for objective Item TerraGroup scientist's hard drive in quest Saving the Mole). Trying anyway. Distance from end of path to objective: 5.844366
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #1 for objective Capital Insight: Objective #3 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #4 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Info   :DanW-QuestingBots] Трифон Жиган (Name: Bot41, Level: 1) (Scav) was killed by zicoman (Name: Bot43, Level: 20) (PMC)
+[Info   :DanW-QuestingBots] Boss Трифон Жиган (Name: Bot41, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Preventing Tyrian (Name: Bot37, Level: 2) from looting
+[Info   :DanW-QuestingBots] Ричи Крокодил (Name: Bot42, Level: 1) (Scav) was killed by VIPkiller17 (Name: Bot39, Level: 3) (PMC)
+[Info   :DanW-QuestingBots] Boss Ричи Крокодил (Name: Bot42, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #1 for objective Capital Insight: Objective #3 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Марк Грузин (Name: Bot40, Level: 1) (Scav) was killed by zicoman (Name: Bot43, Level: 20) (PMC)
+[Info   :DanW-QuestingBots] Boss Марк Грузин (Name: Bot40, Level: 1) is now dead.
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #1 for objective Capital Insight: Objective #2 in quest Capital Insight
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #1 for objective Capital Insight: Objective #3 in quest Capital Insight
+[Info   :DanW-QuestingBots] Preventing Tyrian (Name: Bot37, Level: 2) from looting
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) has completed Step #1 for objective Capital Insight: Objective #2 in quest Capital Insight
+[Info   :DanW-QuestingBots] Instructing RedBeard (Name: Bot36, Level: 10) to loot now
+[Info   :DanW-QuestingBots] Preventing Tyrian (Name: Bot37, Level: 2) from looting
+[Warning:ModulePatch] Updated spt bot halik92: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot halik92 (Name: Bot45, Level: 26): sptBear
+[Info   :DanW-QuestingBots] halik92 (Name: Bot45, Level: 26) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #44: halik92 (Name: Bot45, Level: 26) (Bear)
+[Info   :DanW-QuestingBots] halik92 (Name: Bot45, Level: 26) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for halik92 (Name: Bot45, Level: 26) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot halik92 (Name: Bot45, Level: 26) is now doing Step #1 for objective Olive Restaurant: Objective #5 in quest Olive Restaurant
+[Warning:ModulePatch] Updated spt bot wara: sptBear to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot wara (Name: Bot44, Level: 12): sptBear
+[Info   :DanW-QuestingBots] wara (Name: Bot44, Level: 12) is a PMC.
+[Info   :DanW-QuestingBots] Spawned bot #45: wara (Name: Bot44, Level: 12) (Bear)
+[Info   :DanW-QuestingBots] Bot halik92 (Name: Bot45, Level: 26) is now a follower for wara (Name: Bot44, Level: 12)
+[Info   :DanW-QuestingBots] wara (Name: Bot44, Level: 12) is a PMC
+[Info   :DanW-QuestingBots] Setting objective for wara (Name: Bot44, Level: 12) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot wara (Name: Bot44, Level: 12) is now doing Step #1 for objective Kyshperski: Objective #3 in quest Kyshperski
+[Info   :DanW-QuestingBots] Bot halik92 (Name: Bot45, Level: 26) is no longer doing Step #1 for objective Olive Restaurant: Objective #5 in quest Olive Restaurant
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Валера Палач (Name: Bot46, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #46: Валера Палач (Name: Bot46, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Валера Палач (Name: Bot46, Level: 1) is a Scav
+[Info   :DanW-QuestingBots] Zoinzizoin (Name: Main_PlayerSuperior(Clone), Level: 7) (PMC) was killed by zicoman (Name: Bot43, Level: 20) (PMC)
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Shooting Cans
+[Info   :DanW-QuestingBots] Bot RedBeard (Name: Bot36, Level: 10) was previously doing Step #1 for objective Capital Insight: Objective #2 in quest Capital Insight
+[Info   :Coop Game Mode] CoopGame::Stop
+[Info   :DanW-QuestingBots] Disabling SPTQuestingBots.Components.DebugData...
+[Info   :DanW-QuestingBots] Writing quest log file...
+[Info   :DanW-QuestingBots] Writing quest log file...done.
+[Info   :DanW-QuestingBots] Writing bot job assignment log file...
+[Info   :DanW-QuestingBots] Writing bot job assignment log file...done.
+[Info   :RequestHandler] [REQUEST]: /raid/profile/save
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /raid/profile/save
+[Info   :QuestTrackerComponent] QuestTrackerComponent OnDestroy
+[Info   :QuestTrackerPanelComponent] QuestTrackerPanelComponent Destroy
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Started
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Introduction. queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Started
+[Info   :MoreCheckmarks] Quest EVENT: Party Supplies queststatus set to Started
+[Info   :MoreCheckmarks] Quest Prove Yourself queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Route queststatus set to Started
+[Info   :MoreCheckmarks] Quest Mysterious Hotline queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grab That Cash, Make a Stash queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to Started
+[Warning:  HarmonyX] AccessTools.Property: Could not find property for type GClass3097 and name Effects
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Started
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Introduction. queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Started
+[Info   :MoreCheckmarks] Quest EVENT: Party Supplies queststatus set to Started
+[Info   :MoreCheckmarks] Quest Prove Yourself queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Route queststatus set to Started
+[Info   :MoreCheckmarks] Quest Mysterious Hotline queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grab That Cash, Make a Stash queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Started
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to Started

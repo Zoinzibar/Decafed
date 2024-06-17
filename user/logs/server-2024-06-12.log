@@ -1,0 +1,2026 @@
+[2024-06-12T14:59:34.840Z] debug: 	Importing configs...
+[2024-06-12T14:59:34.982Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T14:59:34.983Z] info: 	Build date: 1715594841109
+[2024-06-12T14:59:35.111Z] info: 	ModLoader: dossier user/mod manquant, création en cours...
+[2024-06-12T14:59:35.150Z] info: 	Serveur : exécution des rappels de démarrage...
+[2024-06-12T14:59:35.150Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-06-12T14:59:35.151Z] debug: 	CPU: AMD Ryzen 5 5600X 6-Core Processor              cores: 12
+[2024-06-12T14:59:35.151Z] debug: 	RAM: 15.93GB
+[2024-06-12T14:59:35.151Z] debug: 	PATH: RDpcR2FtZXNcR1BUU1RcU1BUQVJLT1ZcQWtpLlNlcnZlci5leGU=
+[2024-06-12T14:59:35.151Z] debug: 	PATH: RDpcR2FtZXNcR1BUU1RcU1BUQVJLT1ZcQWtpLlNlcnZlci5leGU=
+[2024-06-12T14:59:35.152Z] debug: 	Server: 3.8.3
+[2024-06-12T14:59:35.152Z] debug: 	Date: 1715594841109
+[2024-06-12T14:59:35.152Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T14:59:35.162Z] info: 	Importation de la base de données...
+[2024-06-12T14:59:57.975Z] info: 	Importation de la base de données terminée
+[2024-06-12T15:00:01.344Z] succ: 	webserver demarré sur http://127.0.0.1:6969
+[2024-06-12T15:00:01.345Z] succ: 	Démarrage du websocket sur ws://127.0.0.1:6969
+[2024-06-12T15:00:01.345Z] succ: 	Le serveur est en cours d'exécution, ne le fermez pas pendant que vous jouez à SPT, Bon jeu!!
+[2024-06-12T15:00:06.367Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:00:26.387Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:00:46.416Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:01:06.448Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:01:26.476Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:01:46.508Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:01:56.676Z] info: 	[Requête Client] /launcher/server/connect
+[2024-06-12T15:01:56.692Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T15:01:56.693Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:01:56.696Z] info: 	[Requête Client] /files/launcher/bg.png
+[2024-06-12T15:01:56.714Z] info: 	[Requête Client] /launcher/profiles
+[2024-06-12T15:01:56.715Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T15:02:06.532Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:02:06.864Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T15:02:26.555Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:02:40.773Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T15:02:44.767Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T15:02:46.578Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:02:48.608Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T15:03:06.595Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:03:26.625Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T15:03:28.756Z] info: 	[Requête Client] /launcher/profile/register
+[2024-06-12T15:03:28.762Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T15:03:28.763Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T15:03:28.770Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:03:28.775Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:03:28.779Z] info: 	[Requête Client] /launcher/server/loadedServerMods
+[2024-06-12T15:03:28.782Z] info: 	[Requête Client] /launcher/server/serverModsUsedByProfile
+[2024-06-12T15:03:28.785Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T15:03:28.787Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T15:03:28.788Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:03:28.789Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:03:43.984Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T15:03:43.985Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T15:03:43.986Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:03:43.987Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:03:46.674Z] debug: 	Saved 1 profiles, took: 6.03ms
+[2024-06-12T15:03:57.031Z] info: 	[Requête Client] /singleplayer/settings/version
+[2024-06-12T15:03:57.051Z] info: 	[Requête Client] /singleplayer/release
+[2024-06-12T15:03:57.068Z] info: 	[Requête Client] /singleplayer/enableBSGlogging
+[2024-06-12T15:03:57.515Z] info: 	[Requête Client] /singleplayer/bundles
+[2024-06-12T15:04:02.280Z] info: 	[Requête Client] /singleplayer/settings/version
+[2024-06-12T15:04:02.355Z] info: 	[Requête Client] /client/game/start
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to factory4_day of type sptBear, time: -1, chance: 25, zone: BotZone
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to factory4_day of type sptUsec, time: -1, chance: 25, zone: BotZone
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to bigmap of type sptBear, time: -1, chance: 25, zone: ZoneScavBase
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to bigmap of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneRoad
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneRoad
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneClearVill
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneClearVill
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 20, zone: ZonePort
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 20, zone: ZonePort
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-06-12T15:04:02.356Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneBasement
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneBasement
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to interchange of type sptBear, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to interchange of type sptUsec, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to lighthouse of type sptBear, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to lighthouse of type sptUsec, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to sandbox of type sptBear, time: -1, chance: 30, zone: ZoneSandbox
+[2024-06-12T15:04:02.357Z] debug: 	Added custom boss wave to sandbox of type sptUsec, time: -1, chance: 30, zone: ZoneSandbox
+[2024-06-12T15:04:02.402Z] info: 	[Requête Client] /client/menu/locale/fr
+[2024-06-12T15:04:02.466Z] info: 	[Requête Client] /client/game/version/validate
+[2024-06-12T15:04:02.520Z] info: 	[Requête Client] /client/languages
+[2024-06-12T15:04:02.578Z] info: 	[Requête Client] /client/game/config
+[2024-06-12T15:04:03.508Z] info: 	[Requête Client] /client/items
+[2024-06-12T15:04:06.700Z] debug: 	Saved 1 profiles, took: 0.06ms
+[2024-06-12T15:04:09.451Z] info: 	[Requête Client] /client/customization
+[2024-06-12T15:04:09.572Z] info: 	[Requête Client] /client/globals
+[2024-06-12T15:04:10.107Z] info: 	[Requête Client] /client/trading/api/traderSettings
+[2024-06-12T15:04:10.159Z] info: 	[Requête Client] /client/settings
+[2024-06-12T15:04:10.209Z] info: 	[Requête Client] /client/game/profile/list
+[2024-06-12T15:04:10.280Z] info: 	[Requête Client] /client/locale/en
+[2024-06-12T15:04:10.303Z] info: 	[Requête Client] /client/account/customization
+[2024-06-12T15:04:10.576Z] info: 	[Requête Client] /client/locale/ru
+[2024-06-12T15:04:10.947Z] info: 	[Requête Client] /client/locale/ge
+[2024-06-12T15:04:11.293Z] info: 	[Requête Client] /client/locale/fr
+[2024-06-12T15:04:14.380Z] info: 	[Requête Client] /client/game/profile/nickname/reserved
+[2024-06-12T15:04:18.978Z] info: 	[Requête Client] /client/game/profile/nickname/validate
+[2024-06-12T15:04:26.727Z] debug: 	Saved 1 profiles, took: 0.12ms
+[2024-06-12T15:04:44.563Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:04:44.565Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:04:46.757Z] debug: 	Saved 1 profiles, took: 0.07ms
+[2024-06-12T15:05:06.785Z] debug: 	Saved 1 profiles, took: 0.06ms
+[2024-06-12T15:05:07.021Z] info: 	[Requête Client] /client/game/profile/create
+[2024-06-12T15:05:07.036Z] debug: 	unable to sort 17 slots, no slots found
+[2024-06-12T15:05:07.036Z] debug: 	unable to sort 4 slots, no slots found
+[2024-06-12T15:05:07.036Z] debug: 	unable to sort 20 slots, no slots found
+[2024-06-12T15:05:07.036Z] debug: 	unable to sort 6 slots, no slots found
+[2024-06-12T15:05:07.036Z] debug: 	Updating generator area slots to a size of 6 + hideout management skill
+[2024-06-12T15:05:07.036Z] debug: 	Updating water collector area slots to a size of 1 + hideout management skill
+[2024-06-12T15:05:07.036Z] debug: 	Updating air filter area slots to a size of 3 + hideout management skill
+[2024-06-12T15:05:07.037Z] debug: 	Updating bitcoin farm area slots to a size of 50 + hideout management skill
+[2024-06-12T15:05:07.038Z] debug: 	generated player scav loadout with karma level 0
+[2024-06-12T15:05:07.139Z] info: 	[Requête Client] /client/game/profile/list
+[2024-06-12T15:05:07.290Z] info: 	[Requête Client] /client/game/profile/select
+[2024-06-12T15:05:07.346Z] info: 	[Requête Client] /client/profile/status
+[2024-06-12T15:05:07.401Z] info: 	[Requête Client] /client/weather
+[2024-06-12T15:05:07.402Z] info: 	[Requête Client] /client/locations
+[2024-06-12T15:05:07.403Z] debug: 	Map: base has no base json file, skipping generation
+[2024-06-12T15:05:08.175Z] info: 	[Requête Client] /client/handbook/templates
+[2024-06-12T15:05:09.444Z] info: 	[Requête Client] /client/hideout/areas
+[2024-06-12T15:05:09.587Z] info: 	[Requête Client] /client/hideout/qte/list
+[2024-06-12T15:05:09.628Z] info: 	[Requête Client] /client/hideout/settings
+[2024-06-12T15:05:09.679Z] info: 	[Requête Client] /client/hideout/production/recipes
+[2024-06-12T15:05:09.779Z] info: 	[Requête Client] /client/hideout/production/scavcase/recipes
+[2024-06-12T15:05:09.830Z] info: 	[Requête Client] /client/builds/list
+[2024-06-12T15:05:11.393Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T15:05:11.393Z] debug: 	[Aki.Core] 1077896
+[2024-06-12T15:05:11.395Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T15:05:11.395Z] debug: 	[Aki.Core] 1498960
+[2024-06-12T15:05:11.396Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T15:05:11.396Z] debug: 	[Aki.Core] 0
+[2024-06-12T15:05:11.397Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T15:05:11.397Z] debug: 	[Aki.Core] 1077896
+[2024-06-12T15:05:11.398Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T15:05:11.398Z] debug: 	[Aki.Core] 1498960
+[2024-06-12T15:05:11.399Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T15:05:11.400Z] debug: 	[Aki.Core] 0
+[2024-06-12T15:05:12.169Z] info: 	[Requête Client] /client/notifier/channel/create
+[2024-06-12T15:05:12.171Z] info: 	[Requête Client] /client/profile/status
+[2024-06-12T15:05:12.180Z] info: 	[Requête Client] /client/trading/customization/storage
+[2024-06-12T15:05:12.243Z] info: 	[WS] joueur: Zoin (6669b8c00002c2721cec4b00) est connecté
+[2024-06-12T15:05:12.260Z] info: 	[Requête Client] /client/server/list
+[2024-06-12T15:05:12.261Z] info: 	[Requête Client] /client/match/group/current
+[2024-06-12T15:05:12.262Z] info: 	[Requête Client] /client/friend/list
+[2024-06-12T15:05:12.263Z] info: 	[Requête Client] /client/friend/request/list/inbox
+[2024-06-12T15:05:12.264Z] info: 	[Requête Client] /client/mail/dialog/list
+[2024-06-12T15:05:12.265Z] info: 	[Requête Client] /client/friend/request/list/outbox
+[2024-06-12T15:05:12.265Z] info: 	[Requête Client] /client/quest/list
+[2024-06-12T15:05:12.341Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:05:12.402Z] info: 	[Requête Client] /client/achievement/statistic
+[2024-06-12T15:05:12.451Z] info: 	[Requête Client] /client/achievement/list
+[2024-06-12T15:05:26.825Z] debug: 	Saved 1 profiles, took: 7.46ms
+[2024-06-12T15:05:27.549Z] info: 	[Requête Client] /client/checkVersion
+[2024-06-12T15:05:37.465Z] info: 	[Requête Client] /player/health/sync
+[2024-06-12T15:05:42.408Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:05:44.568Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:05:44.569Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:05:44.570Z] info: 	[Requête Client] /files/launcher/side_bear.png
+[2024-06-12T15:05:46.851Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T15:06:06.868Z] debug: 	Saved 1 profiles, took: 4.83ms
+[2024-06-12T15:06:10.966Z] info: 	[Requête Client] /files/achievement/Standard_44.png
+[2024-06-12T15:06:10.983Z] info: 	[Requête Client] /files/achievement/Rare21.png
+[2024-06-12T15:06:10.984Z] info: 	[Requête Client] /files/achievement/Rare22.png
+[2024-06-12T15:06:10.984Z] info: 	[Requête Client] /files/achievement/Rare23.png
+[2024-06-12T15:06:10.984Z] info: 	[Requête Client] /files/achievement/Rare_44.png
+[2024-06-12T15:06:11.000Z] info: 	[Requête Client] /files/achievement/Legendary_42.png
+[2024-06-12T15:06:12.452Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:06:17.383Z] info: 	[Requête Client] /files/trader/avatar/59b91ca086f77469a81232e4.jpg
+[2024-06-12T15:06:17.390Z] info: 	[Requête Client] /files/trader/avatar/59b91cab86f77469aa5343ca.jpg
+[2024-06-12T15:06:17.391Z] info: 	[Requête Client] /files/trader/avatar/579dc571d53a0658a154fbec.jpg
+[2024-06-12T15:06:17.391Z] info: 	[Requête Client] /files/trader/avatar/59b91cb486f77469a81232e5.jpg
+[2024-06-12T15:06:17.392Z] info: 	[Requête Client] /files/trader/avatar/59b91cbd86f77469aa5343cb.jpg
+[2024-06-12T15:06:17.392Z] info: 	[Requête Client] /files/trader/avatar/5a7c2ebb86f7746e324a06ab.jpg
+[2024-06-12T15:06:17.396Z] info: 	[Requête Client] /files/trader/avatar/5ac3b86a86f77461491d1ad8.jpg
+[2024-06-12T15:06:17.406Z] info: 	[Requête Client] /files/trader/avatar/5c06531a86f7746319710e1b.jpg
+[2024-06-12T15:06:17.427Z] info: 	[Requête Client] /client/items/prices/54cb50c76803fa8b248b4571
+[2024-06-12T15:06:17.514Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb50c76803fa8b248b4571
+[2024-06-12T15:06:26.904Z] debug: 	Saved 1 profiles, took: 5.00ms
+[2024-06-12T15:06:31.492Z] info: 	[Requête Client] /files/quest/icon/65899d03adeac0191c51e880.jpg
+[2024-06-12T15:06:42.253Z] debug: 	[WS] Pinging joueur: 6669b8c00002c2721cec4b00
+[2024-06-12T15:06:42.511Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:06:43.015Z] info: 	[Requête Client] /client/ragfair/find
+[2024-06-12T15:06:44.573Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:06:44.575Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:06:46.940Z] debug: 	Saved 1 profiles, took: 4.60ms
+[2024-06-12T15:07:06.981Z] debug: 	Saved 1 profiles, took: 5.45ms
+[2024-06-12T15:07:09.907Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb50c76803fa8b248b4571
+[2024-06-12T15:07:12.585Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:07:15.318Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T15:07:15.319Z] debug: 	event: QuestAccept
+[2024-06-12T15:07:15.319Z] debug: 	QuestAccept 657315df034d76585f032e01
+[2024-06-12T15:07:15.321Z] debug: 	[WS] message envoyé
+[2024-06-12T15:07:15.353Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T15:07:18.074Z] info: 	[Requête Client] /files/quest/icon/658992cd1af57867a167fc13.jpg
+[2024-06-12T15:07:18.084Z] info: 	[Requête Client] /client/items/prices/54cb57776803fa99248b456e
+[2024-06-12T15:07:18.167Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb57776803fa99248b456e
+[2024-06-12T15:07:19.124Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T15:07:19.125Z] debug: 	event: QuestAccept
+[2024-06-12T15:07:19.125Z] debug: 	QuestAccept 657315ddab5a49b71f098853
+[2024-06-12T15:07:19.125Z] debug: 	[WS] message envoyé
+[2024-06-12T15:07:19.158Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T15:07:20.199Z] info: 	[Requête Client] /files/quest/icon/65899ce3fd239b582c211d31.jpg
+[2024-06-12T15:07:20.209Z] info: 	[Requête Client] /client/items/prices/58330581ace78e27b8b10cee
+[2024-06-12T15:07:20.277Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/58330581ace78e27b8b10cee
+[2024-06-12T15:07:20.931Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T15:07:20.931Z] debug: 	event: QuestAccept
+[2024-06-12T15:07:20.931Z] debug: 	QuestAccept 657315e270bb0b8dba00cc48
+[2024-06-12T15:07:20.932Z] debug: 	[WS] message envoyé
+[2024-06-12T15:07:20.964Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T15:07:21.452Z] info: 	[Requête Client] /files/quest/icon/65899c7b6f65fb099516b25d.jpg
+[2024-06-12T15:07:21.462Z] info: 	[Requête Client] /client/items/prices/5a7c2eca46aef81a7ca2145d
+[2024-06-12T15:07:21.547Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/5a7c2eca46aef81a7ca2145d
+[2024-06-12T15:07:22.021Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T15:07:22.021Z] debug: 	event: QuestAccept
+[2024-06-12T15:07:22.021Z] debug: 	QuestAccept 657315e4a6af4ab4b50f3459
+[2024-06-12T15:07:22.022Z] debug: 	[WS] message envoyé
+[2024-06-12T15:07:22.055Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T15:07:26.990Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T15:07:42.660Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:07:44.559Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:07:44.560Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:07:47.029Z] debug: 	Saved 1 profiles, took: 4.71ms
+[2024-06-12T15:07:57.093Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb57776803fa99248b456e
+[2024-06-12T15:08:07.053Z] debug: 	Saved 1 profiles, took: 5.00ms
+[2024-06-12T15:08:10.078Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb50c76803fa8b248b4571
+[2024-06-12T15:08:12.253Z] debug: 	[WS] Pinging joueur: 6669b8c00002c2721cec4b00
+[2024-06-12T15:08:12.734Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:08:18.897Z] info: 	[Requête Client] /client/items/prices/579dc571d53a0658a154fbec
+[2024-06-12T15:08:18.964Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/579dc571d53a0658a154fbec
+[2024-06-12T15:08:19.851Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/58330581ace78e27b8b10cee
+[2024-06-12T15:08:27.083Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T15:08:41.013Z] info: 	[Requête Client] /client/items/prices/5935c25fb3acc3127c3d8cd9
+[2024-06-12T15:08:41.104Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/5935c25fb3acc3127c3d8cd9
+[2024-06-12T15:08:41.841Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/5a7c2eca46aef81a7ca2145d
+[2024-06-12T15:08:42.797Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:08:44.564Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:08:44.565Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:08:47.125Z] debug: 	Saved 1 profiles, took: 8.27ms
+[2024-06-12T15:08:52.445Z] info: 	[Requête Client] /client/items/prices/5ac3b934156ae10c4430e83c
+[2024-06-12T15:08:52.528Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/5ac3b934156ae10c4430e83c
+[2024-06-12T15:08:56.133Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T15:08:58.297Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T15:08:59.438Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T15:09:01.507Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T15:09:07.243Z] debug: 	Saved 1 profiles, took: 7.84ms
+[2024-06-12T15:09:08.462Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T15:09:08.462Z] debug: 	event: Move
+[2024-06-12T15:09:12.872Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:09:27.169Z] debug: 	Saved 1 profiles, took: 5.10ms
+[2024-06-12T15:09:42.253Z] debug: 	[WS] Pinging joueur: 6669b8c00002c2721cec4b00
+[2024-06-12T15:09:42.949Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:09:44.560Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:09:44.562Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:09:47.195Z] debug: 	Saved 1 profiles, took: 5.25ms
+[2024-06-12T15:10:07.227Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T15:10:13.032Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T15:10:25.184Z] info: 	[Requête Client] /client/game/logout
+[2024-06-12T15:10:25.189Z] debug: 	Saved 1 profiles, took: 4.91ms
+[2024-06-12T15:10:27.264Z] debug: 	Saved 1 profiles, took: 1.47ms
+[2024-06-12T15:10:27.560Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T15:10:27.561Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T15:10:47.284Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T15:11:07.319Z] debug: 	Saved 1 profiles, took: 5.04ms
+[2024-06-12T15:11:12.262Z] debug: 	[WS] Pinging joueur: 6669b8c00002c2721cec4b00
+[2024-06-12T15:11:12.263Z] debug: 	[WS] Socket perdu, suppression du handle
+[2024-06-12T15:11:27.353Z] debug: 	Saved 1 profiles, took: 5.29ms
+[2024-06-12T15:11:47.392Z] debug: 	Saved 1 profiles, took: 5.11ms
+[2024-06-12T15:12:07.557Z] debug: 	Saved 1 profiles, took: 4.67ms
+[2024-06-12T15:12:27.481Z] debug: 	Saved 1 profiles, took: 5.25ms
+[2024-06-12T15:12:47.521Z] debug: 	Saved 1 profiles, took: 5.47ms
+[2024-06-12T15:13:07.553Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T15:13:27.571Z] debug: 	Saved 1 profiles, took: 5.63ms
+[2024-06-12T15:13:47.597Z] debug: 	Saved 1 profiles, took: 5.22ms
+[2024-06-12T15:14:07.630Z] debug: 	Saved 1 profiles, took: 4.75ms
+[2024-06-12T15:14:27.652Z] debug: 	Saved 1 profiles, took: 4.69ms
+[2024-06-12T15:14:47.692Z] debug: 	Saved 1 profiles, took: 5.19ms
+[2024-06-12T15:15:07.809Z] debug: 	Saved 1 profiles, took: 4.67ms
+[2024-06-12T15:15:27.755Z] debug: 	Saved 1 profiles, took: 4.79ms
+[2024-06-12T15:15:47.791Z] debug: 	Saved 1 profiles, took: 5.41ms
+[2024-06-12T15:16:07.825Z] debug: 	Saved 1 profiles, took: 4.77ms
+[2024-06-12T15:16:27.864Z] debug: 	Saved 1 profiles, took: 4.66ms
+[2024-06-12T15:16:47.907Z] debug: 	Saved 1 profiles, took: 4.79ms
+[2024-06-12T15:17:07.944Z] debug: 	Saved 1 profiles, took: 4.75ms
+[2024-06-12T15:17:27.963Z] debug: 	Saved 1 profiles, took: 4.66ms
+[2024-06-12T15:17:47.999Z] debug: 	Saved 1 profiles, took: 5.10ms
+[2024-06-12T15:18:08.033Z] debug: 	Saved 1 profiles, took: 5.34ms
+[2024-06-12T15:18:28.056Z] debug: 	Saved 1 profiles, took: 4.77ms
+[2024-06-12T15:18:48.082Z] debug: 	Saved 1 profiles, took: 5.20ms
+[2024-06-12T15:19:08.120Z] debug: 	Saved 1 profiles, took: 4.65ms
+[2024-06-12T15:19:28.142Z] debug: 	Saved 1 profiles, took: 4.80ms
+[2024-06-12T15:19:48.165Z] debug: 	Saved 1 profiles, took: 4.54ms
+[2024-06-12T15:20:08.188Z] debug: 	Saved 1 profiles, took: 4.65ms
+[2024-06-12T15:20:28.218Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T15:20:48.264Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T15:21:08.280Z] debug: 	Saved 1 profiles, took: 4.73ms
+[2024-06-12T15:21:28.303Z] debug: 	Saved 1 profiles, took: 5.02ms
+[2024-06-12T15:21:48.330Z] debug: 	Saved 1 profiles, took: 4.70ms
+[2024-06-12T15:22:08.364Z] debug: 	Saved 1 profiles, took: 4.76ms
+[2024-06-12T15:22:28.413Z] debug: 	Saved 1 profiles, took: 7.50ms
+[2024-06-12T15:22:48.434Z] debug: 	Saved 1 profiles, took: 7.93ms
+[2024-06-12T15:23:08.469Z] debug: 	Saved 1 profiles, took: 7.97ms
+[2024-06-12T15:23:28.498Z] debug: 	Saved 1 profiles, took: 4.69ms
+[2024-06-12T15:23:48.525Z] debug: 	Saved 1 profiles, took: 4.70ms
+[2024-06-12T15:24:08.567Z] debug: 	Saved 1 profiles, took: 7.89ms
+[2024-06-12T15:24:28.590Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T15:24:48.613Z] debug: 	Saved 1 profiles, took: 4.69ms
+[2024-06-12T15:25:08.646Z] debug: 	Saved 1 profiles, took: 4.91ms
+[2024-06-12T15:25:28.676Z] debug: 	Saved 1 profiles, took: 5.22ms
+[2024-06-12T15:25:48.718Z] debug: 	Saved 1 profiles, took: 4.82ms
+[2024-06-12T15:26:08.741Z] debug: 	Saved 1 profiles, took: 4.74ms
+[2024-06-12T15:26:28.787Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T15:26:48.834Z] debug: 	Saved 1 profiles, took: 4.73ms
+[2024-06-12T15:27:08.941Z] debug: 	Saved 1 profiles, took: 4.74ms
+[2024-06-12T15:27:28.886Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T15:27:48.901Z] debug: 	Saved 1 profiles, took: 5.03ms
+[2024-06-12T15:28:08.939Z] debug: 	Saved 1 profiles, took: 5.18ms
+[2024-06-12T15:28:24.084Z] debug: 	Saved 1 profiles, took: 5.07ms
+[2024-06-12T15:28:43.986Z] debug: 	Saved 1 profiles, took: 5.27ms
+[2024-06-12T15:28:59.029Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T15:29:19.056Z] debug: 	Saved 1 profiles, took: 5.05ms
+[2024-06-12T15:29:39.094Z] debug: 	Saved 1 profiles, took: 4.73ms
+[2024-06-12T15:29:59.124Z] debug: 	Saved 1 profiles, took: 4.81ms
+[2024-06-12T15:30:19.167Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T15:30:39.280Z] debug: 	Saved 1 profiles, took: 4.72ms
+[2024-06-12T15:30:59.225Z] debug: 	Saved 1 profiles, took: 4.59ms
+[2024-06-12T15:31:19.235Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T15:31:39.266Z] debug: 	Saved 1 profiles, took: 4.73ms
+[2024-06-12T15:31:59.280Z] debug: 	Saved 1 profiles, took: 4.58ms
+[2024-06-12T15:32:19.324Z] debug: 	Saved 1 profiles, took: 4.67ms
+[2024-06-12T15:32:39.355Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T15:32:59.392Z] debug: 	Saved 1 profiles, took: 4.73ms
+[2024-06-12T15:33:19.428Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T15:33:39.454Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T15:33:59.562Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T15:34:19.507Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T15:34:39.544Z] debug: 	Saved 1 profiles, took: 4.76ms
+[2024-06-12T15:34:59.568Z] debug: 	Saved 1 profiles, took: 5.26ms
+[2024-06-12T15:35:19.596Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T15:35:39.636Z] debug: 	Saved 1 profiles, took: 5.26ms
+[2024-06-12T15:35:59.657Z] debug: 	Saved 1 profiles, took: 7.57ms
+[2024-06-12T15:36:19.682Z] debug: 	Saved 1 profiles, took: 7.58ms
+[2024-06-12T15:36:39.709Z] debug: 	Saved 1 profiles, took: 7.65ms
+[2024-06-12T15:36:59.748Z] debug: 	Saved 1 profiles, took: 5.08ms
+[2024-06-12T15:37:19.870Z] debug: 	Saved 1 profiles, took: 7.52ms
+[2024-06-12T15:37:39.814Z] debug: 	Saved 1 profiles, took: 7.45ms
+[2024-06-12T15:37:59.847Z] debug: 	Saved 1 profiles, took: 5.62ms
+[2024-06-12T15:38:19.945Z] debug: 	Saved 1 profiles, took: 4.78ms
+[2024-06-12T15:38:39.911Z] debug: 	Saved 1 profiles, took: 5.10ms
+[2024-06-12T15:38:59.932Z] debug: 	Saved 1 profiles, took: 8.02ms
+[2024-06-12T15:39:19.962Z] debug: 	Saved 1 profiles, took: 4.83ms
+[2024-06-12T15:39:39.978Z] debug: 	Saved 1 profiles, took: 5.02ms
+[2024-06-12T15:40:00.024Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T15:40:20.064Z] debug: 	Saved 1 profiles, took: 4.79ms
+[2024-06-12T15:40:40.077Z] debug: 	Saved 1 profiles, took: 5.05ms
+[2024-06-12T15:41:00.120Z] debug: 	Saved 1 profiles, took: 4.81ms
+[2024-06-12T15:41:20.148Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T15:41:40.196Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T15:42:00.231Z] debug: 	Saved 1 profiles, took: 4.77ms
+[2024-06-12T15:42:20.253Z] debug: 	Saved 1 profiles, took: 5.36ms
+[2024-06-12T15:42:40.288Z] debug: 	Saved 1 profiles, took: 4.78ms
+[2024-06-12T15:43:00.291Z] debug: 	Saved 1 profiles, took: 5.03ms
+[2024-06-12T15:43:20.334Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T15:43:40.364Z] debug: 	Saved 1 profiles, took: 4.80ms
+[2024-06-12T15:44:00.401Z] debug: 	Saved 1 profiles, took: 4.83ms
+[2024-06-12T15:44:20.430Z] debug: 	Saved 1 profiles, took: 4.62ms
+[2024-06-12T15:44:40.593Z] debug: 	Saved 1 profiles, took: 5.29ms
+[2024-06-12T15:45:00.479Z] debug: 	Saved 1 profiles, took: 4.70ms
+[2024-06-12T15:45:20.519Z] debug: 	Saved 1 profiles, took: 4.72ms
+[2024-06-12T15:45:40.541Z] debug: 	Saved 1 profiles, took: 4.94ms
+[2024-06-12T15:46:00.569Z] debug: 	Saved 1 profiles, took: 4.71ms
+[2024-06-12T15:46:20.683Z] debug: 	Saved 1 profiles, took: 4.67ms
+[2024-06-12T15:46:40.634Z] debug: 	Saved 1 profiles, took: 5.55ms
+[2024-06-12T15:47:00.658Z] debug: 	Saved 1 profiles, took: 4.61ms
+[2024-06-12T15:47:20.681Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T15:47:40.718Z] debug: 	Saved 1 profiles, took: 4.78ms
+[2024-06-12T15:48:00.828Z] debug: 	Saved 1 profiles, took: 4.80ms
+[2024-06-12T15:48:20.781Z] debug: 	Saved 1 profiles, took: 5.67ms
+[2024-06-12T15:48:40.811Z] debug: 	Saved 1 profiles, took: 5.75ms
+[2024-06-12T15:49:00.844Z] debug: 	Saved 1 profiles, took: 8.16ms
+[2024-06-12T15:49:20.903Z] debug: 	Saved 1 profiles, took: 8.69ms
+[2024-06-12T15:49:41.012Z] debug: 	Saved 1 profiles, took: 7.58ms
+[2024-06-12T15:50:00.952Z] debug: 	Saved 1 profiles, took: 7.68ms
+[2024-06-12T15:50:20.975Z] debug: 	Saved 1 profiles, took: 8.30ms
+[2024-06-12T15:50:41.007Z] debug: 	Saved 1 profiles, took: 8.95ms
+[2024-06-12T15:51:01.024Z] debug: 	Saved 1 profiles, took: 7.96ms
+[2024-06-12T15:51:21.133Z] debug: 	Saved 1 profiles, took: 5.97ms
+[2024-06-12T15:51:41.099Z] debug: 	Saved 1 profiles, took: 8.10ms
+[2024-06-12T15:52:01.112Z] debug: 	Saved 1 profiles, took: 4.80ms
+[2024-06-12T15:52:21.151Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T15:52:41.178Z] debug: 	Saved 1 profiles, took: 5.17ms
+[2024-06-12T15:53:01.297Z] debug: 	Saved 1 profiles, took: 4.93ms
+[2024-06-12T15:53:21.243Z] debug: 	Saved 1 profiles, took: 4.97ms
+[2024-06-12T15:53:41.282Z] debug: 	Saved 1 profiles, took: 5.19ms
+[2024-06-12T15:54:01.322Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T15:54:21.343Z] debug: 	Saved 1 profiles, took: 5.49ms
+[2024-06-12T15:54:41.459Z] debug: 	Saved 1 profiles, took: 5.18ms
+[2024-06-12T15:55:01.418Z] debug: 	Saved 1 profiles, took: 5.79ms
+[2024-06-12T15:55:21.427Z] debug: 	Saved 1 profiles, took: 5.73ms
+[2024-06-12T15:55:41.450Z] debug: 	Saved 1 profiles, took: 6.68ms
+[2024-06-12T15:56:01.477Z] debug: 	Saved 1 profiles, took: 5.25ms
+[2024-06-12T15:56:21.599Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T15:56:41.539Z] debug: 	Saved 1 profiles, took: 5.41ms
+[2024-06-12T15:57:01.557Z] debug: 	Saved 1 profiles, took: 6.00ms
+[2024-06-12T15:57:21.596Z] debug: 	Saved 1 profiles, took: 4.72ms
+[2024-06-12T15:57:41.644Z] debug: 	Saved 1 profiles, took: 4.70ms
+[2024-06-12T15:58:01.776Z] debug: 	Saved 1 profiles, took: 4.78ms
+[2024-06-12T15:58:21.710Z] debug: 	Saved 1 profiles, took: 4.88ms
+[2024-06-12T15:58:41.747Z] debug: 	Saved 1 profiles, took: 4.79ms
+[2024-06-12T15:59:01.762Z] debug: 	Saved 1 profiles, took: 5.26ms
+[2024-06-12T15:59:21.800Z] debug: 	Saved 1 profiles, took: 5.17ms
+[2024-06-12T15:59:41.838Z] debug: 	Saved 1 profiles, took: 5.07ms
+[2024-06-12T16:00:01.884Z] debug: 	Saved 1 profiles, took: 5.01ms
+[2024-06-12T16:00:21.996Z] debug: 	Saved 1 profiles, took: 4.69ms
+[2024-06-12T16:00:41.938Z] debug: 	Saved 1 profiles, took: 4.82ms
+[2024-06-12T16:00:57.100Z] debug: 	Saved 1 profiles, took: 5.18ms
+[2024-06-12T16:01:16.979Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T16:01:32.018Z] debug: 	Saved 1 profiles, took: 5.23ms
+[2024-06-12T16:01:52.052Z] debug: 	Saved 1 profiles, took: 4.85ms
+[2024-06-12T16:02:12.074Z] debug: 	Saved 1 profiles, took: 7.93ms
+[2024-06-12T16:02:32.109Z] debug: 	Saved 1 profiles, took: 7.91ms
+[2024-06-12T16:02:52.229Z] debug: 	Saved 1 profiles, took: 7.60ms
+[2024-06-12T16:03:12.177Z] debug: 	Saved 1 profiles, took: 7.42ms
+[2024-06-12T16:03:32.205Z] debug: 	Saved 1 profiles, took: 5.19ms
+[2024-06-12T16:03:52.233Z] debug: 	Saved 1 profiles, took: 5.32ms
+[2024-06-12T16:04:12.258Z] debug: 	Saved 1 profiles, took: 7.57ms
+[2024-06-12T16:04:32.287Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T16:04:52.315Z] debug: 	Saved 1 profiles, took: 4.82ms
+[2024-06-12T16:05:12.431Z] debug: 	Saved 1 profiles, took: 8.40ms
+[2024-06-12T16:05:32.389Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T16:05:52.422Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T16:06:12.466Z] debug: 	Saved 1 profiles, took: 5.09ms
+[2024-06-12T16:06:32.504Z] debug: 	Saved 1 profiles, took: 6.25ms
+[2024-06-12T16:06:52.529Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T16:07:12.565Z] debug: 	Saved 1 profiles, took: 5.34ms
+[2024-06-12T16:07:32.591Z] debug: 	Saved 1 profiles, took: 5.03ms
+[2024-06-12T16:07:52.621Z] debug: 	Saved 1 profiles, took: 6.15ms
+[2024-06-12T16:08:12.645Z] debug: 	Saved 1 profiles, took: 5.54ms
+[2024-06-12T16:08:32.675Z] debug: 	Saved 1 profiles, took: 5.11ms
+[2024-06-12T16:08:52.718Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T16:09:12.733Z] debug: 	Saved 1 profiles, took: 5.01ms
+[2024-06-12T16:09:32.752Z] debug: 	Saved 1 profiles, took: 4.80ms
+[2024-06-12T16:09:52.798Z] debug: 	Saved 1 profiles, took: 5.20ms
+[2024-06-12T16:10:12.825Z] debug: 	Saved 1 profiles, took: 4.79ms
+[2024-06-12T16:10:32.848Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T16:10:52.868Z] debug: 	Saved 1 profiles, took: 5.76ms
+[2024-06-12T16:11:12.917Z] debug: 	Saved 1 profiles, took: 4.62ms
+[2024-06-12T16:11:33.027Z] debug: 	Saved 1 profiles, took: 4.60ms
+[2024-06-12T16:11:52.967Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T16:12:12.997Z] debug: 	Saved 1 profiles, took: 5.36ms
+[2024-06-12T16:12:28.013Z] debug: 	Saved 1 profiles, took: 6.07ms
+[2024-06-12T16:12:48.054Z] debug: 	Saved 1 profiles, took: 5.03ms
+[2024-06-12T16:13:08.240Z] debug: 	Saved 1 profiles, took: 5.11ms
+[2024-06-12T16:13:28.131Z] debug: 	Saved 1 profiles, took: 4.82ms
+[2024-06-12T16:13:48.170Z] debug: 	Saved 1 profiles, took: 4.70ms
+[2024-06-12T16:14:08.198Z] debug: 	Saved 1 profiles, took: 4.71ms
+[2024-06-12T16:14:28.226Z] debug: 	Saved 1 profiles, took: 7.98ms
+[2024-06-12T16:14:48.270Z] debug: 	Saved 1 profiles, took: 8.38ms
+[2024-06-12T16:15:08.307Z] debug: 	Saved 1 profiles, took: 5.00ms
+[2024-06-12T16:15:28.342Z] debug: 	Saved 1 profiles, took: 8.43ms
+[2024-06-12T16:15:48.369Z] debug: 	Saved 1 profiles, took: 8.08ms
+[2024-06-12T16:16:08.411Z] debug: 	Saved 1 profiles, took: 7.56ms
+[2024-06-12T16:16:28.430Z] debug: 	Saved 1 profiles, took: 8.29ms
+[2024-06-12T16:16:48.455Z] debug: 	Saved 1 profiles, took: 8.57ms
+[2024-06-12T16:17:08.465Z] debug: 	Saved 1 profiles, took: 4.97ms
+[2024-06-12T16:17:28.495Z] debug: 	Saved 1 profiles, took: 7.81ms
+[2024-06-12T16:17:48.521Z] debug: 	Saved 1 profiles, took: 7.56ms
+[2024-06-12T16:18:08.562Z] debug: 	Saved 1 profiles, took: 5.15ms
+[2024-06-12T16:18:28.604Z] debug: 	Saved 1 profiles, took: 4.94ms
+[2024-06-12T16:18:48.645Z] debug: 	Saved 1 profiles, took: 4.95ms
+[2024-06-12T16:19:08.672Z] debug: 	Saved 1 profiles, took: 5.68ms
+[2024-06-12T16:19:28.706Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T16:19:48.745Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T16:20:08.778Z] debug: 	Saved 1 profiles, took: 5.70ms
+[2024-06-12T16:20:28.803Z] debug: 	Saved 1 profiles, took: 4.81ms
+[2024-06-12T16:20:48.849Z] debug: 	Saved 1 profiles, took: 4.97ms
+[2024-06-12T16:21:08.870Z] debug: 	Saved 1 profiles, took: 5.36ms
+[2024-06-12T16:21:28.894Z] debug: 	Saved 1 profiles, took: 5.39ms
+[2024-06-12T16:21:48.926Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T16:22:08.965Z] debug: 	Saved 1 profiles, took: 4.77ms
+[2024-06-12T16:22:28.985Z] debug: 	Saved 1 profiles, took: 5.20ms
+[2024-06-12T16:22:44.028Z] debug: 	Saved 1 profiles, took: 4.57ms
+[2024-06-12T16:23:04.067Z] debug: 	Saved 1 profiles, took: 5.28ms
+[2024-06-12T16:23:24.095Z] debug: 	Saved 1 profiles, took: 5.36ms
+[2024-06-12T16:23:44.110Z] debug: 	Saved 1 profiles, took: 5.41ms
+[2024-06-12T16:24:04.147Z] debug: 	Saved 1 profiles, took: 4.62ms
+[2024-06-12T16:24:24.181Z] debug: 	Saved 1 profiles, took: 5.43ms
+[2024-06-12T16:24:44.202Z] debug: 	Saved 1 profiles, took: 5.03ms
+[2024-06-12T16:25:04.229Z] debug: 	Saved 1 profiles, took: 5.14ms
+[2024-06-12T16:25:24.415Z] debug: 	Saved 1 profiles, took: 5.12ms
+[2024-06-12T16:25:44.303Z] debug: 	Saved 1 profiles, took: 4.69ms
+[2024-06-12T16:26:04.329Z] debug: 	Saved 1 profiles, took: 5.89ms
+[2024-06-12T16:26:24.362Z] debug: 	Saved 1 profiles, took: 4.59ms
+[2024-06-12T16:26:44.389Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T16:27:04.425Z] debug: 	Saved 1 profiles, took: 7.77ms
+[2024-06-12T16:27:24.447Z] debug: 	Saved 1 profiles, took: 8.19ms
+[2024-06-12T16:27:44.483Z] debug: 	Saved 1 profiles, took: 7.68ms
+[2024-06-12T16:28:04.515Z] debug: 	Saved 1 profiles, took: 7.87ms
+[2024-06-12T16:28:24.555Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T16:28:44.599Z] debug: 	Saved 1 profiles, took: 6.34ms
+[2024-06-12T16:29:04.627Z] debug: 	Saved 1 profiles, took: 8.29ms
+[2024-06-12T16:29:24.658Z] debug: 	Saved 1 profiles, took: 7.51ms
+[2024-06-12T16:29:44.680Z] debug: 	Saved 1 profiles, took: 5.12ms
+[2024-06-12T16:30:04.707Z] debug: 	Saved 1 profiles, took: 5.15ms
+[2024-06-12T16:30:24.729Z] debug: 	Saved 1 profiles, took: 5.45ms
+[2024-06-12T16:30:44.749Z] debug: 	Saved 1 profiles, took: 5.03ms
+[2024-06-12T16:31:04.783Z] debug: 	Saved 1 profiles, took: 5.67ms
+[2024-06-12T16:31:24.810Z] debug: 	Saved 1 profiles, took: 5.67ms
+[2024-06-12T16:31:44.829Z] debug: 	Saved 1 profiles, took: 5.82ms
+[2024-06-12T16:32:04.870Z] debug: 	Saved 1 profiles, took: 5.36ms
+[2024-06-12T16:32:24.896Z] debug: 	Saved 1 profiles, took: 5.43ms
+[2024-06-12T16:32:44.935Z] debug: 	Saved 1 profiles, took: 6.19ms
+[2024-06-12T16:33:04.973Z] debug: 	Saved 1 profiles, took: 4.95ms
+[2024-06-12T16:33:24.997Z] debug: 	Saved 1 profiles, took: 5.37ms
+[2024-06-12T16:33:40.007Z] debug: 	Saved 1 profiles, took: 5.08ms
+[2024-06-12T16:34:00.043Z] debug: 	Saved 1 profiles, took: 4.78ms
+[2024-06-12T16:34:20.067Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T16:34:40.112Z] debug: 	Saved 1 profiles, took: 1.13ms
+[2024-06-12T16:35:00.145Z] debug: 	Saved 1 profiles, took: 1.03ms
+[2024-06-12T16:35:20.179Z] debug: 	Saved 1 profiles, took: 1.46ms
+[2024-06-12T16:35:40.197Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T16:36:00.245Z] debug: 	Saved 1 profiles, took: 1.12ms
+[2024-06-12T16:36:20.277Z] debug: 	Saved 1 profiles, took: 1.81ms
+[2024-06-12T16:36:40.308Z] debug: 	Saved 1 profiles, took: 1.08ms
+[2024-06-12T16:37:00.341Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T16:37:20.385Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T16:37:40.577Z] debug: 	Saved 1 profiles, took: 9.57ms
+[2024-06-12T16:38:00.465Z] debug: 	Saved 1 profiles, took: 1.02ms
+[2024-06-12T16:38:20.504Z] debug: 	Saved 1 profiles, took: 1.03ms
+[2024-06-12T16:38:40.536Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T16:39:00.558Z] debug: 	Saved 1 profiles, took: 1.05ms
+[2024-06-12T16:39:20.604Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T16:39:40.643Z] debug: 	Saved 1 profiles, took: 1.12ms
+[2024-06-12T16:40:00.663Z] debug: 	Saved 1 profiles, took: 1.18ms
+[2024-06-12T16:40:20.689Z] debug: 	Saved 1 profiles, took: 1.15ms
+[2024-06-12T16:40:40.715Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T16:41:00.756Z] debug: 	Saved 1 profiles, took: 1.02ms
+[2024-06-12T16:41:20.775Z] debug: 	Saved 1 profiles, took: 1.09ms
+[2024-06-12T16:41:40.802Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T16:42:00.846Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T16:42:20.877Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T16:42:36.011Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:42:55.946Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T16:43:15.985Z] debug: 	Saved 1 profiles, took: 0.94ms
+[2024-06-12T16:43:36.095Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:43:56.055Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T16:44:16.091Z] debug: 	Saved 1 profiles, took: 1.40ms
+[2024-06-12T16:44:36.202Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:44:56.149Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T16:45:16.183Z] debug: 	Saved 1 profiles, took: 1.40ms
+[2024-06-12T16:45:36.296Z] debug: 	Saved 1 profiles, took: 0.94ms
+[2024-06-12T16:45:56.259Z] debug: 	Saved 1 profiles, took: 0.90ms
+[2024-06-12T16:46:16.282Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:46:36.400Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T16:46:56.377Z] debug: 	Saved 1 profiles, took: 0.88ms
+[2024-06-12T16:47:16.402Z] debug: 	Saved 1 profiles, took: 1.61ms
+[2024-06-12T16:47:36.517Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:47:56.478Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T16:48:16.498Z] debug: 	Saved 1 profiles, took: 1.42ms
+[2024-06-12T16:48:36.616Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T16:48:56.543Z] debug: 	Saved 1 profiles, took: 1.29ms
+[2024-06-12T16:49:16.568Z] debug: 	Saved 1 profiles, took: 1.51ms
+[2024-06-12T16:49:36.687Z] debug: 	Saved 1 profiles, took: 0.99ms
+[2024-06-12T16:49:56.625Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:50:16.643Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T16:50:36.761Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:50:56.715Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T16:51:16.742Z] debug: 	Saved 1 profiles, took: 1.44ms
+[2024-06-12T16:51:36.865Z] debug: 	Saved 1 profiles, took: 1.16ms
+[2024-06-12T16:51:56.797Z] debug: 	Saved 1 profiles, took: 1.03ms
+[2024-06-12T16:52:16.845Z] debug: 	Saved 1 profiles, took: 0.95ms
+[2024-06-12T16:52:36.959Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T16:52:56.905Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:53:16.945Z] debug: 	Saved 1 profiles, took: 1.42ms
+[2024-06-12T16:53:37.057Z] debug: 	Saved 1 profiles, took: 0.88ms
+[2024-06-12T16:53:57.148Z] debug: 	Saved 1 profiles, took: 1.16ms
+[2024-06-12T16:54:17.051Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:54:37.163Z] debug: 	Saved 1 profiles, took: 1.05ms
+[2024-06-12T16:54:57.100Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T16:55:17.137Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T16:55:37.249Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T16:55:57.192Z] debug: 	Saved 1 profiles, took: 1.28ms
+[2024-06-12T16:56:17.202Z] debug: 	Saved 1 profiles, took: 1.43ms
+[2024-06-12T16:56:37.347Z] debug: 	Saved 1 profiles, took: 0.97ms
+[2024-06-12T16:56:57.262Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T16:57:17.296Z] debug: 	Saved 1 profiles, took: 1.58ms
+[2024-06-12T16:57:37.384Z] debug: 	Saved 1 profiles, took: 0.94ms
+[2024-06-12T16:57:57.345Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T16:58:17.372Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T16:58:37.507Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T16:58:57.444Z] debug: 	Saved 1 profiles, took: 1.50ms
+[2024-06-12T16:59:17.485Z] debug: 	Saved 1 profiles, took: 1.61ms
+[2024-06-12T16:59:37.597Z] debug: 	Saved 1 profiles, took: 0.89ms
+[2024-06-12T16:59:57.552Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:00:17.594Z] debug: 	Saved 1 profiles, took: 1.45ms
+[2024-06-12T17:00:37.727Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:00:57.673Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:01:17.703Z] debug: 	Saved 1 profiles, took: 1.41ms
+[2024-06-12T17:01:37.815Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:01:57.773Z] debug: 	Saved 1 profiles, took: 1.40ms
+[2024-06-12T17:02:17.801Z] debug: 	Saved 1 profiles, took: 1.84ms
+[2024-06-12T17:02:37.923Z] debug: 	Saved 1 profiles, took: 1.01ms
+[2024-06-12T17:02:57.863Z] debug: 	Saved 1 profiles, took: 1.48ms
+[2024-06-12T17:03:17.896Z] debug: 	Saved 1 profiles, took: 1.39ms
+[2024-06-12T17:03:38.019Z] debug: 	Saved 1 profiles, took: 2.37ms
+[2024-06-12T17:03:57.960Z] debug: 	Saved 1 profiles, took: 1.01ms
+[2024-06-12T17:04:17.993Z] debug: 	Saved 1 profiles, took: 0.97ms
+[2024-06-12T17:04:38.110Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:04:58.061Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T17:05:18.076Z] debug: 	Saved 1 profiles, took: 0.94ms
+[2024-06-12T17:05:38.202Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:05:58.153Z] debug: 	Saved 1 profiles, took: 1.78ms
+[2024-06-12T17:06:18.178Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:06:38.304Z] debug: 	Saved 1 profiles, took: 0.88ms
+[2024-06-12T17:06:58.266Z] debug: 	Saved 1 profiles, took: 1.05ms
+[2024-06-12T17:07:18.261Z] debug: 	Saved 1 profiles, took: 1.75ms
+[2024-06-12T17:07:38.374Z] debug: 	Saved 1 profiles, took: 1.00ms
+[2024-06-12T17:07:58.311Z] debug: 	Saved 1 profiles, took: 0.97ms
+[2024-06-12T17:08:18.339Z] debug: 	Saved 1 profiles, took: 1.91ms
+[2024-06-12T17:08:38.452Z] debug: 	Saved 1 profiles, took: 1.03ms
+[2024-06-12T17:08:58.386Z] debug: 	Saved 1 profiles, took: 1.51ms
+[2024-06-12T17:09:18.400Z] debug: 	Saved 1 profiles, took: 0.98ms
+[2024-06-12T17:09:38.561Z] debug: 	Saved 1 profiles, took: 1.29ms
+[2024-06-12T17:09:58.478Z] debug: 	Saved 1 profiles, took: 1.62ms
+[2024-06-12T17:10:18.491Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:10:38.613Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T17:10:58.574Z] debug: 	Saved 1 profiles, took: 1.27ms
+[2024-06-12T17:11:18.597Z] debug: 	Saved 1 profiles, took: 0.97ms
+[2024-06-12T17:11:38.722Z] debug: 	Saved 1 profiles, took: 0.97ms
+[2024-06-12T17:11:58.648Z] debug: 	Saved 1 profiles, took: 1.77ms
+[2024-06-12T17:12:18.673Z] debug: 	Saved 1 profiles, took: 1.00ms
+[2024-06-12T17:12:38.802Z] debug: 	Saved 1 profiles, took: 0.98ms
+[2024-06-12T17:12:58.737Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T17:13:18.772Z] debug: 	Saved 1 profiles, took: 1.92ms
+[2024-06-12T17:13:38.870Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:13:58.804Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:14:18.962Z] debug: 	Saved 1 profiles, took: 1.11ms
+[2024-06-12T17:14:38.928Z] debug: 	Saved 1 profiles, took: 0.88ms
+[2024-06-12T17:14:58.872Z] debug: 	Saved 1 profiles, took: 0.94ms
+[2024-06-12T17:15:18.912Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T17:15:39.024Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:15:58.965Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:16:18.997Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:16:34.009Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T17:16:54.030Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T17:17:14.054Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T17:17:34.100Z] debug: 	Saved 1 profiles, took: 1.05ms
+[2024-06-12T17:17:54.122Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-06-12T17:18:14.158Z] debug: 	Saved 1 profiles, took: 1.05ms
+[2024-06-12T17:18:34.188Z] debug: 	Saved 1 profiles, took: 1.08ms
+[2024-06-12T17:18:54.219Z] debug: 	Saved 1 profiles, took: 1.22ms
+[2024-06-12T17:19:14.244Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T17:19:34.286Z] debug: 	Saved 1 profiles, took: 1.11ms
+[2024-06-12T17:19:54.316Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T17:20:14.361Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T17:20:34.378Z] debug: 	Saved 1 profiles, took: 1.55ms
+[2024-06-12T17:20:54.404Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T17:21:14.447Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T17:21:34.492Z] debug: 	Saved 1 profiles, took: 1.06ms
+[2024-06-12T17:21:54.536Z] debug: 	Saved 1 profiles, took: 1.13ms
+[2024-06-12T17:22:14.548Z] debug: 	Saved 1 profiles, took: 1.10ms
+[2024-06-12T17:22:34.580Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T17:22:54.618Z] debug: 	Saved 1 profiles, took: 1.01ms
+[2024-06-12T17:23:14.642Z] debug: 	Saved 1 profiles, took: 1.16ms
+[2024-06-12T17:23:34.668Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T17:23:54.690Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-06-12T17:24:14.721Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-06-12T17:24:34.742Z] debug: 	Saved 1 profiles, took: 1.20ms
+[2024-06-12T17:24:54.768Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T17:25:14.794Z] debug: 	Saved 1 profiles, took: 1.16ms
+[2024-06-12T17:25:34.810Z] debug: 	Saved 1 profiles, took: 1.04ms
+[2024-06-12T17:25:54.840Z] debug: 	Saved 1 profiles, took: 1.15ms
+[2024-06-12T17:26:14.862Z] debug: 	Saved 1 profiles, took: 1.15ms
+[2024-06-12T17:26:30.029Z] debug: 	Saved 1 profiles, took: 1.09ms
+[2024-06-12T17:26:49.919Z] debug: 	Saved 1 profiles, took: 0.93ms
+[2024-06-12T17:27:09.948Z] debug: 	Saved 1 profiles, took: 0.95ms
+[2024-06-12T17:27:29.972Z] debug: 	Saved 1 profiles, took: 1.48ms
+[2024-06-12T17:27:49.994Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T17:28:05.017Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T17:28:25.050Z] debug: 	Saved 1 profiles, took: 1.10ms
+[2024-06-12T17:28:45.082Z] debug: 	Saved 1 profiles, took: 1.09ms
+[2024-06-12T17:29:05.120Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-06-12T17:29:25.151Z] debug: 	Saved 1 profiles, took: 1.11ms
+[2024-06-12T17:29:45.197Z] debug: 	Saved 1 profiles, took: 1.08ms
+[2024-06-12T17:30:05.210Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T17:30:25.235Z] debug: 	Saved 1 profiles, took: 1.18ms
+[2024-06-12T17:30:45.260Z] debug: 	Saved 1 profiles, took: 1.06ms
+[2024-06-12T17:31:05.285Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-06-12T17:31:25.319Z] debug: 	Saved 1 profiles, took: 1.10ms
+[2024-06-12T17:31:45.354Z] debug: 	Saved 1 profiles, took: 1.08ms
+[2024-06-12T17:32:05.393Z] debug: 	Saved 1 profiles, took: 1.13ms
+[2024-06-12T17:32:25.443Z] debug: 	Saved 1 profiles, took: 1.17ms
+[2024-06-12T17:32:45.473Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T17:33:05.500Z] debug: 	Saved 1 profiles, took: 1.00ms
+[2024-06-12T17:33:25.538Z] debug: 	Saved 1 profiles, took: 1.21ms
+[2024-06-12T17:33:45.554Z] debug: 	Saved 1 profiles, took: 0.97ms
+[2024-06-12T17:34:05.587Z] debug: 	Saved 1 profiles, took: 1.05ms
+[2024-06-12T17:34:25.628Z] debug: 	Saved 1 profiles, took: 1.24ms
+[2024-06-12T17:34:45.663Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T17:35:05.698Z] debug: 	Saved 1 profiles, took: 1.18ms
+[2024-06-12T17:35:25.707Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-06-12T17:35:45.736Z] debug: 	Saved 1 profiles, took: 1.20ms
+[2024-06-12T17:36:05.761Z] debug: 	Saved 1 profiles, took: 1.12ms
+[2024-06-12T17:36:25.807Z] debug: 	Saved 1 profiles, took: 1.11ms
+[2024-06-12T17:36:45.850Z] debug: 	Saved 1 profiles, took: 1.10ms
+[2024-06-12T17:37:05.893Z] debug: 	Saved 1 profiles, took: 1.13ms
+[2024-06-12T17:37:25.939Z] debug: 	Saved 1 profiles, took: 1.08ms
+[2024-06-12T17:37:41.063Z] debug: 	Saved 1 profiles, took: 0.94ms
+[2024-06-12T17:38:01.005Z] debug: 	Saved 1 profiles, took: 0.95ms
+[2024-06-12T17:38:21.045Z] debug: 	Saved 1 profiles, took: 1.48ms
+[2024-06-12T17:38:41.366Z] debug: 	Saved 1 profiles, took: 1.03ms
+[2024-06-12T17:39:01.102Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T17:39:21.132Z] debug: 	Saved 1 profiles, took: 0.91ms
+[2024-06-12T17:39:41.227Z] debug: 	Saved 1 profiles, took: 0.90ms
+[2024-06-12T17:40:01.166Z] debug: 	Saved 1 profiles, took: 1.45ms
+[2024-06-12T17:40:21.204Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T17:40:41.308Z] debug: 	Saved 1 profiles, took: 1.14ms
+[2024-06-12T17:41:01.254Z] debug: 	Saved 1 profiles, took: 0.96ms
+[2024-06-12T17:41:21.280Z] debug: 	Saved 1 profiles, took: 1.51ms
+[2024-06-12T17:41:41.395Z] debug: 	Saved 1 profiles, took: 0.92ms
+[2024-06-12T17:42:01.363Z] debug: 	Saved 1 profiles, took: 1.65ms
+[2024-06-12T17:42:21.390Z] debug: 	Saved 1 profiles, took: 1.48ms
+[2024-06-12T17:42:41.507Z] debug: 	Saved 1 profiles, took: 0.98ms
+[2024-06-12T17:42:59.660Z] debug: 	Importing configs...
+[2024-06-12T17:42:59.693Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T17:42:59.694Z] info: 	Build date: 1715594841109
+[2024-06-12T17:42:59.729Z] info: 	ModLoader: Chargement des mods du serveur 20...
+[2024-06-12T17:42:59.730Z] info: 	ModLoader: order.json est manquant, création en cours...
+[2024-06-12T17:42:59.885Z] warn: 	Le mod SirTyler-BetterKeys n'est pas compatible avec la version actuelle de SPT-AKI. Des erreurs peuvent survenir - aucun support ne sera fourni !
+[2024-06-12T17:42:59.886Z] warn: 	Le mod nooky and props-SWAG + DONUTS n'est pas compatible avec la version actuelle de SPT-AKI. Des erreurs peuvent survenir - aucun support ne sera fourni !
+[2024-06-12T17:42:59.886Z] debug: 	ModLoader: Mod AAArtemEquipment est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.887Z] debug: 	ModLoader: Mod BetterKeys est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.887Z] debug: 	ModLoader: Mod DanW-SPTQuestingBots est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.887Z] debug: 	ModLoader: Mod ExpandedTaskText est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.887Z] debug: 	ModLoader: Mod Fontaine-FOV-Fix est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.887Z] debug: 	ModLoader: Mod IhanaMies-LootValueBackend est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.887Z] debug: 	ModLoader: Mod Lotus est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod MoreCheckmarksBackend est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod odt-softcore-2.1.1 est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod Priscilu est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod refringe-openextracts est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod SkillsExtended est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod Skwizzy-NoDiscardLimit est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod SWAG est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod tyfon-uifixes est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod Virtual's Custom Quest Loader est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod zMusicManiac-BUMA-Revamped est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod zROStandaloneBackend est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.888Z] debug: 	ModLoader: Mod zSolarint-SAIN-ServerMod est manquant de order.json, ajout en cours
+[2024-06-12T17:42:59.919Z] debug: 	Mod AAAArtemTrader hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.028Z] info: 	Mod : Artem Trader version : 1.6.2 par : Crackbone est chargé
+[2024-06-12T17:43:00.045Z] debug: 	Mod AAArtemEquipment hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.109Z] info: 	Mod : Artem Equipment version : 1.6.2 par : Crackbone est chargé
+[2024-06-12T17:43:00.125Z] debug: 	Mod BetterKeys hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.154Z] info: 	Mod : BetterKeys version : 1.2.4 par : SirTyler est chargé
+[2024-06-12T17:43:00.182Z] debug: 	Mod DanW-SPTQuestingBots hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.249Z] info: 	Mod : SPTQuestingBots version : 0.6.0 par : DanW est chargé
+[2024-06-12T17:43:00.272Z] debug: 	Mod ExpandedTaskText hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.309Z] info: 	Mod : Expanded Task Text version : 1.5.1 par : Dirtbikercj est chargé
+[2024-06-12T17:43:00.323Z] debug: 	Mod Fontaine-FOV-Fix hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.334Z] info: 	Mod : Fontaine FOV Fix &amp; Variable Optics version : 2.0.0 par : Fontaine est chargé
+[2024-06-12T17:43:00.350Z] debug: 	Mod IhanaMies-LootValueBackend hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.360Z] info: 	Mod : LootValueBackend version : 2.0.0 par : IhanaMies est chargé
+[2024-06-12T17:43:00.414Z] debug: 	Mod Lotus hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.484Z] info: 	Mod : Lotus version : 1.2.5 par : Lunnayaluna est chargé
+[2024-06-12T17:43:00.505Z] debug: 	Mod MoreCheckmarksBackend hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.517Z] info: 	Mod : MoreCheckmarksBackend version : 1.5.13 par : VIP est chargé
+[2024-06-12T17:43:00.563Z] debug: 	Mod odt-softcore-2.1.1 hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.681Z] info: 	Mod : Softcore version : 2.1.1 par : ODT est chargé
+[2024-06-12T17:43:00.696Z] debug: 	Mod Priscilu hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.706Z] info: 	Mod : Priscilu version : 3.1.8 par : CilginDalgic est chargé
+[2024-06-12T17:43:00.753Z] debug: 	Mod refringe-openextracts hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.788Z] info: 	Mod : open-extracts version : 1.4.2 par : Refringe est chargé
+[2024-06-12T17:43:00.822Z] debug: 	Mod SkillsExtended hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.839Z] info: 	Mod : Skills Extended version : 0.5.6 par : dirtbikercj est chargé
+[2024-06-12T17:43:00.860Z] debug: 	Mod Skwizzy-NoDiscardLimit hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.874Z] info: 	Mod : NoDiscardLimit version : 1.4.0 par : Skwizzy est chargé
+[2024-06-12T17:43:00.895Z] debug: 	Mod SWAG hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.943Z] info: 	Mod : SWAG + DONUTS version : 3.3.5 par : nooky and props est chargé
+[2024-06-12T17:43:00.956Z] debug: 	Mod tyfon-uifixes hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:00.964Z] info: 	Mod : uifixes version : 1.6.7 par : Tyfon est chargé
+[2024-06-12T17:43:00.980Z] debug: 	Mod Virtual's Custom Quest Loader hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:01.000Z] info: 	Mod : Virtuals Custom Quest Loader version : 2.0.1 par : Virtual est chargé
+[2024-06-12T17:43:01.014Z] debug: 	Mod zMusicManiac-BUMA-Revamped hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:01.020Z] info: 	Mod : MusicManiac-BUMA-Revamped version : 1.1.0 par : MusicManiac est chargé
+[2024-06-12T17:43:01.055Z] debug: 	Mod zROStandaloneBackend hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:01.091Z] info: 	Mod : RO Standalone version : 1.0.0 par : DJ est chargé
+[2024-06-12T17:43:01.106Z] debug: 	Mod zSolarint-SAIN-ServerMod hash stored in ./user/cache/modCache.json
+[2024-06-12T17:43:01.111Z] info: 	Mod : SAIN version : 2.3.0 par : zSolarint est chargé
+[2024-06-12T17:43:01.396Z] debug: 	[AAAArtemTrader] preAki Loading... 
+[2024-06-12T17:43:01.396Z] debug: 	[AAAArtemTrader] preAki Loaded
+[2024-06-12T17:43:01.528Z] debug: 	[Lotus] preAki Loading... 
+[2024-06-12T17:43:01.528Z] debug: 	[Lotus] preAki Loaded
+[2024-06-12T17:43:02.695Z] info: 	Serveur : exécution des rappels de démarrage...
+[2024-06-12T17:43:02.695Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-06-12T17:43:02.695Z] debug: 	CPU: AMD Ryzen 5 5600X 6-Core Processor              cores: 12
+[2024-06-12T17:43:02.695Z] debug: 	RAM: 15.93GB
+[2024-06-12T17:43:02.695Z] debug: 	PATH: RDpcR2FtZXNcR1BUU1RcU1BUQVJLT1ZcQWtpLlNlcnZlci5leGU=
+[2024-06-12T17:43:02.695Z] debug: 	PATH: RDpcR2FtZXNcR1BUU1RcU1BUQVJLT1ZcQWtpLlNlcnZlci5leGU=
+[2024-06-12T17:43:02.695Z] debug: 	Server: 3.8.3
+[2024-06-12T17:43:02.696Z] debug: 	Date: 1715594841109
+[2024-06-12T17:43:02.696Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T17:43:02.697Z] info: 	Importation de la base de données...
+[2024-06-12T17:43:02.905Z] debug: 	Validation échouée pour le fichier : Aki_Data/Server/database/locales/server/fr.json
+[2024-06-12T17:43:05.521Z] info: 	Importation de la base de données terminée.
+[2024-06-12T17:43:05.557Z] debug: 	[AAAArtemTrader] postDb Loading... 
+[2024-06-12T17:43:05.562Z] debug: 	[AAAArtemTrader] postDb Loaded
+[2024-06-12T17:43:05.682Z] info: 	Loading: Artem Equipment
+[2024-06-12T17:43:05.683Z] debug: 	Item "ARTEM_GASMASK1" created as a clone of 5b432c305acfc40019478128 and added to database.
+[2024-06-12T17:43:05.683Z] debug: 	Item "ARTEM_GASMASK1" added to handbook with price 1953
+[2024-06-12T17:43:05.698Z] debug: 	Item "ARTEM_GHOSTMASK" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T17:43:05.698Z] debug: 	Item "ARTEM_GHOSTMASK" added to handbook with price 1042
+[2024-06-12T17:43:05.704Z] debug: 	Item "ARTEM_GHOSTMASKB" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T17:43:05.704Z] debug: 	Item "ARTEM_GHOSTMASKB" added to handbook with price 1042
+[2024-06-12T17:43:05.707Z] debug: 	Item "ARTEM_GHOSTMASKR" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T17:43:05.708Z] debug: 	Item "ARTEM_GHOSTMASKR" added to handbook with price 1042
+[2024-06-12T17:43:05.709Z] debug: 	Item "ARTEM_NIKOMASK" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T17:43:05.709Z] debug: 	Item "ARTEM_NIKOMASK" added to handbook with price 1042
+[2024-06-12T17:43:05.711Z] debug: 	Item "ARTEM_BALLISTICMASK" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T17:43:05.711Z] debug: 	Item "ARTEM_BALLISTICMASK" added to handbook with price 65969
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_BALLISTICMASK2" created and added to database.
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_BALLISTICMASK2" added to handbook with price 65969
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_BOXMEDICAL" created and added to database.
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_BOXMEDICAL" added to handbook with price 252172
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_BOXITEM" created and added to database.
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_BOXITEM" added to handbook with price 19528580
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_TACHELMET2" created and added to database.
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_TACHELMET2" added to handbook with price 41200
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_TACHELMET3" created and added to database.
+[2024-06-12T17:43:05.713Z] debug: 	Item "ARTEM_TACHELMET3" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET5" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET5" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET6" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET6" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET8" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET8" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET10" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET10" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET11" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET11" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET12" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET12" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET13" created and added to database.
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET13" added to handbook with price 41200
+[2024-06-12T17:43:05.714Z] debug: 	Item "ARTEM_TACHELMET16" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACHELMET16" added to handbook with price 41200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACHELMET18" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACHELMET18" added to handbook with price 41200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACHELMET20" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACHELMET20" added to handbook with price 41200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST1" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST1" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_VEST3" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_VEST3" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST4" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST4" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST5" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST5" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST6" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST6" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST7" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST7" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST8" created and added to database.
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_TACVEST8" added to handbook with price 102200
+[2024-06-12T17:43:05.715Z] debug: 	Item "ARTEM_WHITEGPNVG18" created as a clone of 5c0558060db834001b735271 and added to database.
+[2024-06-12T17:43:05.716Z] debug: 	Item "ARTEM_WHITEGPNVG18" added to handbook with price 90000
+[2024-06-12T17:43:05.719Z] debug: 	Item "ARTEM_ODGPNVG" created as a clone of 5c0558060db834001b735271 and added to database.
+[2024-06-12T17:43:05.719Z] debug: 	Item "ARTEM_ODGPNVG" added to handbook with price 90000
+[2024-06-12T17:43:05.724Z] debug: 	Item "ARTEM_BLACKGPNVG" created as a clone of 5c0558060db834001b735271 and added to database.
+[2024-06-12T17:43:05.724Z] debug: 	Item "ARTEM_BLACKGPNVG" added to handbook with price 90000
+[2024-06-12T17:43:05.727Z] debug: 	AAArtemEquipment items and handbook finished
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_GASMASK1
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_GHOSTMASK
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_GHOSTMASKB
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_GHOSTMASKR
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_NIKOMASK
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_BALLISTICMASK
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_BALLISTICMASK2
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_BOXMEDICAL
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_BOXITEM
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET2
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET3
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET5
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET6
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET8
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET10
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET11
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET12
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET13
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET16
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET18
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACHELMET20
+[2024-06-12T17:43:05.728Z] debug: 	addToFilters: ARTEM_TACVEST1
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_VEST3
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_TACVEST4
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_TACVEST5
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_TACVEST6
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_TACVEST7
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_TACVEST8
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_WHITEGPNVG18
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_ODGPNVG
+[2024-06-12T17:43:05.729Z] debug: 	addToFilters: ARTEM_BLACKGPNVG
+[2024-06-12T17:43:05.729Z] debug: 	AAArtemEquipment item filters finished
+[2024-06-12T17:43:05.729Z] debug: 	AAArtemEquipment clothing finished
+[2024-06-12T17:43:05.729Z] debug: 	AAArtemEquipment presets finished
+[2024-06-12T17:43:05.729Z] debug: 	AAArtemEquipment traders finished
+[2024-06-12T17:43:05.729Z] debug: 	AAArtemEquipment mastery finished
+[2024-06-12T17:43:05.961Z] info: 	   Loaded: BetterKeys-bigmap
+[2024-06-12T17:43:05.982Z] info: 	   Loaded: BetterKeys-factory4
+[2024-06-12T17:43:06.049Z] info: 	   Loaded: BetterKeys-Interchange
+[2024-06-12T17:43:06.101Z] info: 	   Loaded: BetterKeys-laboratory
+[2024-06-12T17:43:06.165Z] info: 	   Loaded: BetterKeys-Lighthouse
+[2024-06-12T17:43:06.295Z] info: 	   Loaded: BetterKeys-RezervBase
+[2024-06-12T17:43:06.441Z] info: 	   Loaded: BetterKeys-Shoreline
+[2024-06-12T17:43:06.461Z] info: 	   Loaded: BetterKeys-Woods
+[2024-06-12T17:43:06.563Z] info: 	   Loaded: BetterKeys-TarkovStreets
+[2024-06-12T17:43:06.566Z] info: 	[Questing Bots] Applying debug options...
+[2024-06-12T17:43:06.609Z] debug: 	[Lotus] postDb Loading... 
+[2024-06-12T17:43:06.619Z] debug: 	[Lotus] postDb Loaded
+[2024-06-12T17:43:07.001Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-06-12T17:43:07.001Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-06-12T17:43:07.001Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-06-12T17:43:07.002Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-06-12T17:43:07.059Z] succ: 	[VCQL] Loaded 172 custom quests.
+[2024-06-12T17:43:07.059Z] succ: 	[VCQL] 0 custom quests were pruned due to date settings.
+[2024-06-12T17:43:07.105Z] succ: 	[VCQL] Loaded 144 custom quest images.
+[2024-06-12T17:43:07.105Z] succ: 	[VCQL] Loaded 0 custom trader images.
+[2024-06-12T17:43:07.105Z] info: 	[BUMA-Revamped] Loading
+[2024-06-12T17:43:07.106Z] info: 	[BUMA-Revamped] Finished Loading
+[2024-06-12T17:43:07.262Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Pants/Graves_Pants.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.323Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Pants/artem_pants_1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.367Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Pants/artem_pants_2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.423Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Pants/artem_pants_3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.525Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Pants/artem_pants_5.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.627Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/testshirt.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.769Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.809Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.855Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.951Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_4.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:07.973Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_5.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.038Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_6.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.109Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_7.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.152Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_8.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.177Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Tops/artem_top_9.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.316Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/testhands.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.388Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.435Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.487Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.638Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_4.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.662Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_5.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.734Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_6.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.813Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_7.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.853Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_8.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.882Z] debug: 	Bundle user/mods/AAAArtemTrader/bundles/Hands/artem_hands_9.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.904Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemballisticmask.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.939Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemgpnvgwhite.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:08.976Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemgpnvgblack.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.013Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemgpnvgod.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.038Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemballisticmask2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.068Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/ghostmask1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.104Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/ghostmaskb.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.140Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/ghostmaskr.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.176Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/nikomask1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.266Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.343Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet4.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.388Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet5.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.434Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet6.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.487Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet8.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.533Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet10.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.575Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet11.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.634Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet12.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.703Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet13.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.734Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet16.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.779Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet18.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.926Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtachelmet20.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:09.953Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemgasmask1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.006Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemmedbox.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.080Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/tacticalvest3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.200Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/tacticalvest6.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.376Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtacticalvest1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.525Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtacticalvest4.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.582Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemtacticalvest5.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:10.790Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemvest6.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.011Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemvest8.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.061Z] debug: 	Bundle user/mods/AAArtemEquipment/bundles/artemitembox.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.095Z] debug: 	Bundle user/mods/Lotus/bundles/assets/content/items/item_keycard_labs_spec.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.105Z] debug: 	Bundle user/mods/Lotus/bundles/assets/content/items/item_keycard_lab_mesh hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.121Z] debug: 	Bundle user/mods/Priscilu/bundles/Containers/PrisciluSnackPack.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.147Z] debug: 	Bundle user/mods/Priscilu/bundles/Containers/PrisciluMedPack.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.175Z] debug: 	Bundle user/mods/Priscilu/bundles/Containers/PrisciluAmmoBox.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.218Z] debug: 	Bundle user/mods/Priscilu/bundles/Containers/PrisciluToolBox.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.254Z] debug: 	Bundle user/mods/Priscilu/bundles/Containers/PrisciluModsBox.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.305Z] debug: 	Bundle user/mods/SkillsExtended/bundles/lockpick.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:11.327Z] debug: 	Bundle user/mods/SkillsExtended/bundles/pda.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-06-12T17:43:12.178Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...
+[2024-06-12T17:43:12.178Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...done. Removed entries: 132
+[2024-06-12T17:43:12.178Z] warn: 	[Questing Bots] SWAG Detected. Disabling bot spawning.
+[2024-06-12T17:43:12.183Z] succ: 	webserver demarré sur http://127.0.0.1:6969
+[2024-06-12T17:43:12.183Z] succ: 	Démarrage du websocket sur ws://127.0.0.1:6969
+[2024-06-12T17:43:12.183Z] succ: 	Le serveur est en cours d'exécution, ne le fermez pas pendant que vous jouez à SPT, Bon jeu!!
+[2024-06-12T17:43:17.191Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T17:43:32.789Z] info: 	[Requête Client] /launcher/server/connect
+[2024-06-12T17:43:32.805Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T17:43:32.807Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:43:32.809Z] info: 	[Requête Client] /files/launcher/bg.png
+[2024-06-12T17:43:32.820Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T17:43:32.836Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:43:32.838Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T17:43:32.842Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:43:32.848Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:43:32.861Z] info: 	[Requête Client] /launcher/server/loadedServerMods
+[2024-06-12T17:43:32.868Z] info: 	[Requête Client] /launcher/server/serverModsUsedByProfile
+[2024-06-12T17:43:32.872Z] info: 	[Requête Client] /files/launcher/side_bear.png
+[2024-06-12T17:43:32.874Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:43:32.876Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T17:43:32.877Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:43:32.878Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:43:37.196Z] debug: 	Saved 1 profiles, took: 0.88ms
+[2024-06-12T17:43:42.068Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:43:42.070Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T17:43:42.071Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:43:42.072Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:43:49.346Z] info: 	[Requête Client] /launcher/profile/remove
+[2024-06-12T17:43:49.853Z] info: 	[Requête Client] /launcher/server/connect
+[2024-06-12T17:43:49.855Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T17:43:49.856Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:43:49.858Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T17:43:49.858Z] info: 	[Requête Client] /launcher/profiles
+[2024-06-12T17:43:57.244Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-06-12T17:43:57.576Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:44:02.710Z] info: 	[Requête Client] /launcher/profile/register
+[2024-06-12T17:44:02.716Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:44:02.717Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T17:44:02.724Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:44:02.726Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:44:02.728Z] info: 	[Requête Client] /launcher/server/loadedServerMods
+[2024-06-12T17:44:02.730Z] info: 	[Requête Client] /launcher/server/serverModsUsedByProfile
+[2024-06-12T17:44:02.732Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:44:02.733Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T17:44:02.734Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:44:02.735Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:44:05.658Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T17:44:05.660Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T17:44:05.661Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:44:05.662Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:44:13.747Z] info: 	[Requête Client] /QuestingBots/GetConfig
+[2024-06-12T17:44:15.723Z] info: 	[Requête Client] /BetterKeys/GetInfo
+[2024-06-12T17:44:16.373Z] info: 	[Requête Client] /ROStandaloneBackend/GetEventWeightings
+[2024-06-12T17:44:17.288Z] debug: 	Saved 1 profiles, took: 3.78ms
+[2024-06-12T17:44:21.375Z] info: 	[Requête Client] /skillsExtended/GetKeys
+[2024-06-12T17:44:21.384Z] info: 	[Requête Client] /skillsExtended/GetSkillsConfig
+[2024-06-12T17:44:22.098Z] info: 	[Requête Client] /singleplayer/settings/version
+[2024-06-12T17:44:22.103Z] info: 	[Requête Client] /singleplayer/release
+[2024-06-12T17:44:22.107Z] info: 	[Requête Client] /singleplayer/enableBSGlogging
+[2024-06-12T17:44:22.142Z] info: 	[Requête Client] /MoreCheckmarksRoutes/quests
+[2024-06-12T17:44:22.143Z] info: 	MoreCheckmarks making quest data request
+[2024-06-12T17:44:22.143Z] info: 	Unable to fetch quests for MoreCheckmarks
+[2024-06-12T17:44:22.144Z] info: 	[Requête Client] /MoreCheckmarksRoutes/items
+[2024-06-12T17:44:22.145Z] info: 	MoreCheckmarks making item data request
+[2024-06-12T17:44:23.064Z] info: 	[Requête Client] /MoreCheckmarksRoutes/assorts
+[2024-06-12T17:44:23.064Z] info: 	MoreCheckmarks making trader assort data request
+[2024-06-12T17:44:23.224Z] info: 	[Requête Client] /MoreCheckmarksRoutes/productions
+[2024-06-12T17:44:23.224Z] info: 	MoreCheckmarks making productions request
+[2024-06-12T17:44:23.716Z] info: 	[Requête Client] /singleplayer/bundles
+[2024-06-12T17:44:31.006Z] info: 	[Requête Client] /singleplayer/settings/version
+[2024-06-12T17:44:31.076Z] info: 	[Requête Client] /client/game/start
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to factory4_day of type sptBear, time: -1, chance: 25, zone: BotZone
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to factory4_day of type sptUsec, time: -1, chance: 25, zone: BotZone
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to bigmap of type sptBear, time: -1, chance: 25, zone: ZoneScavBase
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to bigmap of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneRoad
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneRoad
+[2024-06-12T17:44:31.077Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneClearVill
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneClearVill
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 20, zone: ZonePort
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 20, zone: ZonePort
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneBasement
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneBasement
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to interchange of type sptBear, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to interchange of type sptUsec, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to lighthouse of type sptBear, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to lighthouse of type sptUsec, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T17:44:31.078Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T17:44:31.079Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T17:44:31.079Z] debug: 	Added custom boss wave to sandbox of type sptBear, time: -1, chance: 30, zone: ZoneSandbox
+[2024-06-12T17:44:31.079Z] debug: 	Added custom boss wave to sandbox of type sptUsec, time: -1, chance: 30, zone: ZoneSandbox
+[2024-06-12T17:44:31.079Z] info: 	[Questing Bots] Scav profile hasn't been created yet.
+[2024-06-12T17:44:31.127Z] info: 	[Requête Client] /client/menu/locale/en
+[2024-06-12T17:44:31.191Z] info: 	[Requête Client] /client/game/version/validate
+[2024-06-12T17:44:31.245Z] info: 	[Requête Client] /client/languages
+[2024-06-12T17:44:31.309Z] info: 	[Requête Client] /client/game/config
+[2024-06-12T17:44:34.862Z] info: 	[Requête Client] /client/items
+[2024-06-12T17:44:34.914Z] info: 	SWAG: Vanilla spawn systems disabled
+[2024-06-12T17:44:37.302Z] debug: 	Saved 1 profiles, took: 0.11ms
+[2024-06-12T17:44:40.900Z] info: 	[Requête Client] /client/customization
+[2024-06-12T17:44:41.040Z] info: 	[Requête Client] /client/globals
+[2024-06-12T17:44:41.552Z] info: 	[Requête Client] /client/trading/api/traderSettings
+[2024-06-12T17:44:41.622Z] info: 	[Requête Client] /client/settings
+[2024-06-12T17:44:41.673Z] info: 	[Requête Client] /client/game/profile/list
+[2024-06-12T17:44:41.745Z] info: 	[Requête Client] /client/locale/en
+[2024-06-12T17:44:41.770Z] info: 	[Requête Client] /client/account/customization
+[2024-06-12T17:44:42.101Z] info: 	[Requête Client] /client/locale/ru
+[2024-06-12T17:44:42.473Z] info: 	[Requête Client] /client/locale/ge
+[2024-06-12T17:44:42.844Z] info: 	[Requête Client] /client/locale/fr
+[2024-06-12T17:44:45.013Z] info: 	[Requête Client] /client/game/profile/nickname/reserved
+[2024-06-12T17:44:50.328Z] info: 	[Requête Client] /client/game/profile/nickname/validate
+[2024-06-12T17:44:57.347Z] debug: 	Saved 1 profiles, took: 0.07ms
+[2024-06-12T17:45:06.427Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:45:06.428Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:45:16.266Z] info: 	[Requête Client] /client/game/profile/create
+[2024-06-12T17:45:16.282Z] debug: 	unable to sort 17 slots, no slots found
+[2024-06-12T17:45:16.282Z] debug: 	unable to sort 4 slots, no slots found
+[2024-06-12T17:45:16.282Z] debug: 	unable to sort 20 slots, no slots found
+[2024-06-12T17:45:16.282Z] debug: 	unable to sort 6 slots, no slots found
+[2024-06-12T17:45:16.282Z] debug: 	Updating generator area slots to a size of 6 + hideout management skill
+[2024-06-12T17:45:16.282Z] debug: 	Updating water collector area slots to a size of 1 + hideout management skill
+[2024-06-12T17:45:16.282Z] debug: 	Updating air filter area slots to a size of 3 + hideout management skill
+[2024-06-12T17:45:16.282Z] debug: 	Updating bitcoin farm area slots to a size of 50 + hideout management skill
+[2024-06-12T17:45:16.284Z] debug: 	generated player scav loadout with karma level 0
+[2024-06-12T17:45:16.384Z] info: 	[Requête Client] /client/game/profile/list
+[2024-06-12T17:45:16.533Z] info: 	[Requête Client] /client/game/profile/select
+[2024-06-12T17:45:16.592Z] info: 	[Requête Client] /MoreCheckmarksRoutes/quests
+[2024-06-12T17:45:16.593Z] info: 	MoreCheckmarks making quest data request
+[2024-06-12T17:45:16.593Z] info: 	Got quests
+[2024-06-12T17:45:16.805Z] info: 	[Requête Client] /MoreCheckmarksRoutes/assorts
+[2024-06-12T17:45:16.806Z] info: 	MoreCheckmarks making trader assort data request
+[2024-06-12T17:45:16.944Z] info: 	[Requête Client] /MoreCheckmarksRoutes/productions
+[2024-06-12T17:45:16.944Z] info: 	MoreCheckmarks making productions request
+[2024-06-12T17:45:16.956Z] info: 	[Requête Client] /client/items/prices/54cb50c76803fa8b248b4571
+[2024-06-12T17:45:16.964Z] info: 	[Requête Client] /client/items/prices/54cb57776803fa99248b456e
+[2024-06-12T17:45:16.973Z] info: 	[Requête Client] /client/items/prices/58330581ace78e27b8b10cee
+[2024-06-12T17:45:16.977Z] info: 	[Requête Client] /client/items/prices/5a7c2eca46aef81a7ca2145d
+[2024-06-12T17:45:16.980Z] info: 	[Requête Client] /client/items/prices/5ac3b934156ae10c4430e83c
+[2024-06-12T17:45:16.983Z] info: 	[Requête Client] /client/items/prices/5c0647fdd443bc2504c2d371
+[2024-06-12T17:45:16.986Z] info: 	[Requête Client] /client/items/prices/638f541a29ffd1183d187f57
+[2024-06-12T17:45:16.990Z] info: 	[Requête Client] /client/items/prices/579dc571d53a0658a154fbec
+[2024-06-12T17:45:16.992Z] info: 	[Requête Client] /client/items/prices/ArtemTrader
+[2024-06-12T17:45:16.994Z] info: 	[Requête Client] /client/items/prices/656f0f98d80a697f855d34b1
+[2024-06-12T17:45:16.997Z] info: 	[Requête Client] /client/items/prices/5935c25fb3acc3127c3d8cd9
+[2024-06-12T17:45:16.999Z] info: 	[Requête Client] /client/items/prices/Priscilu
+[2024-06-12T17:45:17.003Z] info: 	[Requête Client] /client/items/prices/lotus
+[2024-06-12T17:45:17.006Z] info: 	[Requête Client] /client/profile/status
+[2024-06-12T17:45:17.272Z] info: 	[Requête Client] /client/weather
+[2024-06-12T17:45:17.274Z] info: 	[Requête Client] /client/locations
+[2024-06-12T17:45:17.274Z] debug: 	Map: base has no base json file, skipping generation
+[2024-06-12T17:45:17.286Z] warn: 	SWAG: Configured boss spawns for map bigmap
+[2024-06-12T17:45:17.286Z] warn: 	SWAG: Configured boss spawns for map factory4_day
+[2024-06-12T17:45:17.286Z] warn: 	SWAG: Configured boss spawns for map factory4_night
+[2024-06-12T17:45:17.286Z] warn: 	SWAG: Configured boss spawns for map interchange
+[2024-06-12T17:45:17.287Z] warn: 	SWAG: Configured boss spawns for map laboratory
+[2024-06-12T17:45:17.287Z] warn: 	SWAG: Configured boss spawns for map lighthouse
+[2024-06-12T17:45:17.287Z] warn: 	SWAG: Configured boss spawns for map rezervbase
+[2024-06-12T17:45:17.287Z] warn: 	SWAG: Configured boss spawns for map shoreline
+[2024-06-12T17:45:17.287Z] warn: 	SWAG: Configured boss spawns for map tarkovstreets
+[2024-06-12T17:45:17.288Z] warn: 	SWAG: Configured boss spawns for map woods
+[2024-06-12T17:45:17.288Z] warn: 	SWAG: Configured boss spawns for map sandbox
+[2024-06-12T17:45:17.288Z] debug: 	Map: base has no base json file, skipping generation
+[2024-06-12T17:45:17.386Z] debug: 	Saved 1 profiles, took: 5.24ms
+[2024-06-12T17:45:17.995Z] info: 	[Requête Client] /client/handbook/templates
+[2024-06-12T17:45:18.234Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:18.235Z] info: 	[Questing Bots] Validated all quest files
+[2024-06-12T17:45:19.490Z] info: 	[Requête Client] /client/hideout/areas
+[2024-06-12T17:45:19.639Z] info: 	[Requête Client] /client/hideout/qte/list
+[2024-06-12T17:45:19.681Z] info: 	[Requête Client] /client/hideout/settings
+[2024-06-12T17:45:19.732Z] info: 	[Requête Client] /client/hideout/production/recipes
+[2024-06-12T17:45:19.833Z] info: 	[Requête Client] /client/hideout/production/scavcase/recipes
+[2024-06-12T17:45:19.884Z] info: 	[Requête Client] /client/builds/list
+[2024-06-12T17:45:21.298Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:21.298Z] debug: 	[Aki.Core] 1077896
+[2024-06-12T17:45:21.300Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:21.300Z] debug: 	[Aki.Core] 1498960
+[2024-06-12T17:45:21.301Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:21.301Z] debug: 	[Aki.Core] 0
+[2024-06-12T17:45:21.303Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:21.303Z] debug: 	[Aki.Core] 1077896
+[2024-06-12T17:45:21.304Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:21.304Z] debug: 	[Aki.Core] 1498960
+[2024-06-12T17:45:21.305Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T17:45:21.305Z] debug: 	[Aki.Core] 0
+[2024-06-12T17:45:22.356Z] info: 	[Requête Client] /client/notifier/channel/create
+[2024-06-12T17:45:22.357Z] info: 	[Requête Client] /client/profile/status
+[2024-06-12T17:45:22.366Z] info: 	[Requête Client] /client/trading/customization/storage
+[2024-06-12T17:45:22.428Z] info: 	[WS] joueur: Zoin (6669de62000208b0d5e1645c) est connecté
+[2024-06-12T17:45:22.456Z] info: 	[Requête Client] /client/server/list
+[2024-06-12T17:45:22.457Z] info: 	[Requête Client] /client/match/group/current
+[2024-06-12T17:45:22.459Z] info: 	[Requête Client] /client/friend/list
+[2024-06-12T17:45:22.460Z] info: 	[Requête Client] /client/mail/dialog/list
+[2024-06-12T17:45:22.462Z] info: 	[Requête Client] /client/friend/request/list/inbox
+[2024-06-12T17:45:22.462Z] info: 	[Requête Client] /client/friend/request/list/outbox
+[2024-06-12T17:45:22.463Z] info: 	[Requête Client] /client/quest/list
+[2024-06-12T17:45:22.610Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T17:45:22.675Z] info: 	[Requête Client] /client/achievement/statistic
+[2024-06-12T17:45:22.724Z] info: 	[Requête Client] /client/achievement/list
+[2024-06-12T17:45:29.795Z] info: 	[Requête Client] /client/checkVersion
+[2024-06-12T17:45:33.948Z] info: 	[Requête Client] /files/trader/avatar/59b91ca086f77469a81232e4.jpg
+[2024-06-12T17:45:33.951Z] info: 	[Requête Client] /files/trader/avatar/59b91cab86f77469aa5343ca.jpg
+[2024-06-12T17:45:33.953Z] info: 	[Requête Client] /files/trader/avatar/579dc571d53a0658a154fbec.jpg
+[2024-06-12T17:45:33.954Z] info: 	[Requête Client] /files/trader/avatar/59b91cb486f77469a81232e5.jpg
+[2024-06-12T17:45:33.954Z] info: 	[Requête Client] /files/trader/avatar/59b91cbd86f77469aa5343cb.jpg
+[2024-06-12T17:45:33.955Z] info: 	[Requête Client] /files/trader/avatar/5a7c2ebb86f7746e324a06ab.jpg
+[2024-06-12T17:45:33.955Z] info: 	[Requête Client] /files/trader/avatar/5ac3b86a86f77461491d1ad8.jpg
+[2024-06-12T17:45:33.956Z] info: 	[Requête Client] /files/trader/avatar/5c06531a86f7746319710e1b.jpg
+[2024-06-12T17:45:33.967Z] info: 	[Requête Client] /files/trader/avatar/Artem.jpg
+[2024-06-12T17:45:33.967Z] info: 	[Requête Client] /files/trader/avatar/Priscilu.jpg
+[2024-06-12T17:45:33.977Z] info: 	[Requête Client] /files/trader/avatar/lotus.jpg
+[2024-06-12T17:45:33.999Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb50c76803fa8b248b4571
+[2024-06-12T17:45:37.405Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T17:45:39.798Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/lotus
+[2024-06-12T17:45:40.248Z] info: 	[Requête Client] /player/health/sync
+[2024-06-12T17:45:45.638Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/Priscilu
+[2024-06-12T17:45:52.698Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T17:45:57.454Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T17:46:06.433Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:46:06.434Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:46:17.472Z] debug: 	Saved 1 profiles, took: 5.34ms
+[2024-06-12T17:46:22.766Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T17:46:37.495Z] debug: 	Saved 1 profiles, took: 5.82ms
+[2024-06-12T17:46:40.055Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb50c76803fa8b248b4571
+[2024-06-12T17:46:42.303Z] info: 	[Requête Client] /files/quest/icon/65899d03adeac0191c51e880.jpg
+[2024-06-12T17:46:46.020Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:46:46.021Z] debug: 	event: QuestAccept
+[2024-06-12T17:46:46.021Z] debug: 	QuestAccept 657315df034d76585f032e01
+[2024-06-12T17:46:46.023Z] debug: 	[WS] message envoyé
+[2024-06-12T17:46:46.055Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T17:46:50.498Z] info: 	[Requête Client] /files/quest/icon/658992cd1af57867a167fc13.jpg
+[2024-06-12T17:46:50.525Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/54cb57776803fa99248b456e
+[2024-06-12T17:46:52.253Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:46:52.253Z] debug: 	event: QuestAccept
+[2024-06-12T17:46:52.253Z] debug: 	QuestAccept 657315ddab5a49b71f098853
+[2024-06-12T17:46:52.254Z] debug: 	[WS] message envoyé
+[2024-06-12T17:46:52.286Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T17:46:52.438Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T17:46:52.820Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T17:46:53.944Z] info: 	[Requête Client] /files/quest/icon/65899ce3fd239b582c211d31.jpg
+[2024-06-12T17:46:53.970Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/58330581ace78e27b8b10cee
+[2024-06-12T17:46:54.676Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:46:54.677Z] debug: 	event: QuestAccept
+[2024-06-12T17:46:54.677Z] debug: 	QuestAccept 657315e270bb0b8dba00cc48
+[2024-06-12T17:46:54.678Z] debug: 	[WS] message envoyé
+[2024-06-12T17:46:54.711Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T17:46:55.886Z] info: 	[Requête Client] /files/quest/icon/65899c7b6f65fb099516b25d.jpg
+[2024-06-12T17:46:55.912Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/5a7c2eca46aef81a7ca2145d
+[2024-06-12T17:46:56.736Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:46:56.737Z] debug: 	event: QuestAccept
+[2024-06-12T17:46:56.737Z] debug: 	QuestAccept 657315e4a6af4ab4b50f3459
+[2024-06-12T17:46:56.737Z] debug: 	[WS] message envoyé
+[2024-06-12T17:46:56.770Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T17:46:57.530Z] debug: 	Saved 1 profiles, took: 5.11ms
+[2024-06-12T17:46:58.677Z] info: 	[Requête Client] /files/quest/icon/INTROART_1thumbnail.png
+[2024-06-12T17:46:58.703Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/ArtemTrader
+[2024-06-12T17:47:00.415Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:47:00.416Z] debug: 	event: QuestAccept
+[2024-06-12T17:47:00.416Z] debug: 	QuestAccept INTROART_1
+[2024-06-12T17:47:00.416Z] debug: 	[WS] message envoyé
+[2024-06-12T17:47:00.449Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T17:47:06.421Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:47:06.423Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:47:14.231Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:47:14.231Z] debug: 	event: QuestHandover
+[2024-06-12T17:47:14.231Z] debug: 	QuestHandover INTROART_1
+[2024-06-12T17:47:17.245Z] info: 	[Requête Client] /files/quest/icon/Priscilu_Welcome.jpg
+[2024-06-12T17:47:17.271Z] info: 	[Requête Client] /client/trading/api/getTraderAssort/Priscilu
+[2024-06-12T17:47:17.559Z] debug: 	Saved 1 profiles, took: 5.28ms
+[2024-06-12T17:47:18.155Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:47:18.155Z] debug: 	event: QuestAccept
+[2024-06-12T17:47:18.156Z] debug: 	QuestAccept Priscilu_WELCOME
+[2024-06-12T17:47:18.156Z] debug: 	[WS] message envoyé
+[2024-06-12T17:47:18.189Z] info: 	[Requête Client] /client/mail/dialog/info
+[2024-06-12T17:47:22.603Z] info: 	[Requête Client] /files/quest/icon/5979d3da86f774719f309082.png
+[2024-06-12T17:47:22.886Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T17:47:24.512Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:47:24.512Z] debug: 	event: QuestAccept
+[2024-06-12T17:47:24.512Z] debug: 	QuestAccept PrisciluTIQ1
+[2024-06-12T17:47:24.513Z] debug: 	[WS] message envoyé
+[2024-06-12T17:47:32.674Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T17:47:34.568Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T17:47:35.341Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T17:47:37.590Z] debug: 	Saved 1 profiles, took: 5.01ms
+[2024-06-12T17:47:40.579Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:47:40.579Z] debug: 	event: Merge
+[2024-06-12T17:47:41.470Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T17:47:42.088Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T17:47:43.211Z] info: 	[Requête Client] /client/mail/dialog/view
+[2024-06-12T17:47:52.967Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T17:47:55.812Z] info: 	[Requête Client] /client/game/profile/items/moving
+[2024-06-12T17:47:55.812Z] debug: 	event: ReadEncyclopedia
+[2024-06-12T17:47:55.812Z] debug: 	event: ReadEncyclopedia
+[2024-06-12T17:47:55.812Z] debug: 	event: ReadEncyclopedia
+[2024-06-12T17:47:57.627Z] debug: 	Saved 1 profiles, took: 4.81ms
+[2024-06-12T17:48:06.420Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:48:06.422Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:48:12.319Z] info: 	[Requête Client] /client/game/logout
+[2024-06-12T17:48:12.324Z] debug: 	Saved 1 profiles, took: 4.85ms
+[2024-06-12T17:48:14.422Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T17:48:14.423Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T17:48:17.664Z] debug: 	Saved 1 profiles, took: 7.33ms
+[2024-06-12T20:44:32.489Z] debug: 	Importing configs...
+[2024-06-12T20:44:32.524Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T20:44:32.524Z] info: 	Build date: 1715594841109
+[2024-06-12T20:44:32.566Z] info: 	ModLoader: Chargement des mods du serveur 20...
+[2024-06-12T20:44:32.586Z] warn: 	Le mod SirTyler-BetterKeys n'est pas compatible avec la version actuelle de SPT-AKI. Des erreurs peuvent survenir - aucun support ne sera fourni !
+[2024-06-12T20:44:32.587Z] warn: 	Le mod nooky and props-SWAG + DONUTS n'est pas compatible avec la version actuelle de SPT-AKI. Des erreurs peuvent survenir - aucun support ne sera fourni !
+[2024-06-12T20:44:32.587Z] debug: 	ModLoader: Mod AAArtemEquipment est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.587Z] debug: 	ModLoader: Mod BetterKeys est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod DanW-SPTQuestingBots est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod ExpandedTaskText est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod Fontaine-FOV-Fix est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod IhanaMies-LootValueBackend est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod Lotus est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod MoreCheckmarksBackend est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod odt-softcore-2.1.1 est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod Priscilu est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod refringe-openextracts est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod SkillsExtended est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.588Z] debug: 	ModLoader: Mod Skwizzy-NoDiscardLimit est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.589Z] debug: 	ModLoader: Mod SWAG est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.589Z] debug: 	ModLoader: Mod tyfon-uifixes est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.589Z] debug: 	ModLoader: Mod Virtual's Custom Quest Loader est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.589Z] debug: 	ModLoader: Mod zMusicManiac-BUMA-Revamped est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.589Z] debug: 	ModLoader: Mod zROStandaloneBackend est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.589Z] debug: 	ModLoader: Mod zSolarint-SAIN-ServerMod est manquant de order.json, ajout en cours
+[2024-06-12T20:44:32.592Z] info: 	Mod : Artem Trader version : 1.6.2 par : Crackbone est chargé
+[2024-06-12T20:44:32.593Z] info: 	Mod : Artem Equipment version : 1.6.2 par : Crackbone est chargé
+[2024-06-12T20:44:32.594Z] info: 	Mod : BetterKeys version : 1.2.4 par : SirTyler est chargé
+[2024-06-12T20:44:32.595Z] info: 	Mod : SPTQuestingBots version : 0.6.0 par : DanW est chargé
+[2024-06-12T20:44:32.597Z] info: 	Mod : Expanded Task Text version : 1.5.1 par : Dirtbikercj est chargé
+[2024-06-12T20:44:32.597Z] info: 	Mod : Fontaine FOV Fix &amp; Variable Optics version : 2.0.0 par : Fontaine est chargé
+[2024-06-12T20:44:32.598Z] info: 	Mod : LootValueBackend version : 2.0.0 par : IhanaMies est chargé
+[2024-06-12T20:44:32.601Z] info: 	Mod : Lotus version : 1.2.5 par : Lunnayaluna est chargé
+[2024-06-12T20:44:32.602Z] info: 	Mod : MoreCheckmarksBackend version : 1.5.13 par : VIP est chargé
+[2024-06-12T20:44:32.605Z] info: 	Mod : Softcore version : 2.1.1 par : ODT est chargé
+[2024-06-12T20:44:32.605Z] info: 	Mod : Priscilu version : 3.1.8 par : CilginDalgic est chargé
+[2024-06-12T20:44:32.608Z] info: 	Mod : open-extracts version : 1.4.2 par : Refringe est chargé
+[2024-06-12T20:44:32.610Z] info: 	Mod : Skills Extended version : 0.5.6 par : dirtbikercj est chargé
+[2024-06-12T20:44:32.611Z] info: 	Mod : NoDiscardLimit version : 1.4.0 par : Skwizzy est chargé
+[2024-06-12T20:44:32.612Z] info: 	Mod : SWAG + DONUTS version : 3.3.5 par : nooky and props est chargé
+[2024-06-12T20:44:32.613Z] info: 	Mod : uifixes version : 1.6.7 par : Tyfon est chargé
+[2024-06-12T20:44:32.613Z] info: 	Mod : Virtuals Custom Quest Loader version : 2.0.1 par : Virtual est chargé
+[2024-06-12T20:44:32.614Z] info: 	Mod : MusicManiac-BUMA-Revamped version : 1.1.0 par : MusicManiac est chargé
+[2024-06-12T20:44:32.616Z] info: 	Mod : RO Standalone version : 1.0.0 par : DJ est chargé
+[2024-06-12T20:44:32.617Z] info: 	Mod : SAIN version : 2.3.0 par : zSolarint est chargé
+[2024-06-12T20:44:32.650Z] debug: 	[AAAArtemTrader] preAki Loading... 
+[2024-06-12T20:44:32.650Z] debug: 	[AAAArtemTrader] preAki Loaded
+[2024-06-12T20:44:32.685Z] debug: 	[Lotus] preAki Loading... 
+[2024-06-12T20:44:32.685Z] debug: 	[Lotus] preAki Loaded
+[2024-06-12T20:44:32.873Z] info: 	Serveur : exécution des rappels de démarrage...
+[2024-06-12T20:44:32.873Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-06-12T20:44:32.874Z] debug: 	CPU: AMD Ryzen 5 5600X 6-Core Processor              cores: 12
+[2024-06-12T20:44:32.874Z] debug: 	RAM: 15.93GB
+[2024-06-12T20:44:32.874Z] debug: 	PATH: RDpcR2FtZXNcR1BUU1RcU1BUQVJLT1ZcQWtpLlNlcnZlci5leGU=
+[2024-06-12T20:44:32.874Z] debug: 	PATH: RDpcR2FtZXNcR1BUU1RcU1BUQVJLT1ZcQWtpLlNlcnZlci5leGU=
+[2024-06-12T20:44:32.874Z] debug: 	Server: 3.8.3
+[2024-06-12T20:44:32.874Z] debug: 	Date: 1715594841109
+[2024-06-12T20:44:32.874Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T20:44:32.875Z] info: 	Importation de la base de données...
+[2024-06-12T20:44:33.072Z] debug: 	Validation échouée pour le fichier : Aki_Data/Server/database/locales/server/fr.json
+[2024-06-12T20:44:35.632Z] info: 	Importation de la base de données terminée.
+[2024-06-12T20:44:35.656Z] debug: 	[AAAArtemTrader] postDb Loading... 
+[2024-06-12T20:44:35.658Z] debug: 	[AAAArtemTrader] postDb Loaded
+[2024-06-12T20:44:35.670Z] info: 	Loading: Artem Equipment
+[2024-06-12T20:44:35.670Z] debug: 	Item "ARTEM_GASMASK1" created as a clone of 5b432c305acfc40019478128 and added to database.
+[2024-06-12T20:44:35.670Z] debug: 	Item "ARTEM_GASMASK1" added to handbook with price 1953
+[2024-06-12T20:44:35.682Z] debug: 	Item "ARTEM_GHOSTMASK" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T20:44:35.682Z] debug: 	Item "ARTEM_GHOSTMASK" added to handbook with price 1042
+[2024-06-12T20:44:35.687Z] debug: 	Item "ARTEM_GHOSTMASKB" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T20:44:35.687Z] debug: 	Item "ARTEM_GHOSTMASKB" added to handbook with price 1042
+[2024-06-12T20:44:35.693Z] debug: 	Item "ARTEM_GHOSTMASKR" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T20:44:35.693Z] debug: 	Item "ARTEM_GHOSTMASKR" added to handbook with price 1042
+[2024-06-12T20:44:35.695Z] debug: 	Item "ARTEM_NIKOMASK" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T20:44:35.695Z] debug: 	Item "ARTEM_NIKOMASK" added to handbook with price 1042
+[2024-06-12T20:44:35.697Z] debug: 	Item "ARTEM_BALLISTICMASK" created as a clone of 572b7fa524597762b747ce82 and added to database.
+[2024-06-12T20:44:35.697Z] debug: 	Item "ARTEM_BALLISTICMASK" added to handbook with price 65969
+[2024-06-12T20:44:35.699Z] debug: 	Item "ARTEM_BALLISTICMASK2" created and added to database.
+[2024-06-12T20:44:35.699Z] debug: 	Item "ARTEM_BALLISTICMASK2" added to handbook with price 65969
+[2024-06-12T20:44:35.699Z] debug: 	Item "ARTEM_BOXMEDICAL" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_BOXMEDICAL" added to handbook with price 252172
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_BOXITEM" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_BOXITEM" added to handbook with price 19528580
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET2" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET2" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET3" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET3" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET5" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET5" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET6" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET6" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET8" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET8" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET10" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET10" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET11" created and added to database.
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET11" added to handbook with price 41200
+[2024-06-12T20:44:35.700Z] debug: 	Item "ARTEM_TACHELMET12" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET12" added to handbook with price 41200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET13" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET13" added to handbook with price 41200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET16" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET16" added to handbook with price 41200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET18" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET18" added to handbook with price 41200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET20" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACHELMET20" added to handbook with price 41200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST1" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST1" added to handbook with price 102200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_VEST3" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_VEST3" added to handbook with price 102200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST4" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST4" added to handbook with price 102200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST5" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST5" added to handbook with price 102200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST6" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST6" added to handbook with price 102200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST7" created and added to database.
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST7" added to handbook with price 102200
+[2024-06-12T20:44:35.701Z] debug: 	Item "ARTEM_TACVEST8" created and added to database.
+[2024-06-12T20:44:35.702Z] debug: 	Item "ARTEM_TACVEST8" added to handbook with price 102200
+[2024-06-12T20:44:35.702Z] debug: 	Item "ARTEM_WHITEGPNVG18" created as a clone of 5c0558060db834001b735271 and added to database.
+[2024-06-12T20:44:35.702Z] debug: 	Item "ARTEM_WHITEGPNVG18" added to handbook with price 90000
+[2024-06-12T20:44:35.705Z] debug: 	Item "ARTEM_ODGPNVG" created as a clone of 5c0558060db834001b735271 and added to database.
+[2024-06-12T20:44:35.705Z] debug: 	Item "ARTEM_ODGPNVG" added to handbook with price 90000
+[2024-06-12T20:44:35.713Z] debug: 	Item "ARTEM_BLACKGPNVG" created as a clone of 5c0558060db834001b735271 and added to database.
+[2024-06-12T20:44:35.713Z] debug: 	Item "ARTEM_BLACKGPNVG" added to handbook with price 90000
+[2024-06-12T20:44:35.717Z] debug: 	AAArtemEquipment items and handbook finished
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_GASMASK1
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_GHOSTMASK
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_GHOSTMASKB
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_GHOSTMASKR
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_NIKOMASK
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_BALLISTICMASK
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_BALLISTICMASK2
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_BOXMEDICAL
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_BOXITEM
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET2
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET3
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET5
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET6
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET8
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET10
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET11
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET12
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET13
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET16
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET18
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACHELMET20
+[2024-06-12T20:44:35.717Z] debug: 	addToFilters: ARTEM_TACVEST1
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_VEST3
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_TACVEST4
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_TACVEST5
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_TACVEST6
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_TACVEST7
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_TACVEST8
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_WHITEGPNVG18
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_ODGPNVG
+[2024-06-12T20:44:35.718Z] debug: 	addToFilters: ARTEM_BLACKGPNVG
+[2024-06-12T20:44:35.718Z] debug: 	AAArtemEquipment item filters finished
+[2024-06-12T20:44:35.718Z] debug: 	AAArtemEquipment clothing finished
+[2024-06-12T20:44:35.718Z] debug: 	AAArtemEquipment presets finished
+[2024-06-12T20:44:35.718Z] debug: 	AAArtemEquipment traders finished
+[2024-06-12T20:44:35.718Z] debug: 	AAArtemEquipment mastery finished
+[2024-06-12T20:44:35.849Z] info: 	   Loaded: BetterKeys-bigmap
+[2024-06-12T20:44:35.863Z] info: 	   Loaded: BetterKeys-factory4
+[2024-06-12T20:44:35.925Z] info: 	   Loaded: BetterKeys-Interchange
+[2024-06-12T20:44:35.970Z] info: 	   Loaded: BetterKeys-laboratory
+[2024-06-12T20:44:36.028Z] info: 	   Loaded: BetterKeys-Lighthouse
+[2024-06-12T20:44:36.151Z] info: 	   Loaded: BetterKeys-RezervBase
+[2024-06-12T20:44:36.292Z] info: 	   Loaded: BetterKeys-Shoreline
+[2024-06-12T20:44:36.305Z] info: 	   Loaded: BetterKeys-Woods
+[2024-06-12T20:44:36.400Z] info: 	   Loaded: BetterKeys-TarkovStreets
+[2024-06-12T20:44:36.403Z] info: 	[Questing Bots] Applying debug options...
+[2024-06-12T20:44:36.446Z] debug: 	[Lotus] postDb Loading... 
+[2024-06-12T20:44:36.457Z] debug: 	[Lotus] postDb Loaded
+[2024-06-12T20:44:36.622Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-06-12T20:44:36.623Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-06-12T20:44:36.623Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-06-12T20:44:36.624Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-06-12T20:44:36.643Z] succ: 	[VCQL] Loaded 172 custom quests.
+[2024-06-12T20:44:36.643Z] succ: 	[VCQL] 0 custom quests were pruned due to date settings.
+[2024-06-12T20:44:36.659Z] succ: 	[VCQL] Loaded 144 custom quest images.
+[2024-06-12T20:44:36.659Z] succ: 	[VCQL] Loaded 0 custom trader images.
+[2024-06-12T20:44:36.659Z] info: 	[BUMA-Revamped] Loading
+[2024-06-12T20:44:36.660Z] info: 	[BUMA-Revamped] Finished Loading
+[2024-06-12T20:44:40.348Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...
+[2024-06-12T20:44:40.349Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...done. Removed entries: 132
+[2024-06-12T20:44:40.349Z] warn: 	[Questing Bots] SWAG Detected. Disabling bot spawning.
+[2024-06-12T20:44:40.355Z] succ: 	webserver demarré sur http://127.0.0.1:6969
+[2024-06-12T20:44:40.355Z] succ: 	Démarrage du websocket sur ws://127.0.0.1:6969
+[2024-06-12T20:44:40.356Z] succ: 	Le serveur est en cours d'exécution, ne le fermez pas pendant que vous jouez à SPT, Bon jeu!!
+[2024-06-12T20:44:45.372Z] debug: 	Saved 1 profiles, took: 7.43ms
+[2024-06-12T20:44:49.721Z] info: 	[Requête Client] /launcher/server/connect
+[2024-06-12T20:44:49.739Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T20:44:49.741Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:44:49.744Z] info: 	[Requête Client] /files/launcher/bg.png
+[2024-06-12T20:44:49.756Z] info: 	[Requête Client] /launcher/ping
+[2024-06-12T20:44:49.771Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T20:44:49.773Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T20:44:49.777Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:44:49.783Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:44:49.798Z] info: 	[Requête Client] /launcher/server/loadedServerMods
+[2024-06-12T20:44:49.805Z] info: 	[Requête Client] /launcher/server/serverModsUsedByProfile
+[2024-06-12T20:44:49.809Z] info: 	[Requête Client] /files/launcher/side_bear.png
+[2024-06-12T20:44:49.813Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T20:44:49.815Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T20:44:49.816Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:44:49.817Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:44:53.389Z] info: 	[Requête Client] /launcher/profile/login
+[2024-06-12T20:44:53.391Z] info: 	[Requête Client] /launcher/profile/get
+[2024-06-12T20:44:53.392Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:44:53.393Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:44:59.587Z] info: 	[Requête Client] /QuestingBots/GetConfig
+[2024-06-12T20:45:02.114Z] info: 	[Requête Client] /BetterKeys/GetInfo
+[2024-06-12T20:45:02.854Z] info: 	[Requête Client] /ROStandaloneBackend/GetEventWeightings
+[2024-06-12T20:45:05.387Z] debug: 	Saved 1 profiles, took: 0.87ms
+[2024-06-12T20:45:07.168Z] info: 	[Requête Client] /skillsExtended/GetKeys
+[2024-06-12T20:45:07.176Z] info: 	[Requête Client] /skillsExtended/GetSkillsConfig
+[2024-06-12T20:45:07.778Z] info: 	[Requête Client] /singleplayer/settings/version
+[2024-06-12T20:45:07.780Z] info: 	[Requête Client] /singleplayer/release
+[2024-06-12T20:45:07.784Z] info: 	[Requête Client] /singleplayer/enableBSGlogging
+[2024-06-12T20:45:07.799Z] info: 	[Requête Client] /MoreCheckmarksRoutes/quests
+[2024-06-12T20:45:07.800Z] info: 	MoreCheckmarks making quest data request
+[2024-06-12T20:45:07.800Z] info: 	Got quests
+[2024-06-12T20:45:08.049Z] info: 	[Requête Client] /MoreCheckmarksRoutes/items
+[2024-06-12T20:45:08.050Z] info: 	MoreCheckmarks making item data request
+[2024-06-12T20:45:08.788Z] info: 	[Requête Client] /MoreCheckmarksRoutes/assorts
+[2024-06-12T20:45:08.789Z] info: 	MoreCheckmarks making trader assort data request
+[2024-06-12T20:45:08.983Z] info: 	[Requête Client] /MoreCheckmarksRoutes/productions
+[2024-06-12T20:45:08.983Z] info: 	MoreCheckmarks making productions request
+[2024-06-12T20:45:09.460Z] info: 	[Requête Client] /singleplayer/bundles
+[2024-06-12T20:45:16.691Z] info: 	[Requête Client] /singleplayer/settings/version
+[2024-06-12T20:45:16.752Z] info: 	[Requête Client] /client/game/start
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to factory4_day of type sptBear, time: -1, chance: 25, zone: BotZone
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to factory4_day of type sptUsec, time: -1, chance: 25, zone: BotZone
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to bigmap of type sptBear, time: -1, chance: 25, zone: ZoneScavBase
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to bigmap of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneRoad
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneRoad
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneClearVill
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneClearVill
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 20, zone: ZonePort
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 20, zone: ZonePort
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-06-12T20:45:16.754Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneBasement
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneBasement
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to interchange of type sptBear, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to interchange of type sptUsec, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to lighthouse of type sptBear, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to lighthouse of type sptUsec, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to sandbox of type sptBear, time: -1, chance: 30, zone: ZoneSandbox
+[2024-06-12T20:45:16.755Z] debug: 	Added custom boss wave to sandbox of type sptUsec, time: -1, chance: 30, zone: ZoneSandbox
+[2024-06-12T20:45:16.756Z] debug: 	Started game with sessionId: 6669de62000208b0d5e1645c Zoin
+[2024-06-12T20:45:16.756Z] debug: 	Fixed assault Spawn: bigmap wave: 0 of type: assault in zone: ZoneBrige with Max Slots of 0
+[2024-06-12T20:45:16.756Z] debug: 	Fixed assault Spawn: bigmap wave: 1 of type: assault in zone: ZoneCrossRoad with Max Slots of 0
+[2024-06-12T20:45:16.756Z] debug: 	Fixed assault Spawn: bigmap wave: 15 of type: assault in zone: ZoneBlockPost with Max Slots of 0
+[2024-06-12T20:45:16.756Z] debug: 	Fixed assault Spawn: bigmap wave: 0 of type: assault in zone:  with Max Slots of 0
+[2024-06-12T20:45:16.756Z] debug: 	Fixed assault Spawn: rezervbase wave: 2 of type: assault in zone:  with Max Slots of 2
+[2024-06-12T20:45:16.756Z] debug: 	Fixed assault Spawn: rezervbase wave: 7 of type: assault in zone:  with Max Slots of 2
+[2024-06-12T20:45:16.756Z] debug: 	Fixed marksman Spawn: lighthouse wave: 2 of type: marksman in zone: Zone_SniperPeak with Max Slots of 1
+[2024-06-12T20:45:16.756Z] debug: 	Fixed marksman Spawn: shoreline wave: 9 of type: marksman in zone: ZonePowerStationSniper with Max Slots of 0
+[2024-06-12T20:45:16.756Z] debug: 	Fixed marksman Spawn: sandbox wave: 4 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-06-12T20:45:16.756Z] debug: 	Fixed marksman Spawn: sandbox wave: 6 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-06-12T20:45:16.757Z] debug: 	Fixed marksman Spawn: sandbox wave: 8 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-06-12T20:45:16.757Z] debug: 	Fixed marksman Spawn: sandbox wave: 9 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-06-12T20:45:16.757Z] debug: 	Fixed assault Spawn: woods wave: 6 of type: assault in zone: ZoneWoodCutter with Max Slots of 0
+[2024-06-12T20:45:16.757Z] debug: 	Fixed assault Spawn: woods wave: 7 of type: assault in zone: ZoneBigRocks with Max Slots of 0
+[2024-06-12T20:45:16.757Z] debug: 	Fixed assault Spawn: woods wave: 8 of type: assault in zone: ZoneRoad with Max Slots of 0
+[2024-06-12T20:45:16.757Z] debug: 	Fixed marksman Spawn: woods wave: 9 of type: marksman in zone: ZoneHighRocks with Max Slots of 1
+[2024-06-12T20:45:16.757Z] debug: 	Splitting map: bigmap wave: 19 with 4 bots
+[2024-06-12T20:45:16.757Z] debug: 	Splitting map: bigmap wave: 24 with 4 bots
+[2024-06-12T20:45:16.757Z] debug: 	Splitting map: Lighthouse wave: 3 with 4 bots
+[2024-06-12T20:45:16.757Z] debug: 	Splitting map: Shoreline wave: 16 with 4 bots
+[2024-06-12T20:45:16.757Z] debug: 	Splitting map: Shoreline wave: 27 with 5 bots
+[2024-06-12T20:45:16.757Z] debug: 	Splitting map: Shoreline wave: 32 with 5 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Shoreline wave: 37 with 6 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Shoreline wave: 43 with 6 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Woods wave: 15 with 4 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Woods wave: 19 with 4 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Woods wave: 23 with 4 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Woods wave: 27 with 5 bots
+[2024-06-12T20:45:16.758Z] debug: 	Splitting map: Woods wave: 32 with 4 bots
+[2024-06-12T20:45:16.760Z] debug: 	Profile made with: 3.8.3 (29197)
+[2024-06-12T20:45:16.760Z] debug: 	Server version: 3.8.3 01783e295be916352ccb1078cf8351b273610c8e
+[2024-06-12T20:45:16.760Z] debug: 	Debug enabled: false
+[2024-06-12T20:45:16.760Z] debug: 	Mods enabled: true
+[2024-06-12T20:45:16.763Z] info: 	[Questing Bots] Resetting scav timer for sessionId=6669de62000208b0d5e1645c...
+[2024-06-12T20:45:16.804Z] info: 	[Requête Client] /client/menu/locale/en
+[2024-06-12T20:45:16.867Z] info: 	[Requête Client] /client/game/version/validate
+[2024-06-12T20:45:16.921Z] info: 	[Requête Client] /client/languages
+[2024-06-12T20:45:16.985Z] info: 	[Requête Client] /client/game/config
+[2024-06-12T20:45:19.863Z] info: 	[Requête Client] /client/items
+[2024-06-12T20:45:19.913Z] info: 	SWAG: Vanilla spawn systems disabled
+[2024-06-12T20:45:25.421Z] debug: 	Saved 1 profiles, took: 5.90ms
+[2024-06-12T20:45:25.676Z] info: 	[Requête Client] /client/customization
+[2024-06-12T20:45:25.839Z] info: 	[Requête Client] /client/globals
+[2024-06-12T20:45:26.328Z] info: 	[Requête Client] /client/trading/api/traderSettings
+[2024-06-12T20:45:26.380Z] info: 	[Requête Client] /client/settings
+[2024-06-12T20:45:26.430Z] info: 	[Requête Client] /client/game/profile/list
+[2024-06-12T20:45:26.703Z] info: 	[Requête Client] /client/game/profile/select
+[2024-06-12T20:45:26.761Z] info: 	[Requête Client] /MoreCheckmarksRoutes/quests
+[2024-06-12T20:45:26.762Z] info: 	MoreCheckmarks making quest data request
+[2024-06-12T20:45:26.762Z] info: 	Got quests
+[2024-06-12T20:45:26.906Z] info: 	[Requête Client] /MoreCheckmarksRoutes/assorts
+[2024-06-12T20:45:26.907Z] info: 	MoreCheckmarks making trader assort data request
+[2024-06-12T20:45:27.039Z] info: 	[Requête Client] /MoreCheckmarksRoutes/productions
+[2024-06-12T20:45:27.039Z] info: 	MoreCheckmarks making productions request
+[2024-06-12T20:45:27.051Z] info: 	[Requête Client] /client/items/prices/54cb50c76803fa8b248b4571
+[2024-06-12T20:45:27.059Z] info: 	[Requête Client] /client/items/prices/58330581ace78e27b8b10cee
+[2024-06-12T20:45:27.063Z] info: 	[Requête Client] /client/items/prices/5935c25fb3acc3127c3d8cd9
+[2024-06-12T20:45:27.065Z] info: 	[Requête Client] /client/items/prices/5a7c2eca46aef81a7ca2145d
+[2024-06-12T20:45:27.069Z] info: 	[Requête Client] /client/items/prices/638f541a29ffd1183d187f57
+[2024-06-12T20:45:27.071Z] info: 	[Requête Client] /client/items/prices/ArtemTrader
+[2024-06-12T20:45:27.074Z] info: 	[Requête Client] /client/items/prices/5c0647fdd443bc2504c2d371
+[2024-06-12T20:45:27.080Z] info: 	[Requête Client] /client/items/prices/lotus
+[2024-06-12T20:45:27.091Z] info: 	[Requête Client] /client/items/prices/5ac3b934156ae10c4430e83c
+[2024-06-12T20:45:27.094Z] info: 	[Requête Client] /client/items/prices/579dc571d53a0658a154fbec
+[2024-06-12T20:45:27.097Z] info: 	[Requête Client] /client/items/prices/Priscilu
+[2024-06-12T20:45:27.099Z] info: 	[Requête Client] /client/items/prices/54cb57776803fa99248b456e
+[2024-06-12T20:45:27.102Z] info: 	[Requête Client] /client/items/prices/656f0f98d80a697f855d34b1
+[2024-06-12T20:45:27.104Z] info: 	[Requête Client] /client/profile/status
+[2024-06-12T20:45:27.584Z] info: 	[Requête Client] /client/weather
+[2024-06-12T20:45:27.585Z] info: 	[Requête Client] /client/locale/en
+[2024-06-12T20:45:27.610Z] info: 	[Requête Client] /client/locations
+[2024-06-12T20:45:27.611Z] debug: 	Map: base has no base json file, skipping generation
+[2024-06-12T20:45:27.622Z] warn: 	SWAG: Configured boss spawns for map bigmap
+[2024-06-12T20:45:27.622Z] warn: 	SWAG: Configured boss spawns for map factory4_day
+[2024-06-12T20:45:27.623Z] warn: 	SWAG: Configured boss spawns for map factory4_night
+[2024-06-12T20:45:27.623Z] warn: 	SWAG: Configured boss spawns for map interchange
+[2024-06-12T20:45:27.623Z] warn: 	SWAG: Configured boss spawns for map laboratory
+[2024-06-12T20:45:27.623Z] warn: 	SWAG: Configured boss spawns for map lighthouse
+[2024-06-12T20:45:27.623Z] warn: 	SWAG: Configured boss spawns for map rezervbase
+[2024-06-12T20:45:27.624Z] warn: 	SWAG: Configured boss spawns for map shoreline
+[2024-06-12T20:45:27.624Z] warn: 	SWAG: Configured boss spawns for map tarkovstreets
+[2024-06-12T20:45:27.624Z] warn: 	SWAG: Configured boss spawns for map woods
+[2024-06-12T20:45:27.624Z] warn: 	SWAG: Configured boss spawns for map sandbox
+[2024-06-12T20:45:27.624Z] debug: 	Map: base has no base json file, skipping generation
+[2024-06-12T20:45:28.375Z] info: 	[Requête Client] /client/handbook/templates
+[2024-06-12T20:45:28.579Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:28.581Z] info: 	[Questing Bots] Validated all quest files
+[2024-06-12T20:45:29.887Z] info: 	[Requête Client] /client/hideout/areas
+[2024-06-12T20:45:30.032Z] info: 	[Requête Client] /client/hideout/qte/list
+[2024-06-12T20:45:30.088Z] info: 	[Requête Client] /client/hideout/settings
+[2024-06-12T20:45:30.139Z] info: 	[Requête Client] /client/hideout/production/recipes
+[2024-06-12T20:45:30.240Z] info: 	[Requête Client] /client/hideout/production/scavcase/recipes
+[2024-06-12T20:45:30.291Z] info: 	[Requête Client] /client/builds/list
+[2024-06-12T20:45:31.663Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:31.664Z] debug: 	[Aki.Core] 1077896
+[2024-06-12T20:45:31.665Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:31.665Z] debug: 	[Aki.Core] 1498960
+[2024-06-12T20:45:31.666Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:31.666Z] debug: 	[Aki.Core] 0
+[2024-06-12T20:45:31.668Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:31.668Z] debug: 	[Aki.Core] 1077896
+[2024-06-12T20:45:31.669Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:31.669Z] debug: 	[Aki.Core] 1498960
+[2024-06-12T20:45:31.670Z] info: 	[Requête Client] /singleplayer/log
+[2024-06-12T20:45:31.670Z] debug: 	[Aki.Core] 0
+[2024-06-12T20:45:32.671Z] info: 	[Requête Client] /client/notifier/channel/create
+[2024-06-12T20:45:32.672Z] info: 	[Requête Client] /client/profile/status
+[2024-06-12T20:45:32.673Z] info: 	[Requête Client] /client/trading/customization/storage
+[2024-06-12T20:45:32.726Z] info: 	[WS] joueur: Zoin (6669de62000208b0d5e1645c) est connecté
+[2024-06-12T20:45:32.748Z] info: 	[Requête Client] /client/server/list
+[2024-06-12T20:45:32.749Z] info: 	[Requête Client] /client/match/group/current
+[2024-06-12T20:45:32.750Z] info: 	[Requête Client] /client/friend/list
+[2024-06-12T20:45:32.751Z] info: 	[Requête Client] /client/friend/request/list/inbox
+[2024-06-12T20:45:32.752Z] info: 	[Requête Client] /client/mail/dialog/list
+[2024-06-12T20:45:32.753Z] info: 	[Requête Client] /client/friend/request/list/outbox
+[2024-06-12T20:45:32.754Z] info: 	[Requête Client] /client/quest/list
+[2024-06-12T20:45:32.918Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:45:32.964Z] info: 	[Requête Client] /client/achievement/statistic
+[2024-06-12T20:45:33.012Z] info: 	[Requête Client] /client/achievement/list
+[2024-06-12T20:45:45.449Z] debug: 	Saved 1 profiles, took: 5.32ms
+[2024-06-12T20:45:54.020Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:45:54.022Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:46:02.988Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:46:05.464Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T20:46:25.517Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T20:46:33.071Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:46:45.534Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T20:46:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:46:54.012Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:47:02.736Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:47:03.148Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:47:05.577Z] debug: 	Saved 1 profiles, took: 5.44ms
+[2024-06-12T20:47:25.604Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T20:47:33.217Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:47:45.638Z] debug: 	Saved 1 profiles, took: 5.30ms
+[2024-06-12T20:47:54.008Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:47:54.009Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:48:03.285Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:48:05.666Z] debug: 	Saved 1 profiles, took: 5.18ms
+[2024-06-12T20:48:25.700Z] debug: 	Saved 1 profiles, took: 5.65ms
+[2024-06-12T20:48:32.737Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:48:33.337Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:48:45.730Z] debug: 	Saved 1 profiles, took: 5.71ms
+[2024-06-12T20:48:54.008Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:48:54.010Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:49:03.404Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:49:05.760Z] debug: 	Saved 1 profiles, took: 5.19ms
+[2024-06-12T20:49:25.786Z] debug: 	Saved 1 profiles, took: 5.28ms
+[2024-06-12T20:49:33.459Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:49:45.810Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T20:49:54.020Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:49:54.021Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:50:02.737Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:50:03.525Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:50:05.840Z] debug: 	Saved 1 profiles, took: 5.16ms
+[2024-06-12T20:50:25.867Z] debug: 	Saved 1 profiles, took: 5.28ms
+[2024-06-12T20:50:33.581Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:50:45.903Z] debug: 	Saved 1 profiles, took: 5.37ms
+[2024-06-12T20:50:54.018Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:50:54.019Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:51:03.639Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:51:05.943Z] debug: 	Saved 1 profiles, took: 5.08ms
+[2024-06-12T20:51:08.784Z] info: 	[Requête Client] /client/checkVersion
+[2024-06-12T20:51:18.956Z] info: 	[Requête Client] /player/health/sync
+[2024-06-12T20:51:25.979Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T20:51:32.737Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:51:33.719Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:51:46.011Z] debug: 	Saved 1 profiles, took: 4.94ms
+[2024-06-12T20:51:54.016Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:51:54.020Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:52:03.800Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:52:06.060Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T20:52:26.087Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T20:52:33.880Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:52:46.120Z] debug: 	Saved 1 profiles, took: 5.38ms
+[2024-06-12T20:52:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:52:54.015Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:53:02.738Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:53:03.949Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:53:06.167Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T20:53:26.188Z] debug: 	Saved 1 profiles, took: 5.40ms
+[2024-06-12T20:53:34.019Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:53:46.221Z] debug: 	Saved 1 profiles, took: 5.67ms
+[2024-06-12T20:53:54.015Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:53:54.016Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:54:04.102Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:54:06.251Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T20:54:26.284Z] debug: 	Saved 1 profiles, took: 5.60ms
+[2024-06-12T20:54:32.738Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:54:34.170Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:54:46.298Z] debug: 	Saved 1 profiles, took: 5.45ms
+[2024-06-12T20:54:54.017Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:54:54.018Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:55:04.247Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:55:06.340Z] debug: 	Saved 1 profiles, took: 5.44ms
+[2024-06-12T20:55:26.366Z] debug: 	Saved 1 profiles, took: 5.21ms
+[2024-06-12T20:55:34.317Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:55:46.401Z] debug: 	Saved 1 profiles, took: 5.09ms
+[2024-06-12T20:55:54.018Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:55:54.019Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:56:02.738Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:56:04.401Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:56:06.426Z] debug: 	Saved 1 profiles, took: 5.18ms
+[2024-06-12T20:56:26.465Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T20:56:34.488Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:56:46.497Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T20:56:54.017Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:56:54.018Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:57:04.549Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:57:06.511Z] debug: 	Saved 1 profiles, took: 5.05ms
+[2024-06-12T20:57:26.533Z] debug: 	Saved 1 profiles, took: 8.23ms
+[2024-06-12T20:57:32.739Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:57:34.620Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:57:46.549Z] debug: 	Saved 1 profiles, took: 7.75ms
+[2024-06-12T20:57:54.016Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:57:54.018Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:58:04.698Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:58:06.590Z] debug: 	Saved 1 profiles, took: 7.62ms
+[2024-06-12T20:58:26.608Z] debug: 	Saved 1 profiles, took: 8.45ms
+[2024-06-12T20:58:34.765Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:58:46.634Z] debug: 	Saved 1 profiles, took: 4.98ms
+[2024-06-12T20:58:54.013Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:58:54.014Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T20:59:02.739Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T20:59:04.846Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:59:06.651Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T20:59:26.684Z] debug: 	Saved 1 profiles, took: 5.45ms
+[2024-06-12T20:59:34.914Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T20:59:46.719Z] debug: 	Saved 1 profiles, took: 7.84ms
+[2024-06-12T20:59:54.013Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T20:59:54.014Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:00:05.209Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:00:06.759Z] debug: 	Saved 1 profiles, took: 7.65ms
+[2024-06-12T21:00:26.794Z] debug: 	Saved 1 profiles, took: 8.09ms
+[2024-06-12T21:00:32.739Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:00:35.284Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:00:46.830Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T21:00:54.014Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:00:54.015Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:01:05.358Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:01:06.864Z] debug: 	Saved 1 profiles, took: 7.69ms
+[2024-06-12T21:01:26.906Z] debug: 	Saved 1 profiles, took: 5.39ms
+[2024-06-12T21:01:35.438Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:01:46.942Z] debug: 	Saved 1 profiles, took: 4.86ms
+[2024-06-12T21:01:54.017Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:01:54.018Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:02:02.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:02:05.520Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:02:06.983Z] debug: 	Saved 1 profiles, took: 8.33ms
+[2024-06-12T21:02:27.014Z] debug: 	Saved 1 profiles, took: 4.97ms
+[2024-06-12T21:02:35.594Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:02:47.056Z] debug: 	Saved 1 profiles, took: 5.69ms
+[2024-06-12T21:02:54.006Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:02:54.009Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:03:05.685Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:03:07.073Z] debug: 	Saved 1 profiles, took: 5.33ms
+[2024-06-12T21:03:27.117Z] debug: 	Saved 1 profiles, took: 6.03ms
+[2024-06-12T21:03:32.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:03:35.745Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:03:47.136Z] debug: 	Saved 1 profiles, took: 5.21ms
+[2024-06-12T21:03:54.012Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:03:54.014Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:04:05.820Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:04:07.249Z] debug: 	Saved 1 profiles, took: 5.21ms
+[2024-06-12T21:04:27.198Z] debug: 	Saved 1 profiles, took: 5.04ms
+[2024-06-12T21:04:35.893Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:04:47.226Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T21:04:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:04:54.013Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:05:02.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:05:05.966Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:05:07.256Z] debug: 	Saved 1 profiles, took: 4.80ms
+[2024-06-12T21:05:27.293Z] debug: 	Saved 1 profiles, took: 4.77ms
+[2024-06-12T21:05:36.048Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:05:47.330Z] debug: 	Saved 1 profiles, took: 5.35ms
+[2024-06-12T21:05:54.018Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:05:54.019Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:06:06.112Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:06:07.343Z] debug: 	Saved 1 profiles, took: 5.28ms
+[2024-06-12T21:06:27.382Z] debug: 	Saved 1 profiles, took: 4.99ms
+[2024-06-12T21:06:32.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:06:36.194Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:06:47.416Z] debug: 	Saved 1 profiles, took: 4.85ms
+[2024-06-12T21:06:54.015Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:06:54.019Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:07:06.273Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:07:07.455Z] debug: 	Saved 1 profiles, took: 4.93ms
+[2024-06-12T21:07:27.495Z] debug: 	Saved 1 profiles, took: 4.85ms
+[2024-06-12T21:07:36.344Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:07:47.536Z] debug: 	Saved 1 profiles, took: 5.29ms
+[2024-06-12T21:07:54.017Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:07:54.018Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:08:02.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:08:06.421Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:08:07.570Z] debug: 	Saved 1 profiles, took: 5.17ms
+[2024-06-12T21:08:27.602Z] debug: 	Saved 1 profiles, took: 4.91ms
+[2024-06-12T21:08:36.501Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:08:47.641Z] debug: 	Saved 1 profiles, took: 5.01ms
+[2024-06-12T21:08:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:08:54.012Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:09:06.583Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:09:07.674Z] debug: 	Saved 1 profiles, took: 5.88ms
+[2024-06-12T21:09:27.700Z] debug: 	Saved 1 profiles, took: 4.95ms
+[2024-06-12T21:09:32.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:09:36.667Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:09:47.714Z] debug: 	Saved 1 profiles, took: 4.97ms
+[2024-06-12T21:09:54.009Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:09:54.010Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:10:06.745Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:10:07.740Z] debug: 	Saved 1 profiles, took: 4.92ms
+[2024-06-12T21:10:27.769Z] debug: 	Saved 1 profiles, took: 5.31ms
+[2024-06-12T21:10:36.815Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:10:47.796Z] debug: 	Saved 1 profiles, took: 4.93ms
+[2024-06-12T21:10:54.013Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:10:54.015Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:11:02.740Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:11:06.888Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:11:07.824Z] debug: 	Saved 1 profiles, took: 4.68ms
+[2024-06-12T21:11:27.835Z] debug: 	Saved 1 profiles, took: 5.84ms
+[2024-06-12T21:11:36.961Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:11:47.871Z] debug: 	Saved 1 profiles, took: 5.18ms
+[2024-06-12T21:11:54.020Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:11:54.021Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:12:07.040Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:12:07.907Z] debug: 	Saved 1 profiles, took: 4.90ms
+[2024-06-12T21:12:27.941Z] debug: 	Saved 1 profiles, took: 5.79ms
+[2024-06-12T21:12:32.741Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:12:37.112Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:12:47.970Z] debug: 	Saved 1 profiles, took: 4.98ms
+[2024-06-12T21:12:54.007Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:12:54.009Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:13:07.182Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:13:08.001Z] debug: 	Saved 1 profiles, took: 6.01ms
+[2024-06-12T21:13:28.021Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T21:13:37.266Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:13:48.055Z] debug: 	Saved 1 profiles, took: 4.78ms
+[2024-06-12T21:13:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:13:54.012Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:14:02.742Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:14:07.348Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:14:08.087Z] debug: 	Saved 1 profiles, took: 5.56ms
+[2024-06-12T21:14:28.125Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T21:14:37.418Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:14:48.161Z] debug: 	Saved 1 profiles, took: 4.95ms
+[2024-06-12T21:14:54.006Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:14:54.007Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:15:07.498Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:15:08.183Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T21:15:28.201Z] debug: 	Saved 1 profiles, took: 7.59ms
+[2024-06-12T21:15:32.741Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:15:37.570Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:15:48.248Z] debug: 	Saved 1 profiles, took: 8.10ms
+[2024-06-12T21:15:54.010Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:15:54.011Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:16:07.652Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:16:08.271Z] debug: 	Saved 1 profiles, took: 4.96ms
+[2024-06-12T21:16:28.294Z] debug: 	Saved 1 profiles, took: 7.92ms
+[2024-06-12T21:16:37.736Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:16:48.318Z] debug: 	Saved 1 profiles, took: 5.09ms
+[2024-06-12T21:16:54.013Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:16:54.014Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:17:02.741Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:17:07.807Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:17:08.358Z] debug: 	Saved 1 profiles, took: 8.09ms
+[2024-06-12T21:17:28.391Z] debug: 	Saved 1 profiles, took: 8.36ms
+[2024-06-12T21:17:37.883Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:17:48.412Z] debug: 	Saved 1 profiles, took: 5.63ms
+[2024-06-12T21:17:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:17:54.012Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:18:07.956Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:18:08.449Z] debug: 	Saved 1 profiles, took: 8.31ms
+[2024-06-12T21:18:28.471Z] debug: 	Saved 1 profiles, took: 7.68ms
+[2024-06-12T21:18:32.742Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:18:38.037Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:18:48.504Z] debug: 	Saved 1 profiles, took: 7.74ms
+[2024-06-12T21:18:54.010Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:18:54.011Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:19:08.115Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:19:08.526Z] debug: 	Saved 1 profiles, took: 4.75ms
+[2024-06-12T21:19:28.559Z] debug: 	Saved 1 profiles, took: 8.01ms
+[2024-06-12T21:19:38.198Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:19:48.589Z] debug: 	Saved 1 profiles, took: 7.84ms
+[2024-06-12T21:19:54.017Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:19:54.018Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:20:02.742Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:20:08.274Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:20:08.619Z] debug: 	Saved 1 profiles, took: 8.19ms
+[2024-06-12T21:20:28.646Z] debug: 	Saved 1 profiles, took: 4.91ms
+[2024-06-12T21:20:38.344Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:20:48.659Z] debug: 	Saved 1 profiles, took: 5.06ms
+[2024-06-12T21:20:54.010Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:20:54.011Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:21:08.420Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:21:08.698Z] debug: 	Saved 1 profiles, took: 5.19ms
+[2024-06-12T21:21:28.722Z] debug: 	Saved 1 profiles, took: 7.95ms
+[2024-06-12T21:21:32.742Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:21:38.501Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:21:48.741Z] debug: 	Saved 1 profiles, took: 5.52ms
+[2024-06-12T21:21:54.010Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:21:54.011Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:22:08.587Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:22:08.768Z] debug: 	Saved 1 profiles, took: 5.54ms
+[2024-06-12T21:22:28.783Z] debug: 	Saved 1 profiles, took: 4.97ms
+[2024-06-12T21:22:38.655Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:22:48.804Z] debug: 	Saved 1 profiles, took: 5.98ms
+[2024-06-12T21:22:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:22:54.012Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:23:02.742Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:23:08.742Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:23:08.826Z] debug: 	Saved 1 profiles, took: 4.84ms
+[2024-06-12T21:23:28.864Z] debug: 	Saved 1 profiles, took: 5.04ms
+[2024-06-12T21:23:38.803Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:23:48.888Z] debug: 	Saved 1 profiles, took: 4.89ms
+[2024-06-12T21:23:54.011Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:23:54.012Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:24:08.886Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:24:08.926Z] debug: 	Saved 1 profiles, took: 5.08ms
+[2024-06-12T21:24:28.965Z] debug: 	Saved 1 profiles, took: 5.45ms
+[2024-06-12T21:24:32.742Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:24:38.961Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:24:48.983Z] debug: 	Saved 1 profiles, took: 4.85ms
+[2024-06-12T21:24:54.013Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:24:54.015Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:25:09.023Z] debug: 	Saved 1 profiles, took: 4.87ms
+[2024-06-12T21:25:09.045Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:25:21.474Z] info: 	[Requête Client] /client/checkVersion
+[2024-06-12T21:25:29.053Z] debug: 	Saved 1 profiles, took: 5.22ms
+[2024-06-12T21:25:39.091Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:25:49.103Z] debug: 	Saved 1 profiles, took: 5.02ms
+[2024-06-12T21:25:54.020Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:25:54.021Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:26:02.743Z] debug: 	[WS] Pinging joueur: 6669de62000208b0d5e1645c
+[2024-06-12T21:26:09.132Z] debug: 	Saved 1 profiles, took: 5.63ms
+[2024-06-12T21:26:09.162Z] info: 	[Requête Client] /client/repeatalbeQuests/activityPeriods
+[2024-06-12T21:26:24.046Z] info: 	[Requête Client] /client/game/logout
+[2024-06-12T21:26:24.047Z] debug: 	Saved 1 profiles, took: 1.07ms
+[2024-06-12T21:26:26.010Z] info: 	[Requête Client] /launcher/profile/info
+[2024-06-12T21:26:26.011Z] info: 	[Requête Client] /launcher/server/version
+[2024-06-12T21:26:29.185Z] debug: 	Saved 1 profiles, took: 4.81ms
