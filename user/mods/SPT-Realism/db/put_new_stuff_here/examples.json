@@ -117,7 +117,8 @@
         "BaseChamberCheckSpeed [chamber check speed multi]": 1,
         "BaseFixSpeed [malf fix speed multi]": 1,
         "OffsetRotation [amount of deviation from original point of aim after firing]": 0.01,
-        "RecoilIntensity [overal recoil intensity multiplier]": 0.2
+        "RecoilIntensity [overal recoil intensity multiplier]": 0.2,
+        "MasteryCategory [which mastery category to place the weapon in, has to be existin mastery category in globals]": "M4"
     },
     "reskin_example [insert id here]": {
         "ItemID": "[insert id here]",
