@@ -1,7 +1,7 @@
 {
   "TotalBossesPerMap": {
-    "factory": -1,
-    "factory_night": -1,
+    "factory": 1,
+    "factory_night": 1,
     "customs": -1,
     "woods": -1,
     "shoreline": -1,
@@ -11,7 +11,7 @@
     "laboratory": -1,
     "streets": -1
   },
-	"Bosses": {
+    "Bosses": {
     "useGlobalBossSpawnChance": true,
     "gluhar": {
       "customs": 0,
@@ -21,26 +21,26 @@
       "interchange": 0,
       "laboratory": 0,
       "lighthouse": 0,
-      "reserve": 35,
-      "shoreline": 0,
+      "reserve": 30,
+      "shoreline": 30,
       "streets": 0,
       "woods": 0
     },
     "goons": {
-      "customs": 25,
-      "factory": 0,
-      "factory_night": 0,
-      "groundzero": 0,
-      "interchange": 0,
-      "laboratory": 0,
-      "lighthouse": 50,
-      "reserve": 0,
-      "shoreline": 25,
-      "streets": 0,
-      "woods": 25
+      "customs": 30,
+      "factory": 8,
+      "factory_night": 5,
+      "groundzero": 5,
+      "interchange": 5,
+      "laboratory": 5,
+      "lighthouse": 30,
+      "reserve": 5,
+      "shoreline": 30,
+      "streets": 15,
+      "woods": 30
     },
     "kaban": {
-      "customs": 0,
+      "customs": 15,
       "factory": 0,
       "factory_night": 0,
       "groundzero": 0,
@@ -49,7 +49,7 @@
       "lighthouse": 0,
       "reserve": 0,
       "shoreline": 0,
-      "streets": 35,
+      "streets": 30,
       "woods": 0
     },
     "killa": {
@@ -57,36 +57,36 @@
       "factory": 0,
       "factory_night": 0,
       "groundzero": 0,
-      "interchange": 35,
+      "interchange": 30,
       "laboratory": 0,
       "lighthouse": 0,
       "reserve": 0,
       "shoreline": 0,
-      "streets": 0,
+      "streets": 30,
       "woods": 0
     },
     "kolontay": {
       "customs": 0,
       "factory": 0,
       "factory_night": 0,
-      "groundzero": 35,
+      "groundzero": 30,
       "interchange": 0,
       "laboratory": 0,
       "lighthouse": 0,
       "reserve": 0,
       "shoreline": 0,
-      "streets": 35,
+      "streets": 30,
       "woods": 0
     },
     "reshala": {
-      "customs": 35,
+      "customs": 30,
       "factory": 0,
       "factory_night": 0,
       "groundzero": 0,
       "interchange": 0,
       "laboratory": 0,
       "lighthouse": 0,
-      "reserve": 0,
+      "reserve": 30,
       "shoreline": 0,
       "streets": 0,
       "woods": 0
@@ -97,10 +97,10 @@
       "factory_night": 0,
       "groundzero": 0,
       "interchange": 0,
-      "laboratory": 0,
+      "laboratory": 30,
       "lighthouse": 0,
       "reserve": 0,
-      "shoreline": 35,
+      "shoreline": 30,
       "streets": 0,
       "woods": 0
     },
@@ -109,19 +109,19 @@
       "factory": 0,
       "factory_night": 0,
       "groundzero": 0,
-      "interchange": 0,
+      "interchange": 30,
       "laboratory": 0,
       "lighthouse": 0,
       "reserve": 0,
       "shoreline": 0,
       "streets": 0,
-      "woods": 35
+      "woods": 30
     },
     "tagilla": {
       "customs": 0,
-      "factory": 35,
+      "factory": 30,
       "factory_night": 35,
-      "groundzero": 0,
+      "groundzero": 30,
       "interchange": 0,
       "laboratory": 0,
       "lighthouse": 0,
@@ -143,10 +143,10 @@
       "streets": 0,
       "woods": 0
     }
-	},
+    },
   "CustomBosses": {
     "santa": {
-			"enabled": true,
+            "enabled": true,
       "forceSpawnOutsideEvent": false,
       "customs": 0,
       "factory": 0,
@@ -159,25 +159,25 @@
       "shoreline": 0,
       "streets": 0,
       "woods": 0
-		},
+        },
     "punisher": {
-			"enabled": false,
-			"useProgressSpawnChance": true,
-      "customs": 0,
-      "factory": 0,
-      "factory_night": 0,
-      "groundzero": 0,
-      "interchange": 0,
-      "laboratory": 0,
-      "lighthouse": 0,
-      "reserve": 0,
-      "shoreline": 0,
-      "streets": 0,
-      "woods": 0
-		},
+            "enabled": false,
+            "useProgressSpawnChance": false,
+      "customs": 5,
+      "factory": 5,
+      "factory_night": 5,
+      "groundzero": 5,
+      "interchange": 5,
+      "laboratory": 5,
+      "lighthouse": 5,
+      "reserve": 5,
+      "shoreline": 5,
+      "streets": 5,
+      "woods": 5
+        },
     "legion": {
-			"enabled": false,
-			"useProgressSpawnChance": true,
+            "enabled": false,
+            "useProgressSpawnChance": true,
       "customs": 0,
       "factory": 0,
       "factory_night": 0,
@@ -189,6 +189,6 @@
       "shoreline": 0,
       "streets": 0,
       "woods": 0
-		}
+        }
   }
 }
