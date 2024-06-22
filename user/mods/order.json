@@ -1,6 +1,11 @@
 {
     "order": [
         "fika-server",
+        "Virtual's Custom Quest Loader",
+        "AAAArtemTrader",
+        "AAArtemEquipment",
+        "Lotus",
+        "acidphantasm-scorpion",
         "leaves-relooted",
         "leaves-loot_fuckery",
         "odt-iteminfo-4.0.3",
@@ -15,14 +20,9 @@
         "tyfon-uifixes",
         "MoreCheckmarksBackend",
         "ExpandedTaskText",
-        "Virtual's Custom Quest Loader",
-        "AAAArtemTrader",
-        "AAArtemEquipment",
-        "Lotus",
-        "acidphantasm-scorpion",
-        "SWAG",
         "DanW-SPTQuestingBots",
         "Skwizzy-LootingBots-ServerMod",
+        "SWAG",
         "Solarint-SAIN-ServerMod"
     ]
 }
