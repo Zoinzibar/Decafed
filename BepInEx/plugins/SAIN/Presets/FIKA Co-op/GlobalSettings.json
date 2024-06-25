@@ -24,8 +24,8 @@
     "MaxBotsToCheckVisionPerFrame": 3.0
   },
   "Aiming": {
-    "HeadShotProtection": true,
-    "HeadShotProtectionPMC": true,
+    "HeadShotProtection": false,
+    "HeadShotProtectionPMC": false,
     "PoseLevelScatterMulti": 0.8,
     "ProneScatterMulti": 0.7,
     "PartVisScatterMulti": 0.75,
@@ -133,7 +133,7 @@
   "Look": {
     "GlobalVisionDistanceMultiplier": 1.0,
     "GlobalVisionSpeedModifier": 0.85,
-    "SprintingVisionModifier": 0.35,
+    "SprintingVisionModifier": 1.0,
     "MovementDistanceModifier": 1.75,
     "HighElevationMaxAngle": 60.0,
     "HighElevationVisionModifier": 1.0,
@@ -143,7 +143,7 @@
     "NotLookingTimeLimit": 4.0,
     "NotLookingAngle": 45.0,
     "NotLookingVisionSpeedModifier": 1.0,
-    "NotLookingAccuracyAmount": 0.45,
+    "NotLookingAccuracyAmount": 1.0,
     "NightTimeVisionModifier": 0.45,
     "NightTimeVisionModifierSnow": 0.5,
     "HourDawnStart": 6.0,

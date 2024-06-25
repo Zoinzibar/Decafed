@@ -4,7 +4,7 @@
     "RandomSpeedHacker": false,
     "PerformanceMode": false,
     "NewDoorOpening": true,
-    "LimitAIvsAI": true,
+    "LimitAIvsAI": false,
     "LimitAIvsAIMaxAudioRange": 125.0,
     "LimitAIvsAIMaxAudioRangeVeryFar": 80.0,
     "BotsUseGrenades": true
