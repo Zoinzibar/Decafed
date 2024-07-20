@@ -1,0 +1,24 @@
+[
+  {
+    "ZoneId": "sh_woods_plane_visit",
+    "ZoneName": "sh_woods_plane_visit",
+    "ZoneLocation": "Woods",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-249.2618",
+      "Y": "12.52654",
+      "Z": "-24.3331"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.8",
+      "Y": "2.6",
+      "Z": "2.2"
+    }
+  }
+]

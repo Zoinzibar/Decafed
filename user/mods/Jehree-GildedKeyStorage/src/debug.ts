@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/brace-style */
 import * as config from "../config/config.json";
 
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
-import type { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import type { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
-import type { SaveServer } from "@spt-aki/servers/SaveServer";
-import type { ItemHelper } from "@spt-aki/helpers/ItemHelper";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
+import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
+import type { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt/models/enums/BaseClasses";
+import type { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
+import type { SaveServer } from "@spt/servers/SaveServer";
+import type { ItemHelper } from "@spt/helpers/ItemHelper";
 
 const debugConfig = config.debug
 const keysInConfig:Array<string> = [
@@ -60,7 +60,7 @@ export class Debug{
             "On_Game_Start_Gilded_Key_Storage",
             [{
                 url: "/client/game/start",
-                action: (url, info, sessionId, output) => {
+                action: async (url, info, sessionId, output) => {
 
                     const profile = saveServer.getProfile(sessionId)
                     const profileInventory = profile.characters?.pmc?.Inventory
@@ -105,7 +105,7 @@ export class Debug{
                     return output
                 }
             }],
-            "aki"
+            "spt"
         );
     }
 
@@ -122,7 +122,7 @@ export class Debug{
             "On_Logout_Gilded_Key_Storage",
             [{
                 url: urlHook,
-                action: (url, info, sessionId, output) => {
+                action: async (url, info, sessionId, output) => {
 
                     const profile = saveServer.getProfile(sessionId)
                     const profileInventory = profile.characters?.pmc?.Inventory
@@ -143,11 +143,12 @@ export class Debug{
                     return output
                 }
             }],
-            "aki"
+            "spt"
         );
     }
 
 
+    // biome-ignore lint/suspicious/noExplicitAny: <explanation>
     getArrayOfKeysAndCases():Array<any>{
         const keysAndCases = [
             ...keysInConfig,

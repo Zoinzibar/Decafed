@@ -1,7 +1,7 @@
 {
 	"enabled": true,
 	"debug": {
-		"enabled": false,
+		"enabled": true,
 		"scav_cooldown_time": 1500,
 		"full_length_scav_raids": false,
 		"free_labs_access": false,
@@ -22,8 +22,14 @@
 	"questing": {
 		"enabled": true,
 		"bot_pathing_update_interval_ms": 100,
-		"brain_layer_priority": 18,
+		"brain_layer_priorities": {
+			"questing": 18,
+			"following": 19,
+			"regrouping": 26,
+			"sleeping": 99
+		},
 		"quest_selection_timeout": 250,
+		"btr_run_distance": 10,
 		"allowed_bot_types_for_questing": {
 			"scav": false,
 			"pscav": true,
@@ -82,8 +88,14 @@
 			"min_health_legs": 50,
 			"max_overweight_percentage": 100,
 			"search_time_after_combat": {
-				"min": 10,
-				"max": 30
+				"prioritized_sain" : {
+					"min": 5,
+					"max": 20
+				},
+				"prioritized_questing" : {
+					"min": 20,
+					"max": 45
+				}
 			},
 			"hearing_sensor": {
 				"enabled": true,
@@ -111,7 +123,8 @@
 					"interchange": 120,
 					"laboratory": 60,
 					"tarkovstreets": 120,
-					"sandbox": 120
+					"sandbox": 120,
+					"sandbox_high": 120
 				},
 				"suspicion_cooldown_time": 7
 			},
@@ -129,9 +142,13 @@
 				"max_wait_time": 5,
 				"min_regroup_time": 1,
 				"regroup_pause_time": 2,
-				"target_range": {
+				"target_range_questing": {
 					"min": 7,
 					"max": 12
+				},
+				"target_range_combat": {
+					"min": 15,
+					"max": 35
 				},
 				"nearest": 15,
 				"furthest": 25
@@ -170,6 +187,7 @@
 			"desirability_weighting": 1,
 			"desirability_camping_multiplier": 1,
 			"desirability_sniping_multiplier": 1,
+			"desirability_active_quest_multiplier": 1.2,
 			"exfil_direction_weighting": {
 				"default": 0,
 				"factory4_day": 0.2,
@@ -182,12 +200,14 @@
 				"interchange": 0.7,
 				"laboratory": 0.3,
 				"tarkovstreets": 0.7,
-				"sandbox": 0.5
+				"sandbox": 0.5,
+				"sandbox_high": 0.5
 			},
 			"exfil_direction_max_angle": 90,
 			"exfil_reached_min_fraction": 0.2,
 			"blacklisted_boss_hunter_bosses": [ "gifter", "arenaFighterEvent", "shooterBTR" ],
 			"airdrop_bot_interest_time": 420,
+			"elimination_quest_search_time": 60,
 			"eft_quests": {
 				"desirability": 60,
 				"max_bots_per_quest": 3,
@@ -231,8 +251,8 @@
 		"enabled": true,
 		"blacklisted_pmc_bot_brains": [ "bossKilla", "bossTagilla", "exUsec", "followerGluharAssault", "followerGluharProtect", "crazyAssaultEvent", "bossKnight" ],
 		"spawn_retry_time": 10,
-		"delay_game_start_until_bot_gen_finishes": false,
-		"spawn_initial_bosses_first": true,
+		"delay_game_start_until_bot_gen_finishes": true,
+		"spawn_initial_bosses_first": false,
 		"non_wave_bot_spawn_period_factor": 3,
 		"advanced_eft_bot_count_management": {
 			"enabled": true,
@@ -250,7 +270,8 @@
 				"interchange": 0,
 				"laboratory": 0,
 				"tarkovstreets": -4,
-				"sandbox": 0
+				"sandbox": 0,
+				"sandbox_high": 0
 			}
 		},
 		"bot_cap_adjustments" : {
@@ -278,7 +299,8 @@
 			"interchange": 8,
 			"laboratory": 9,
 			"tarkovstreets": 8,
-			"sandbox": 7
+			"sandbox": 7,
+			"sandbox_high": 7
 		},
 		"pmcs" : {
 			"enabled": true,

@@ -1,9 +1,0 @@
-{
-	"disableThisMod": false,
-  "backupProfileBeforeSave": false,
-	"restoreInitialKit": true,
-  "keepSecuredContainer": true,
-	"keepFoundInRaidStatus": false,
-  "noSaveOnPMCDeath": false,
-  "noSaveOnScavDeath": false
-}

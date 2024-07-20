@@ -1,0 +1,236 @@
+{
+    "Filename": "miningBoomQuest01",
+    "FileExtension": "png",
+    "Quest": {
+        "QuestName": "Mining Boom",
+        "_id": "miningBoomQuest01Id",
+        "traderId": "sashahimik",
+        "location": "5b0fc42d86f7744a585f9105",
+        "image": "/files/quest/icon/miningBoomQuest01.png",
+        "type": "PickUp",
+        "side": "Pmc",
+        "isKey": false,
+        "restartable": false,
+        "min_level": 1,
+        "canShowNotificationsInGame": true,
+        "instantComplete": false,
+        "secretQuest": false,
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "35000",
+                    "id": "miningBoomQuest01ExpReward",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "target": "sashahimik",
+                    "value": "0.2",
+                    "type": "TraderStanding",
+                    "index": 1,
+                    "id": "miningBoomQuest01StandingReward"
+                },
+                {
+                    "target": "miningBoomQuest01RoublesItemReward",
+                    "value": "300000",
+                    "type": "Item",
+                    "index": 2,
+                    "id": "miningBoomQuest01RoublesReward",
+                    "items": [
+                        {
+                            "_id": "miningBoomQuest01RoublesItemReward",
+                            "_tpl": "UAH",
+                            "upd": {
+                                "StackObjectsCount": 100000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "target": "shS9MinerRew",
+                    "value": "1",
+                    "type": "Item",
+                    "index": 3,
+                    "id": "miningBoomQuest01S9MinerReward",
+                    "items": [
+                        {
+                            "_id": "shS9MinerRew",
+                            "_tpl": "shS9Miner"
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "conditions": {
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "miningBoomQuest01_start_condition",
+                    "index": 1,
+                    "parentId": "",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "target": [
+                        "573477e124597737dd42e191"
+                    ],
+                    "value": "12",
+                    "index": 0,
+                    "parentId": "",
+                    "dynamicLocale": false,
+                    "onlyFoundInRaid": true,
+                    "id": "miningBoomFindCPU"
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "target": [
+                        "573477e124597737dd42e191"
+                    ],
+                    "value": "12",
+                    "index": 1,
+                    "parentId": "",
+                    "id": "miningBoomHandCPU",
+                    "onlyFoundInRaid": true,
+                    "dynamicLocale": false,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "FindItem",
+                    "target": [
+                        "57347c2e24597744902c94a1"
+                    ],
+                    "value": "6",
+                    "index": 2,
+                    "parentId": "",
+                    "dynamicLocale": false,
+                    "onlyFoundInRaid": true,
+                    "id": "miningBoomFindPSU"
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "target": [
+                        "57347c2e24597744902c94a1"
+                    ],
+                    "value": "6",
+                    "index": 3,
+                    "parentId": "",
+                    "id": "miningBoomHandPSU",
+                    "onlyFoundInRaid": true,
+                    "dynamicLocale": false,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "FindItem",
+                    "target": [
+                        "57347ca924597744596b4e71"
+                    ],
+                    "value": "3",
+                    "index": 4,
+                    "parentId": "",
+                    "dynamicLocale": false,
+                    "onlyFoundInRaid": true,
+                    "id": "miningBoomFindGPU"
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "target": [
+                        "57347ca924597744596b4e71"
+                    ],
+                    "value": "3",
+                    "index": 5,
+                    "parentId": "",
+                    "id": "miningBoomHandGPU",
+                    "onlyFoundInRaid": true,
+                    "dynamicLocale": false,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "FindItem",
+                    "target": [
+                        "5d1b36a186f7742523398433"
+                    ],
+                    "value": "3",
+                    "index": 6,
+                    "parentId": "",
+                    "dynamicLocale": false,
+                    "onlyFoundInRaid": true,
+                    "id": "miningBoomFindFuel"
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "target": [
+                        "5d1b36a186f7742523398433"
+                    ],
+                    "value": "3",
+                    "index": 7,
+                    "parentId": "",
+                    "id": "miningBoomHandFuel",
+                    "onlyFoundInRaid": true,
+                    "dynamicLocale": false,
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "description": "miningBoomQuest01Description",
+        "failMessageText": "",
+        "name": "miningBoomQuest01Name",
+        "note": "",
+        "startedMessageText": "miningBoomQuest01StartedMessage",
+        "successMessageText": "miningBoomQuest01SuccessMessage",
+        "acceptPlayerMessage": "miningBoomQuest01AcceptMessage",
+        "completePlayerMessage": "miningBoomQuest01CompleteMessage",
+        "declinePlayerMessage": "miningBoomQuest01DeclineMessage"
+    },
+    "Locales": {
+        "en": {
+            "mail": {
+                "miningBoomQuest01Name": "Mining Boom",
+                "miningBoomQuest01Description": "Hey there, buddy! I’ve got a special job for you. The market's ripe for some serious mining, but I need the hardware. Find 12 PC CPUs, 6 power supply units, 3 graphic cards, and 3 metal fuel tanks. Bring them to me, and I’ll set you up with something nice.",
+                "miningBoomQuest01StartedMessage": "Get going! Time is money, and we can't waste either. Bring me the goods and you'll be rewarded handsomely.",
+                "miningBoomQuest01SuccessMessage": "You did it! Perfect timing, my friend. Here's your reward, including a top-of-the-line S9 Miner. Now, let's make some money!",
+                "miningBoomFindCPU": "Find 12 PC CPUs for Sasha.",
+                "miningBoomHandCPU": "Hand in 12 PC CPUs.",
+                "miningBoomFindPSU": "Find 6 Power Supply Units for Sasha.",
+                "miningBoomHandPSU": "Hand in 6 Power Supply Units.",
+                "miningBoomFindGPU": "Find 3 Graphic Cards for Sasha.",
+                "miningBoomHandGPU": "Hand in 3 Graphic Cards.",
+                "miningBoomFindFuel": "Find 3 Metal Fuel Tanks for Sasha.",
+                "miningBoomHandFuel": "Hand in 3 Metal Fuel Tanks.",
+                "miningBoomQuest01AcceptMessage": "Get going! Time is money, and we can't waste either. Bring me the goods and you'll be rewarded handsomely.",
+                "miningBoomQuest01DeclineMessage": "Too bad. You're missing out on a golden opportunity.",
+                "miningBoomQuest01CompleteMessage": "You did it! Perfect timing, my friend. Here's your reward, including a top-of-the-line S9 Miner. Now, let's make some money!"
+            },
+            "quest": {
+                "miningBoomQuest01Id": {
+                    "conditions": {
+                        "miningBoomFindCPU": "Find 12 PC CPUs for Sasha.",
+                        "miningBoomHandCPU": "Hand in 12 PC CPUs.",
+                        "miningBoomFindPSU": "Find 6 Power Supply Units for Sasha.",
+                        "miningBoomHandPSU": "Hand in 6 Power Supply Units.",
+                        "miningBoomFindGPU": "Find 3 Graphic Cards for Sasha.",
+                        "miningBoomHandGPU": "Hand in 3 Graphic Cards.",
+                        "miningBoomFindFuel": "Find 3 Metal Fuel Tanks for Sasha.",
+                        "miningBoomHandFuel": "Hand in 3 Metal Fuel Tanks."
+                    },
+                    "name": "Mining Boom",
+                    "description": "miningBoomQuest01Description",
+                    "note": "",
+                    "failMessageText": "",
+                    "startedMessageText": "miningBoomQuest01StartedMessage",
+                    "successMessageText": "miningBoomQuest01SuccessMessage",
+                    "location": "5b0fc42d86f7744a585f9105"
+                }
+            }
+        }
+    }
+}

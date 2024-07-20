@@ -1,27 +1,19 @@
-import { DependencyContainer }      from "tsyringe";
-import { IPostDBLoadMod }           from "@spt-aki/models/external/IPostDBLoadMod";
-import { DatabaseServer }           from "@spt-aki/servers/DatabaseServer";
-import { ImporterUtil }             from "@spt-aki/utils/ImporterUtil";
-import { ILogger }                  from "@spt-aki/models/spt/utils/ILogger";
-import { PreAkiModLoader }          from "@spt-aki/loaders/PreAkiModLoader";
-import { IDatabaseTables }          from "@spt-aki/models/spt/server/IDatabaseTables";
-import { JsonUtil }                 from "@spt-aki/utils/JsonUtil"
-import { ITemplateItem, Slot }      from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { ICustomizationItem }       from "@spt-aki/models/eft/common/tables/ICustomizationItem";
-import { ImmARTDatabase }           from "@spt-aki/mmART/ImmARTDatabase";
-import { ImmARTItem, ImmARTLocale } from "@spt-aki/mmART/ImmARTItem";
-import { ImmARTCustomizationItem }  from "@spt-aki/mmART/ImmARTCustomizationItem";
-import { ItemFilterService }        from "@spt-aki/services/ItemFilterService";
-import { ConfigTypes }              from "@spt-aki/models/enums/ConfigTypes";
-import { ConfigServer }             from "@spt-aki/servers/ConfigServer";
+import { DependencyContainer }          from "tsyringe";
+import { IPostDBLoadMod }               from "@spt/models/external/IPostDBLoadMod";
+import { DatabaseServer }               from "@spt/servers/DatabaseServer";
+import { ImporterUtil }                 from "@spt/utils/ImporterUtil";
+import { ILogger }                      from "@spt/models/spt/utils/ILogger";
+import { PreSptModLoader }              from "@spt/loaders/PreSptModLoader";
+import { IDatabaseTables }              from "@spt/models/spt/server/IDatabaseTables";
+import { ICloner }                      from "@spt/utils/cloners/ICloner"
+import { ITemplateItem, Slot }          from "@spt/models/eft/common/tables/ITemplateItem";
+import { ICustomizationItem }           from "@spt/models/eft/common/tables/ICustomizationItem";
+import { ICustomDatabase }              from "@spt/custom/ICustomDatabase";
+import { ICustomItem, ICustomLocale }   from "@spt/custom/ICustomItem";
+import { ICustomCustomizationItem }     from "@spt/custom/ICustomCustomizationItem";
 
-
-//MCv008_withblacklist
 //Config file
 import modConfig = require("../config.json");
-//Blacklist file
-import blacklist = require("../blacklist.json");
-
 
 //Item template file
 import itemTemplate =       require("../templates/item_template.json");
@@ -31,22 +23,70 @@ import articleTemplate =    require("../templates/article_template.json");
 class AddItems implements IPostDBLoadMod
 {
     private db:         IDatabaseTables;
-    private mydb:       ImmARTDatabase;    
+    private mydb:       ICustomDatabase;    
     private logger:     ILogger;
-    private jsonUtil:   JsonUtil;
+    private cloner:     ICloner;
 
     public postDBLoad(container: DependencyContainer): void
     {
         this.logger =               container.resolve<ILogger>("WinstonLogger");
-        this.jsonUtil =             container.resolve<JsonUtil>("JsonUtil");
+        this.cloner =               container.resolve<ICloner>("PrimaryCloner");
 
         const databaseServer =      container.resolve<DatabaseServer>("DatabaseServer");
         const databaseImporter =    container.resolve<ImporterUtil>("ImporterUtil");
-        const modLoader =           container.resolve<PreAkiModLoader>("PreAkiModLoader");
+        const modLoader =           container.resolve<PreSptModLoader>("PreSptModLoader");
+        const tables = container.resolve<DatabaseServer>("DatabaseServer").getTables();
+
+
+        //#region Constants for Static Loot ID's
+        const BARREL_CACHE_CONTAINERS = [
+            "5d6d2bb386f774785b07a77a", // LOOTCONTAINER_BARREL_CACHE
+            "5d6d2b5486f774785c2ba8ea" // LOOTCONTAINER_GROUND_CACHE
+        ]
+
+        const CASH_REGISTER_CONTAINERS = [
+            "578f879c24597735401e6bc6"
+        ]
+
+        const ELECTRONIC_CONTAINERS = [
+            "59139c2186f77411564f8e42"
+        ]
+
+        const WEAPON_CRATE_CONTAINERS = [
+            "5909d7cf86f77470ee57d75a", // LOOTCONTAINER_WEAPON_BOX_4X4
+            "5909d5ef86f77467974efbd8", // LOOTCONTAINER_WEAPON_BOX_5X2
+            "5909d89086f77472591234a0", // LOOTCONTAINER_WEAPON_BOX_5X5
+            "5909d76c86f77471e53d2adf", // LOOTCONTAINER_WEAPON_BOX_6X3
+            "5909d45286f77465a8136dc6", // LOOTCONTAINER_WOODEN_AMMO_BOX
+            "578f87ad245977356274f2cc", // LOOTCONTAINER_WOODEN_CRATE
+            "6223351bb5d97a7b2c635ca7"  // LOOTCONTAINER_AIRDROP_WEAPON_CRATE
+        ];
+
+        const TECHNICAL_CONTAINERS = [
+            "5909d50c86f774659e6aaebe" // toolbox idk i forgot the name
+        ]
+
+        const MEDICAL_CONTAINERS = [
+            "5909d4c186f7746ad34e805a",    // LOOTCONTAINER_MEDCASE
+            "5909d24f86f77466f56e6855",    // LOOTCONTAINER_MEDBAG_SMU06
+            "61aa1ead84ea0800645777fd"     // LOOTCONTAINER_MEDBAG_SMU06_ADV
+        ];
+
+        const COMMON_LOOT_CONTAINERS = [
+            "578f8778245977358849a9b5", // LOOTCONTAINER_JACKET
+            "578f8782245977354405a1e3", // LOOTCONTAINER_SAFE
+            "578f87a3245977356274f2cb", // LOOTCONTAINER_DUFFLE_BAG
+            "61aa1e9a32a4743c3453d2cf", // LOOTCONTAINER_DUFFLE_BAG_ADV
+            "5d07b91b86f7745a077a9432", // LOOTCONTAINER_COMMON_FUND_STASH
+            "5909e4b686f7747f5b744fa4", // LOOTCONTAINER_DEAD_SCAV
+            "578f87b7245977356274f2cd"  // LOOTCONTAINER_DRAWER
+        ];
+
+        //#endregion
 
         //Mod Info
-        const modFolderName =   "AAArtemEquipment";
-        const modFullName =     "Artem Equipment";
+        const modFolderName = "AAArtemEquipment";
+        const modFullName = "Artem Equipment";
 
         //Trader IDs
         const traders = {
@@ -57,7 +97,7 @@ class AddItems implements IPostDBLoadMod
             "mechanic":     "5a7c2eca46aef81a7ca2145d",
             "ragman":       "5ac3b934156ae10c4430e83c",
             "jaeger":       "5c0647fdd443bc2504c2d371",
-            "ArtemTrader":     "ArtemTrader"
+            "ArtemTrader": "ArtemTrader"
         };
 
         //Currency IDs
@@ -65,7 +105,23 @@ class AddItems implements IPostDBLoadMod
             "roubles":  "5449016a4bdc2d6f028b456f",
             "dollars":  "5696686a4bdc2da3298b456a",
             "euros":    "569668774bdc2da2298b4568"
-        }
+        };
+
+        //Map Names
+        const maps = {
+            "customs":        "bigmap",
+            "factoryDay":     "factory4_day",
+            "factoryNight":   "factory4_night",
+            "woods":          "woods",
+            "reserve":        "rezervbase",
+            "shoreline":      "shoreline",
+            "interchange":    "interchange",
+            "streets":        "tarkovstreets",
+            "lighthouse":     "lighthouse",
+            "labs":           "laboratory",
+            "groundzero":     "sandbox",
+            "groundzero20":   "sandbox_high"
+        };
 
         //Get the server database and our custom database
         this.db =   databaseServer.getTables();
@@ -78,73 +134,65 @@ class AddItems implements IPostDBLoadMod
         //this.checkJSON(this.mydb.mmART_items);
         //this.checkJSON(this.mydb.mmART_clothes);
 
-        //Blacklist Function
-        const configServer =        container.resolve<ConfigServer>("ConfigServer");
-        const serverScavcaseConfig = configServer.getConfig(ConfigTypes.SCAVCASE);
-        const itemFilterService = container.resolve<ItemFilterService>("ItemFilterService");
-        const itemBlacklist = itemFilterService.getBlacklistedItems();
-        itemBlacklist.push(...blacklist.addtoconfigsitem.blacklist);
-
-
-        const newBlacklist2 = serverScavcaseConfig.rewardItemBlacklist.concat(blacklist.addtoconfigsscavcase.rewardItemBlacklist);
-
-        serverScavcaseConfig.rewardItemBlacklist = newBlacklist2;
-        ///this.logger.info(serverScavcaseConfig.rewardItemBlacklist);
-
-
         //Items
-        for (const [mmARTID, mmARTItem] of Object.entries(this.mydb.mmART_items))
+        for (const [customID, customItem] of Object.entries(this.mydb.mmART_items))
         {
-            if ( mmARTItem.enable )
+            if ( customItem.enable )
             {
-                const sptID = mmARTItem.sptID;
+                const sptID = customItem.sptID;
 
                 //Items + Handbook
-                if ( "clone" in mmARTItem )
+                if ( "clone" in customItem )
                 {
-                    this.cloneItem(mmARTItem.clone, mmARTID, sptID);
-                    this.copyToFilters(mmARTItem.clone, mmARTID, sptID, mmARTItem.enableCloneCompats, mmARTItem.enableCloneConflicts);
+                    this.cloneItem(customItem.clone, customID, sptID);
+                    this.copyToFilters(customItem.clone, customID, sptID, customItem.enableCloneCompats, customItem.enableCloneConflicts);
                 }
-                else this.createItem(mmARTID, sptID);
+                else this.createItem(customID, sptID);
 
                 //Locales (Languages)
-                this.addLocales(mmARTID, sptID, mmARTItem);
+                this.addLocales(customID, sptID, customItem);
 
                 //Trades
-                //this.addTrades(mmARTID, mmARTItem, traders, currencies);
+                //this.addTrades(customID, customItem, traders, currencies);
+
+                //Static Loot
+                if ("addToStaticLoot" in customItem)
+                {
+                    this.addToStaticLoot(sptID, customItem.addToStaticLoot, maps);
+                }
             }
         }
         this.logger.debug(modFolderName + " items and handbook finished");
         
         //Item Filters
-        for (const [mmARTID, mmARTItem] of Object.entries(this.mydb.mmART_items))
+        for (const [customID, customItem] of Object.entries(this.mydb.mmART_items))
         {
-            const sptID = mmARTItem.sptID;
-            if ( this.mydb.mmART_items[mmARTID].enable ) this.addToFilters(mmARTID, sptID);
+            const sptID = customItem.sptID;
+            if ( this.mydb.mmART_items[customID].enable ) this.addToFilters(customID, sptID);
         }
         this.logger.debug(modFolderName + " item filters finished");
 
         //Clothing
-        for (const [mmARTID, mmARTArticle] of Object.entries(this.mydb.mmART_clothes))
+        for (const [customID, customArticle] of Object.entries(this.mydb.mmART_clothes))
         {
-            const sptID = mmARTArticle.sptID;
+            const sptID = customArticle.sptID;
 
             //Articles + Handbook
-            if ( "clone" in mmARTArticle )
+            if ( "clone" in customArticle )
             {
-                this.cloneClothing(mmARTArticle.clone, mmARTID, sptID);
+                this.cloneClothing(customArticle.clone, customID, sptID);
             }
             else
             {
                 //Doesn't do anything yet...
-                this.createClothing(mmARTID, sptID);
+                this.createClothing(customID, sptID);
             }
 
             //Locales (Languages)
-            this.addLocales(mmARTID, sptID, undefined, mmARTArticle);
+            this.addLocales(customID, sptID, undefined, customArticle);
 
             //Trades
-            //this.addTrades(mmARTID, mmARTItem, traders, currencies);
+            //this.addTrades(customID, customItem, traders, currencies);
         }
         this.logger.debug(modFolderName + " clothing finished");
 
@@ -169,36 +217,50 @@ class AddItems implements IPostDBLoadMod
         for (const weapon in this.mydb.globals.config.Mastering) dbMastering.push(this.mydb.globals.config.Mastering[weapon]);
         for (const weapon in dbMastering) 
         {
-
+            if (dbMastering[weapon].Name == "SR25") dbMastering[weapon].Templates.push("0088_ATL_SR25_FDE_8800");
         }
         this.logger.debug(modFolderName + " mastery finished");
+
+        //Maps
+        //for (const map of Object.values(maps)){}
+
+        //this.addItemToStaticLoot(tables, "", "6673b1ac5cae0610f1079d76", 1663, COMMON_LOOT_CONTAINERS); //denis' collar
+        //this.addItemToStaticLoot(tables, "", "6673b1ac5cae0610f1079d76", 1663, BARREL_CACHE_CONTAINERS); //denis' collar
+       // this.addItemToStaticLoot(tables, "", "66326bfd46817c660d015141", 3600, COMMON_LOOT_CONTAINERS); //Nikto Mask
+        //this.addItemToStaticLoot(tables, "", "6673b1ac5cae0610f1079d7f", 1603, COMMON_LOOT_CONTAINERS); //Zryachiy Mask white
+        //this.addItemToStaticLoot(tables, "", "668bc5cd834c88e06b08b6a4", 1603, COMMON_LOOT_CONTAINERS); //Zryachiy Mask Green
+        //this.addItemToStaticLoot(tables, "", "66326bfd46817c660d01513f", 3600, COMMON_LOOT_CONTAINERS); //Ghost Mask
+        //this.addItemToStaticLoot(tables, "", "6673b1ac5cae0610f1079d74", 2500, COMMON_LOOT_CONTAINERS); //ARTEM_VEILTAN
+        //this.addItemToStaticLoot(tables, "", "6673b1ac5cae0610f1079d73", 2500, COMMON_LOOT_CONTAINERS); //ARTEM_VEILBLACK
+        //this.addItemToStaticLoot(tables, "", "6673b1ac5cae0610f1079d75", 2500, COMMON_LOOT_CONTAINERS); //ARTEM_VEILOD
+
     }
 
-    private cloneItem(itemToClone: string, mmARTID: string, sptID: string): void
+    private cloneItem(itemToClone: string, customID: string, sptID: string): void
     {
         //Clone an item by its ID from the SPT items.json
 
         //Get a clone of the original item from the database
-        let mmARTItemOut =  this.jsonUtil.clone(this.db.templates.items[itemToClone]);
+        let customItemOut =  this.cloner.clone(this.db.templates.items[itemToClone]);
 
         //Change the necessary item attributes using the info in our database file mmART_items.json
-        mmARTItemOut._id = sptID;
-        mmARTItemOut = this.compareAndReplace(mmARTItemOut, this.mydb.mmART_items[mmARTID]["item"]);
+        customItemOut._id = sptID;
+        customItemOut = this.compareAndReplace(customItemOut, this.mydb.mmART_items[customID]["item"]);
 
         //Add the new item to the database
-        this.db.templates.items[sptID] = mmARTItemOut;
-        this.logger.debug("Item \"" + mmARTID + "\" created as a clone of " + itemToClone + " and added to database.");
+        this.db.templates.items[sptID] = customItemOut;
+        this.logger.debug("Item \"" + customID + "\" created as a clone of " + itemToClone + " and added to database.");
 
         //Create the handbook entry for the items
         const handbookEntry = {
             "Id": sptID,
-            "ParentId": this.mydb.mmART_items[mmARTID]["handbook"]["ParentId"],
-            "Price": this.mydb.mmART_items[mmARTID]["handbook"]["Price"]
+            "ParentId": this.mydb.mmART_items[customID]["handbook"]["ParentId"],
+            "Price": this.mydb.mmART_items[customID]["handbook"]["Price"]
         };
 
         //Add the handbook entry to the database
         this.db.templates.handbook.Items.push(handbookEntry);
-        this.logger.debug("Item \"" + mmARTID + "\" added to handbook with price " + handbookEntry.Price);
+        this.logger.debug("Item \"" + customID + "\" added to handbook with price " + handbookEntry.Price);
     }
 
     private createItem(itemToCreate: string, sptID: string): void
@@ -229,7 +291,7 @@ class AddItems implements IPostDBLoadMod
         this.logger.debug("Item \"" + itemToCreate + "\" added to handbook with price " + handbookEntry.Price);
     }
 
-    private checkItem(itemToCheck: ImmARTItem): [boolean, ITemplateItem]
+    private checkItem(itemToCheck: ICustomItem): [boolean, ITemplateItem]
     {
         //A very basic top-level check of an item to make sure it has the proper attributes
         //Also convert to ITemplateItem to avoid errors
@@ -305,14 +367,14 @@ class AddItems implements IPostDBLoadMod
         return [filters, conflictingItems];
     }
 
-    private copyToFilters(itemClone: string, mmARTID: string, sptID: string, enableCompats = true, enableConflicts = true): void
+    private copyToFilters(itemClone: string, customID: string, sptID: string, enableCompats = true, enableConflicts = true): void
     {
         //Find the original item in all compatible and conflict filters and add the clone to those filters as well
         //Will skip one or both depending on the enable parameters found in mmART_items.json (default is true)
 
         //Get a list of all our custom items so we can skip over them:
         const sptIDs: string[] = [];
-        for (const mmARTItem of Object.values(this.mydb.mmART_items)) sptIDs.push(mmARTItem.sptID)
+        for (const customItem of Object.values(this.mydb.mmART_items)) sptIDs.push(customItem.sptID)
 
         for (const item in this.db.templates.items)
         {
@@ -335,48 +397,48 @@ class AddItems implements IPostDBLoadMod
         }
     }
 
-    private addToFilters(mmARTID: string, sptID: string): void
+    private addToFilters(customID: string, sptID: string): void
     {
         //Add a new item to compatibility & conflict filters of pre-existing items
         //Add additional compatible and conflicting items to new item filters (manually adding more than the ones that were cloned)
 
-        const mmARTNewItem =    this.mydb.mmART_items[mmARTID];
+        const customNewItem =    this.mydb.mmART_items[customID];
 
-        this.logger.debug("addToFilters: " + mmARTID);
+        this.logger.debug("addToFilters: " + customID);
 
-        //Manually add items into an mmART item's filters
-        if ( "addToThisItemsFilters" in mmARTNewItem )
+        //Manually add items into a custom item's filters
+        if ( "addToThisItemsFilters" in customNewItem )
         {
-            const   mmARTItemFilters =      this.getFilters(sptID)[0];
-            let     mmARTConflictingItems = this.getFilters(sptID)[1];
+            const   customItemFilters =      this.getFilters(sptID)[0];
+            let     customConflictingItems = this.getFilters(sptID)[1];
 
-            for (const modSlotName in mmARTNewItem.addToThisItemsFilters)
+            for (const modSlotName in customNewItem.addToThisItemsFilters)
             {
-                if ( modSlotName === "conflicts" ) mmARTConflictingItems = mmARTConflictingItems.concat(mmARTNewItem.addToThisItemsFilters.conflicts)
+                if ( modSlotName === "conflicts" ) customConflictingItems = customConflictingItems.concat(customNewItem.addToThisItemsFilters.conflicts)
                 else
                 {
-                    for (const filter in mmARTItemFilters)
+                    for (const filter in customItemFilters)
                     {
-                        if ( modSlotName === mmARTItemFilters[filter]._name )
+                        if ( modSlotName === customItemFilters[filter]._name )
                         {
-                            const slotFilter = mmARTItemFilters[filter]._props.filters[0].Filter;
-                            const newFilter = slotFilter.concat(mmARTNewItem.addToThisItemsFilters[modSlotName])
+                            const slotFilter = customItemFilters[filter]._props.filters[0].Filter;
+                            const newFilter = slotFilter.concat(customNewItem.addToThisItemsFilters[modSlotName])
 
-                            mmARTItemFilters[filter]._props.filters[0].Filter = newFilter;
+                            customItemFilters[filter]._props.filters[0].Filter = newFilter;
                         }
                     }
                 }
             }
         }
 
-        //Manually add mmART items to pre-existing item filters.
-        if ( "addToExistingItemFilters" in mmARTNewItem )
+        //Manually add custom items to pre-existing item filters.
+        if ( "addToExistingItemFilters" in customNewItem )
         {
-            for (const modSlotName in mmARTNewItem.addToExistingItemFilters)
+            for (const modSlotName in customNewItem.addToExistingItemFilters)
             {
                 if ( modSlotName === "conflicts" )
                 {
-                    for (const conflictingItem of mmARTNewItem.addToExistingItemFilters[modSlotName])
+                    for (const conflictingItem of customNewItem.addToExistingItemFilters[modSlotName])
                     {
                         const conflictingItems = this.getFilters(conflictingItem)[1];
                         conflictingItems.push(sptID);
@@ -384,7 +446,7 @@ class AddItems implements IPostDBLoadMod
                 }
                 else
                 {
-                    for (const compatibleItem of mmARTNewItem.addToExistingItemFilters[modSlotName])
+                    for (const compatibleItem of customNewItem.addToExistingItemFilters[modSlotName])
                     {
                         const filters = this.getFilters(compatibleItem)[0];
     
@@ -398,21 +460,21 @@ class AddItems implements IPostDBLoadMod
         }
     }
 
-    private cloneClothing(articleToClone: string, mmARTID: string, sptID: string): void
+    private cloneClothing(articleToClone: string, customID: string, sptID: string): void
     {
-        if ( this.mydb.mmART_clothes[mmARTID].enable || !("enable" in this.mydb.mmART_clothes[mmARTID]) )
+        if ( this.mydb.mmART_clothes[customID].enable || !("enable" in this.mydb.mmART_clothes[customID]) )
         {
             //Get a clone of the original item from the database
-            let mmARTClothingOut = this.jsonUtil.clone(this.db.templates.customization[articleToClone]);
+            let customClothingOut = this.cloner.clone(this.db.templates.customization[articleToClone]);
 
             //Change the necessary clothing item attributes using the info in our database file mmART_clothes.json
-            mmARTClothingOut._id = sptID;
-            mmARTClothingOut._name = sptID;
-            mmARTClothingOut = this.compareAndReplace(mmARTClothingOut, this.mydb.mmART_clothes[mmARTID]["customization"]);
+            customClothingOut._id = sptID;
+            customClothingOut._name = sptID;
+            customClothingOut = this.compareAndReplace(customClothingOut, this.mydb.mmART_clothes[customID]["customization"]);
 
             //Add the new item to the database
-            this.db.templates.customization[sptID] = mmARTClothingOut;
-            this.logger.debug("Clothing item \"" + mmARTID + "\" created as a clone of " + articleToClone + " and added to database.");
+            this.db.templates.customization[sptID] = customClothingOut;
+            this.logger.debug("Clothing item \"" + customID + "\" created as a clone of " + articleToClone + " and added to database.");
         }
     }
 
@@ -438,7 +500,7 @@ class AddItems implements IPostDBLoadMod
 
     }
 
-    private checkArticle(articleToCheck: ImmARTCustomizationItem): [boolean, ICustomizationItem]
+    private checkArticle(articleToCheck: ICustomCustomizationItem): [boolean, ICustomizationItem]
     {
         //A very basic top-level check of an article to make sure it has the proper attributes
         //Also convert to ITemplateItem to avoid errors
@@ -515,10 +577,10 @@ class AddItems implements IPostDBLoadMod
     }
 
     /*
-    private addTrades(mmARTID: string, mmARTItem: ImmARTItem, traders: object, currencies: object): void
+    private addTrades(customID: string, customItem: ICustomItem, traders: object, currencies: object): void
     {
 
-        for (const [tradeID, trade] of Object.entries(mmARTItem.trades))
+        for (const [tradeID, trade] of Object.entries(customItem.trades))
         {
 
         }
@@ -541,69 +603,81 @@ class AddItems implements IPostDBLoadMod
     }
     */
 
-    private addLocales(mmARTID: string, sptID: string, mmARTItem?: ImmARTItem, mmARTArticle?: ImmARTCustomizationItem): void
+    private addLocales(customID: string, sptID: string, customItem?: ICustomItem, customArticle?: ICustomCustomizationItem): void
     {
         const name =            sptID + " Name";
         const shortname =       sptID + " ShortName";
         const description =     sptID + " Description";
 
-        const isItem = typeof mmARTItem !== "undefined"
-        const mmARTEntry = isItem ? mmARTItem : mmARTArticle;
+        const isItem = typeof customItem !== "undefined"
+        const customEntry = isItem ? customItem : customArticle;
 
         for (const localeID in this.db.locales.global) //For each possible locale/language in SPT's database
         {
-            let localeEntry: ImmARTLocale;
+            let localeEntry: ICustomLocale;
 
-            if ( mmARTEntry.locales )
+            if ( customEntry.locales )
             {
-                if ( localeID in mmARTEntry.locales) //If the language is entered in mmART_items, use that
+                if ( localeID in customEntry.locales) //If the language is entered in mmART_items, use that
                 {
                     localeEntry = {
-                        "Name":           mmARTEntry.locales[localeID].Name,
-                        "ShortName":      mmARTEntry.locales[localeID].ShortName,
-                        "Description":    mmARTEntry.locales[localeID].Description
+                        "Name":           customEntry.locales[localeID].Name,
+                        "ShortName":      customEntry.locales[localeID].ShortName,
+                        "Description":    customEntry.locales[localeID].Description
                     }
                 }
 
                 else //Otherwise use english as the default
                 {
                     localeEntry = {
-                        "Name":           mmARTEntry.locales.en.Name,
-                        "ShortName":      mmARTEntry.locales.en.ShortName,
-                        "Description":    mmARTEntry.locales.en.Description
+                        "Name":           customEntry.locales.en.Name,
+                        "ShortName":      customEntry.locales.en.ShortName,
+                        "Description":    customEntry.locales.en.Description
                     }
                 }
 
-                //If you are using the old locales
-                if (modConfig.oldLocales) this.db.locales.global[localeID].templates[mmARTID] = localeEntry;
-
-                //Normal
-                else
-                {
-                    this.db.locales.global[localeID][name] =            localeEntry.Name;
-                    this.db.locales.global[localeID][shortname] =       localeEntry.ShortName;
-                    this.db.locales.global[localeID][description] =     localeEntry.Description;
-                }
+                this.db.locales.global[localeID][name] =            localeEntry.Name;
+                this.db.locales.global[localeID][shortname] =       localeEntry.ShortName;
+                this.db.locales.global[localeID][description] =     localeEntry.Description;
             }
 
             else 
             {
-                if ( isItem ) this.logger.warning("WARNING: Missing locale entry for item: " + mmARTID);
-                else this.logger.debug("No locale entries for item/clothing: " + mmARTID)
+                if ( isItem ) this.logger.warning("WARNING: Missing locale entry for item: " + customID);
+                else this.logger.debug("No locale entries for item/clothing: " + customID)
             }
 
             //Also add the necessary preset locale entries if they exist
-            if ( isItem && mmARTItem.presets )
+            if ( isItem && customItem.presets )
             {
-                for (const preset in mmARTItem.presets)
+                for (const preset in customItem.presets)
                 {
-                    if (modConfig.oldLocales) this.db.locales.global[localeID].preset[preset] = {
-                        "Name": mmARTItem.presets[preset]
-                    };
-                    else
-                    {
-                        this.db.locales.global[localeID][preset] = mmARTItem.presets[preset];
-                    }
+                    this.db.locales.global[localeID][preset] = customItem.presets[preset];
+                }
+            }
+        }
+    }
+
+    private addToStaticLoot(sptID: string, staticLootProbabilities: Record<string, number>, maps: Record<string, string>): void
+    {
+        //For every map
+        for (const map of Object.values(maps))
+        {
+            const mapStaticLoot = this.db.locations[map].staticLoot;
+
+            //Add a probability to spawn custom item in each given container type
+            for (const [staticLootContainer, probability] of Object.entries(staticLootProbabilities))
+            {
+                try
+                {
+                    mapStaticLoot[staticLootContainer].itemDistribution.push({
+                        "tpl": sptID,
+                        "relativeProbability": probability
+                    })
+                }
+                catch(error)
+                {
+                    this.logger.debug("Could not add " + sptID + " to container " + staticLootContainer + " on map " + map)
                 }
             }
         }

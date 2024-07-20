@@ -1,10 +1,11 @@
 import { DependencyContainer, inject, injectable } from "tsyringe";
 
-import { DialogueController } from "@spt-aki/controllers/DialogueController";
-import { IGetFriendListDataResponse } from "@spt-aki/models/eft/dialog/IGetFriendListDataResponse";
+import { DialogueController } from "@spt/controllers/DialogueController";
+import { IGetFriendListDataResponse } from "@spt/models/eft/dialog/IGetFriendListDataResponse";
 
 import { FikaDialogueController } from "../../controllers/FikaDialogueController";
 import { Override } from "../../di/Override";
+import { ISendMessageRequest } from "@spt/models/eft/dialog/ISendMessageRequest";
 
 @injectable()
 export class DialogueControllerOverride extends Override {
@@ -19,6 +20,10 @@ export class DialogueControllerOverride extends Override {
                 result.getFriendList = (sessionID: string): IGetFriendListDataResponse => {
                     return this.fikaDialogueController.getFriendList(sessionID);
                 };
+
+                result.sendMessage = (sessionId: string, request: ISendMessageRequest): string => {
+                    return this.fikaDialogueController.sendMessage(sessionId, request);
+                }
             },
             { frequency: "Always" },
         );

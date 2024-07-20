@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { MailSendService } from "@spt-aki/services/MailSendService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { InventoryHelper } from "@spt/helpers/InventoryHelper";
+import { ItemHelper } from "@spt/helpers/ItemHelper";
+import { IPmcData } from "@spt/models/eft/common/IPmcData";
+import { Item } from "@spt/models/eft/common/tables/IItem";
+import { IItemEventRouterResponse } from "@spt/models/eft/itemEvent/IItemEventRouterResponse";
+import { ISptProfile } from "@spt/models/eft/profile/ISptProfile";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt/routers/EventOutputHolder";
+import { SaveServer } from "@spt/servers/SaveServer";
+import { MailSendService } from "@spt/services/MailSendService";
+import { HttpResponseUtil } from "@spt/utils/HttpResponseUtil";
 
 import { IFikaSendItemRequestData } from "../models/fika/routes/senditem/IFikaSendItemRequestData";
 import { IFikaSenditemAvailablereceiversResponse } from "../models/fika/routes/senditem/availablereceivers/IFikaSenditemAvailablereceiversResponse";
@@ -39,7 +39,7 @@ export class FikaSendItemController {
             return this.httpResponse.appendErrorToOutput(output, "Missing data in body");
         }
 
-        const senderProfile: IAkiProfile = this.saveServer.getProfile(sessionID);
+        const senderProfile: ISptProfile = this.saveServer.getProfile(sessionID);
         if (!senderProfile) {
             return this.httpResponse.appendErrorToOutput(output, "Sender profile not found");
         }
@@ -53,7 +53,7 @@ export class FikaSendItemController {
         //     );
         // }
 
-        const targetProfile: IAkiProfile = this.saveServer.getProfile(body.target);
+        const targetProfile: ISptProfile = this.saveServer.getProfile(body.target);
         if (!targetProfile) {
             return this.httpResponse.appendErrorToOutput(output, "Target profile not found");
         }
@@ -74,20 +74,10 @@ export class FikaSendItemController {
             }
         }
 
-        this.mailSendService.sendUserMessageToPlayer(
+        this.mailSendService.sendSystemMessageToPlayer(
             body.target,
-            {
-                _id: senderProfile.info.id,
-                aid: senderProfile.info.aid,
-                Info: {
-                    Nickname: senderProfile.info.username,
-                    Side: senderProfile.characters.pmc.Info.Side,
-                    Level: senderProfile.characters.pmc.Info.Level,
-                    MemberCategory: senderProfile.characters.pmc.Info.MemberCategory,
-                },
-            },
-            `You have received a gift from ${senderProfile.info.username}`,
-            itemsToSend,
+            `You have received a gift from ${senderProfile?.characters?.pmc?.Info?.Nickname ?? "unknown"}`,
+            itemsToSend
         );
 
         this.inventoryHelper.removeItem(senderProfile.characters.pmc, body.id, sessionID, output);
@@ -101,7 +91,7 @@ export class FikaSendItemController {
      * @returns
      */
     public handleAvailableReceivers(sessionID: string): IFikaSenditemAvailablereceiversResponse {
-        const sender: IAkiProfile = this.saveServer.getProfile(sessionID);
+        const sender: ISptProfile = this.saveServer.getProfile(sessionID);
         if (!sender) {
             return;
         }

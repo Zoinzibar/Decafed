@@ -1,0 +1,86 @@
+{
+    "shPiranya12x70Ultra": {
+        "PenetrationPower": 32,
+        "PenetrationChance": 0.25,
+        "Damage": 42,
+        "ArmorDamage": 28,
+        "Tracer": true,
+        "ammoAccr": -4,
+        "BackgroundColor": "orange",
+        "Weight": 0.05,
+        "HeavyBleedingDelta": 0.2,
+        "LightBleedingDelta": 0.2,
+        "DurabilityBurnModificator": 1.5,
+        "FragmentationChance": 0,
+        "MinFragmentsCount": 1,
+        "MaxFragmentsCount": 1,
+        "ProjectileCount": 12,
+        "buckshotBullets": 12,
+        "InitialSpeed": 330
+    },
+    "shtrizda9x19Flash": {
+        "PenetrationPower": 2,
+        "PenetrationChance": 0.6,
+        "Damage": 5,
+        "ArmorDamage": 2,
+        "Tracer": false,
+        "ammoAccr": -1,
+        "BackgroundColor": "orange",
+        "Weight": 0.07,
+        "HeavyBleedingDelta": 0.1,
+        "LightBleedingDelta": 0.1,
+        "DurabilityBurnModificator": 4,
+        "FragmentationChance": 0.3,
+        "MinFragmentsCount": 1,
+        "MaxFragmentsCount": 1,
+        "ProjectileCount": 1,
+        "buckshotBullets": 0,
+        "Contusion": {
+            "x": 1.5,
+            "y": 4,
+            "z": 15
+        },
+        "Blindness": {
+            "x": 10,
+            "y": 20,
+            "z": 20
+        },
+        "IsLightAndSoundShot": true,
+        "LightAndSoundShotAngle": 160,
+        "LightAndSoundShotSelfContusionTime": 7,
+        "LightAndSoundShotSelfContusionStrength": 0.3,
+        "MalfMisfireChance": 0.336,
+        "HeatFactor": 3.5,
+        "MalfFeedChance": 0.01,
+        "RemoveShellAfterFire": false,
+        "casingSounds": "shotgun_big",
+        "casingMass": 25
+    },
+    "shFlyre26x75": {
+        "Contusion": {
+            "x": 40,
+            "y": 40,
+            "z": 40
+        },
+        "Blindness": {
+            "x": 100,
+            "y": 100,
+            "z": 100
+        },
+        "FragmentType": "5996f6cb86f774678763a6ca",
+        "FragmentsCount": 15,
+        "ProjectileCount": 1,
+        "ContusionDistance": 10,
+        "Strength": 0,
+        "MinExplosionDistance": 0,
+        "MaxExplosionDistance": 0,
+        "IsLightAndSoundShot": true,
+        "LightAndSoundShotAngle": 160,
+        "explDelay":2,
+        "ExplDelay":2,
+        "StackMaxSize":5,
+        "EmitTime": 2,
+        "MinTimeToContactExplode": -1,
+        "ExplosionEffectType": "Flashbang"
+    }
+}

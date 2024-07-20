@@ -1,28 +1,28 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 /* eslint-disable @typescript-eslint/brace-style */
 import type { DependencyContainer } from "tsyringe";
-import type { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import type { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
-import type { SaveServer } from "@spt-aki/servers/SaveServer";
-import type { IPostAkiLoadMod } from "@spt-aki/models/external/IPostAkiLoadMod";
-import type { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import type { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import type { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import type { HashUtil } from "@spt-aki/utils/HashUtil";
-import type { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
-import type { GameController } from "@spt-aki/controllers/GameController";
-import type { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-//import { LogBackgroundColor } from "@spt-aki/models/spt/logging/LogBackgroundColor";
+import type { ProfileHelper } from "@spt/helpers/ProfileHelper";
+import type { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
+import type { SaveServer } from "@spt/servers/SaveServer";
+import type { IPostSptLoadMod } from "@spt/models/external/IPostSptLoadMod";
+import type { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import type { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
+import type { ItemHelper } from "@spt/helpers/ItemHelper";
+import type { HashUtil } from "@spt/utils/HashUtil";
+import type { DatabaseServer } from "@spt/servers/DatabaseServer";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
+import { BaseClasses } from "@spt/models/enums/BaseClasses";
+import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
+import type { GameController } from "@spt/controllers/GameController";
+import type { IEmptyRequestData } from "@spt/models/eft/common/IEmptyRequestData";
+//import { LogBackgroundColor } from "@spt/models/spt/logging/LogBackgroundColor";
 import { Debug } from "./debug";
 
 import * as config from "../config/config.json";
-import type { ITrader } from "@spt-aki/models/eft/common/tables/ITrader";
-import type { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
+import type { ITrader } from "@spt/models/eft/common/tables/ITrader";
+import type { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
 
-class Mod implements IPostAkiLoadMod, IPostDBLoadMod, IPreAkiLoadMod {
+class Mod implements IPostSptLoadMod, IPostDBLoadMod, IPreSptLoadMod {
     caseConfigNames = [
         "Golden Key Pouch",
         "Golden Keychain Mk. I",
@@ -50,12 +50,12 @@ class Mod implements IPostAkiLoadMod, IPostDBLoadMod, IPreAkiLoadMod {
         this.modName = "Gilded Key Storage";
     }
 
-    public postAkiLoad(container: DependencyContainer): void {
+    public postSptLoad(container: DependencyContainer): void {
         this.container = container;
     }
 
 
-    public preAkiLoad(container: DependencyContainer): void {
+    public preSptLoad(container: DependencyContainer): void {
         const staticRouterModService = container.resolve<StaticRouterModService>("StaticRouterModService")
         const saveServer = container.resolve<SaveServer>("SaveServer")
         const logger = container.resolve<ILogger>("WinstonLogger")

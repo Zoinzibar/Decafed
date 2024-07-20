@@ -1,13 +1,13 @@
 
 {
     "name": "Artem Trader",
-    "version": "1.6.2",
+    "version": "1.8.3",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Crackbone",
     "isBundleMod": true,
-    "akiVersion": "~3.8.x",
-	"loadBefore": ["AArtemEquipment"],
+    "sptVersion": "3.9",
+	"loadBefore": ["AAArtemEquipment"],
 	"loadAfter": [
         
     ],

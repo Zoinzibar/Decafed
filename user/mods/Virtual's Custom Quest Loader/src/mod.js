@@ -32,7 +32,7 @@ class VCQL {
     enableDebugLogging;
     ignoreSideExclusive;
     zones;
-    preAkiLoad(container) {
+    preSptLoad(container) {
         const staticRouterModService = container.resolve("StaticRouterModService");
         const logger = container.resolve("WinstonLogger");
         this.loadZones();

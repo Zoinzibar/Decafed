@@ -38,6 +38,8 @@
     "balance_eur": 0,
     "unlockedByDefault": true,
     "discount": 0,
+    "isCanTransferItems": false,
+    "sell_modifier_for_prohibited_items": 0,
     "discount_end": 0,
     "buyer_up": false,
     "currency": "RUB",

@@ -1,14 +1,15 @@
 {
     "name": "Artem Equipment",
-    "version": "1.6.2",
+    "version": "1.8.3",
     "main": "src/mod.js",
     "license": "Mighty_Condor - Backend:University of Illinois/NCSA Open Source License",
     "author": "Crackbone",
-    "akiVersion": "3.8.x",
+    "sptVersion": "3.9",
     "isBundleMod": true,
     "loadBefore": [],
     "loadAfter": [
-        "AAAArtemTrader"
+        "AAAArtemTrader",
+        "ServerValueModifier"
     ],
     "incompatibilities": [],
     "contributors": [

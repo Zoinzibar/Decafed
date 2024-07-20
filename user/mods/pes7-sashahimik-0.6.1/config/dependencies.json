@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "Arys-CustomAssetImporter": {
+      "Arys-CustomAssetImporter.dll": true,
+      "assets": {
+        "effects": {},
+        "rig_layouts": {
+          "backgroundflash.bundle": true,
+          "bigbrobackpack.bundle": true,
+          "bobblehead.bundle": true,
+          "mpvv-custom.bundle": true,
+          "s19riglayout.bundle": true,
+          "s9rig.bundle": true,
+          "shurikenon.bundle": true,
+          "ultratech-layout.bundle": true
+        }
+      }
+    }
+  }
+}

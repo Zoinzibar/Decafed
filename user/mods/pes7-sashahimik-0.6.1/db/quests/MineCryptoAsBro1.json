@@ -1,0 +1,135 @@
+{
+    "Filename": "mineCryptoASBro1Quest01",
+    "FileExtension": "png",
+    "Quest": {
+        "QuestName": "Mine Crypto AS Bro 1",
+        "_id": "mineCryptoASBro1Quest01Id",
+        "traderId": "sashahimik",
+        "location": "5b0fc42d86f7744a585f9105",
+        "image": "/files/quest/icon/mineCryptoASBro1Quest01.png",
+        "type": "PickUp",
+        "side": "Pmc",
+        "isKey": false,
+        "restartable": false,
+        "min_level": 1,
+        "canShowNotificationsInGame": true,
+        "instantComplete": false,
+        "secretQuest": false,
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "20000",
+                    "id": "mineCryptoASBro1Quest01ExpReward",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "target": "sashahimik",
+                    "value": "0.1",
+                    "type": "TraderStanding",
+                    "index": 1,
+                    "id": "mineCryptoASBro1Quest01StandingReward"
+                },
+                {
+                    "target": "mineCryptoASBro1Quest01RoublesItemReward",
+                    "value": "300000",
+                    "type": "Item",
+                    "index": 2,
+                    "id": "mineCryptoASBro1Quest01RoublesReward",
+                    "items": [
+                        {
+                            "_id": "mineCryptoASBro1Quest01RoublesItemReward",
+                            "_tpl": "UAH",
+                            "upd": {
+                                "StackObjectsCount": 300000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "target": "shGPUMiner",
+                    "value": "1",
+                    "type": "Item",
+                    "index": 3,
+                    "id": "mineCryptoASBro1Quest01GPUReward",
+                    "items": [
+                        {
+                            "_id": "shGPUMiner",
+                            "_tpl": "57347ca924597744596b4e71"
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "conditions": {
+            "AvailableForStart": [
+                {
+                    "conditionType": "Quest",
+                    "target": "miningBoomQuest01Id",
+                    "status": [
+                        4
+                    ],
+                    "index": 0,
+                    "parentId": "",
+                    "dynamicLocale": false,
+                    "id": ""
+                }
+            ],
+            "AvailableForFinish": [
+                {
+                    "conditionType": "HandoverItem",
+                    "target": [
+                        "shton1000"
+                    ],
+                    "value": "3",
+                    "index": 0,
+                    "parentId": "",
+                    "id": "mineCryptoASBro1HandTON",
+                    "onlyFoundInRaid": false,
+                    "dynamicLocale": false,
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "description": "mineCryptoASBro1Quest01Description",
+        "failMessageText": "",
+        "name": "mineCryptoASBro1Quest01Name",
+        "note": "",
+        "startedMessageText": "mineCryptoASBro1Quest01StartedMessage",
+        "successMessageText": "mineCryptoASBro1Quest01SuccessMessage",
+        "acceptPlayerMessage": "mineCryptoASBro1Quest01AcceptMessage",
+        "completePlayerMessage": "mineCryptoASBro1Quest01CompleteMessage",
+        "declinePlayerMessage": "mineCryptoASBro1Quest01DeclineMessage"
+    },
+    "Locales": {
+        "en": {
+            "mail": {
+                "mineCryptoASBro1Quest01Name": "Mine Crypto AS Bro 1",
+                "mineCryptoASBro1Quest01Description": "Hey bro! We're diving deep into the crypto game. I need you to bring me 3,000 TON coins. Why? Because we use Telegram to coordinate our PMC operations and manage our big land deals. This is a big step in boosting our digital presence.",
+                "mineCryptoASBro1Quest01StartedMessage": "Alright, let's get this crypto mining started! Bring me 3,000 TON coins, and we'll be set for some major business moves.",
+                "mineCryptoASBro1Quest01SuccessMessage": "Nice work, bro! With these TON coins, we're stepping up our game. Here's your reward for helping us stay ahead.",
+                "mineCryptoASBro1HandTON": "Hand in 3,000 TON coins.",
+                "mineCryptoASBro1AcceptMessage": "Alright, let's get this crypto mining started! Bring me 3,000 TON coins, and we'll be set for some major business moves.",
+                "mineCryptoASBro1DeclineMessage": "Come on, bro. Don't miss out on this opportunity.",
+                "mineCryptoASBro1CompleteMessage": "Nice work, bro! With these TON coins, we're stepping up our game. Here's your reward for helping us stay ahead."
+            },
+            "quest": {
+                "mineCryptoASBro1Quest01Id": {
+                    "conditions": {
+                        "mineCryptoASBro1HandTON": "Hand in 3,000 TON coins."
+                    },
+                    "name": "Mine Crypto AS Bro 1",
+                    "description": "mineCryptoASBro1Quest01Description",
+                    "note": "",
+                    "failMessageText": "",
+                    "startedMessageText": "mineCryptoASBro1Quest01StartedMessage",
+                    "successMessageText": "mineCryptoASBro1Quest01SuccessMessage",
+                    "location": "5b0fc42d86f7744a585f9105"
+                }
+            }
+        }
+    }
+}
