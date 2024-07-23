@@ -158,5 +158,7 @@ exports.scavcaseItemBlacklist = [
     "619bde3dc9546643a67df6f2", // Kiba Arms armband
     "619bdeb986e01e16f839a99e", // RFARMY armband
     "619bdf9cc9546643a67df6f8", // UNTAR armband
+    "65ddcc9cfa85b9f17d0dfb07", // mark_of_unknown
+    "660bbc98c38b837877075e4a", // item_flash_card_deciphered
 ];
 //# sourceMappingURL=scavcaseLists.js.map

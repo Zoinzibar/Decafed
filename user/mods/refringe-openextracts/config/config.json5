@@ -11,13 +11,13 @@
 
     extracts: {
         // Make extracts available no matter what side of the map spawned
-        ignoreEntryPoint: false,
+        ignoreEntryPoint: true,
 
         // Updates cliff extracts to be usable without a paracord, red rebel, and with an armored rig
-        ignoreCliffRequirements: false,
+        ignoreCliffRequirements: true,
 
         // Updates no-backpack extracts to be usable with backpacks
-        ignoreBackpackRequirements: false,
+        ignoreBackpackRequirements: true,
 
         // Maximum number of seconds to wait to extract in extraction area
         maxExtractionTime: 60,
@@ -64,7 +64,7 @@
         // CO-OP extracts settings
         cooperation: {
             // Enable CO-OP extracts via payment
-            convertToPayment: false,
+            convertToPayment: true,
 
             // Item needed for co-op extract payment. Default is "5696686a4bdc2da3298b456a" (Dollars).
             // Hint: Use https://db.sp-tarkov.com to find the item ID.

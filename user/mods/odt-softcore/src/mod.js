@@ -14,7 +14,7 @@ const fleaListingsWhitelist = require("../config/fleaListingsWhitelist.ts");
 const fleaBarterRequestsWhitelist = require("../config/fleaBarterRequestsWhitelist.ts"); // why I can't use import in config directory? Anyway, is there any alternative to JSON data storage? THIS is the only way to save commented data?!
 const fleaItemsWhiteList = require("../config/fleaItemsWhitelist.ts");
 const recipes_1 = require("./recipes");
-const debug = true; // [Debug] Debug!
+const debug = false; // [Debug] Debug!
 class Mod {
     postDBLoad(container) {
         const vfs = container.resolve("VFS");
@@ -56,7 +56,7 @@ class Mod {
                 }
             }
         }
-        if (true) {
+        if (false) {
             const baseClassList = new Set();
             for (const i in items) {
                 const item = items[i];
@@ -1051,11 +1051,15 @@ class Mod {
                                 prices["6389c7f115805221fb410466"] = 2680970; // Far-forward GPS Signal Amplifier Unit, 120000
                                 prices["6389c85357baa773a825b356"] = 6648292; // Advanced current converter, 300000
                                 prices["5df8a77486f77412672a1e3f"] = 2; // Christmas tree ornament (Violet), 20000
+                                prices["6662e9f37fa79a6d83730fa0"] = 2; // Dogtag USEC, 600
+                                prices["6662ea05f6259762c56f3189"] = 2; // Dogtag USEC, 600
                                 prices["59f32c3b86f77472a31742f0"] = 2; // Dogtag USEC, 600
                                 prices["6389c7750ef44505c87f5996"] = 1566360; // Microcontroller board, 100000
                                 prices["5df8a72c86f77412640e2e83"] = 2; // Christmas tree ornament (Silver), 10000
                                 prices["5df8a6a186f77412640e2e80"] = 2; // Christmas tree ornament (Red), 7000
                                 prices["59f32bb586f774757e1e8442"] = 2; // Dogtag BEAR, 600
+                                prices["6662e9aca7e0b43baa3d5f74"] = 2; // Dogtag BEAR, 600
+                                prices["6662e9cda7e0b43baa3d5f76"] = 2; // Dogtag BEAR, 600
                                 if (items[x]._props.CanSellOnRagfair == true) {
                                     logger.warning(`\nItem ${getItemName(x)} can be bought on flea for free, don't use BSG blacklist removals with EconomyOptions.Barter_Economy.enabled!`);
                                 }

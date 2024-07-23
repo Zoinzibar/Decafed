@@ -2,7 +2,7 @@
    "BossDifficulty": "normal",
    "BossEscortDifficulty": "normal",
    "disableAllSpawns": {
-      "bosses": false,
+      "bosses": true,
       "rogues": false,
       "raiders": false,
       "cultists": false,
@@ -111,7 +111,7 @@
    "UseDefaultSpawns": {
       "Waves": false,
       "Bosses": false,
-      "TriggeredWaves": false
+      "TriggeredWaves": true
    },
    "DebugOutput": false
 }

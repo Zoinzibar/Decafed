@@ -37,6 +37,7 @@ const RandomUtil_1 = require("C:/snapshot/project/obj/utils/RandomUtil");
 const TimeUtil_1 = require("C:/snapshot/project/obj/utils/TimeUtil");
 const tsyringe_1 = require("C:/snapshot/project/node_modules/tsyringe");
 const PlayerRaidEndState_1 = require("C:/snapshot/project/obj/models/enums/PlayerRaidEndState");
+const EquipmentSlots_1 = require("C:/snapshot/project/obj/models/enums/EquipmentSlots");
 let KeepEquipment = class KeepEquipment extends InraidController_1.InraidController {
     config = require("../config/config");
     constructor(logger, saveServer, timeUtil, databaseService, pmcChatResponseService, matchBotDetailsCacheService, questHelper, itemHelper, profileHelper, playerScavGenerator, healthHelper, traderHelper, traderServicesService, localisationService, insuranceService, inRaidHelper, applicationContext, configServer, mailSendService, randomUtil) {
@@ -53,8 +54,9 @@ let KeepEquipment = class KeepEquipment extends InraidController_1.InraidControl
             return;
         }
         const currentProfile = this.saveServer.getProfile(sessionID);
-        const pmcData = currentProfile.characters.pmc;
+        let pmcData = currentProfile.characters.pmc;
         currentProfile.inraid.character = "pmc";
+        // Sets xp, fatigue, location status, encyclopedia, task condition counters
         this.inRaidHelper.updateProfileBaseStats(pmcData, postRaidData, sessionID);
         if (!this.config.retainFoundInRaidStatus) {
             postRaidData.profile = this.inRaidHelper.removeSpawnedInSessionPropertyFromItems(postRaidData.profile);
@@ -64,6 +66,13 @@ let KeepEquipment = class KeepEquipment extends InraidController_1.InraidControl
         this.inRaidHelper.addStackCountToMoneyFromRaid(postRaidData.profile.Inventory.items);
         if (this.config.keepItemsFoundInRaid) {
             this.inRaidHelper.setInventory(sessionID, pmcData, postRaidData.profile);
+        }
+        else if (this.config.keepItemsInSecureContainer) {
+            const securedContainer = this.getSecuredContainerAndChildren(postRaidData.profile.Inventory.items);
+            if (securedContainer) {
+                pmcData = this.profileHelper.removeSecureContainer(pmcData);
+                pmcData.Inventory.items = pmcData.Inventory.items.concat(securedContainer);
+            }
         }
         if (this.config.saveVitality) {
             this.healthHelper.saveVitality(pmcData, postRaidData.health, sessionID);
@@ -87,6 +96,19 @@ let KeepEquipment = class KeepEquipment extends InraidController_1.InraidControl
         if (victims?.length > 0) {
             this.pmcChatResponseService.sendVictimResponse(sessionID, victims, pmcData);
         }
+    }
+    getSecuredContainerAndChildren(items) {
+        const secureContainer = items.find((x) => x.slotId === EquipmentSlots_1.EquipmentSlots.SECURED_CONTAINER);
+        if (secureContainer) {
+            const children = [];
+            for (const item of items) {
+                if (item.parentId == secureContainer._id) {
+                    children.push(item);
+                }
+            }
+            return [secureContainer, ...children];
+        }
+        return undefined;
     }
 };
 exports.KeepEquipment = KeepEquipment;

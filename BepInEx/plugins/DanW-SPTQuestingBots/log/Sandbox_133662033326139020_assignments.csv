@@ -1,0 +1,12 @@
+Bot Name,Bot Nickname,Bot Difficulty,Bot Level,Assignment Status,Quest Name,Objective Name,Step Number,Start Time,End Time
+Bot3,"Ngst",hard,5,Failed,"Saving the Mole","Zone Sandbox_5_Office_exploration","1","12:04:26","12:06:13",
+Bot1,"DevilFlippy",hard,4,Failed,"Tarbank Upstairs","Tarbank Upstairs: Objective #1","1","12:04:26","12:05:37",
+Bot4,"Reis",normal,6,Failed,"Underground South","Underground South: Objective #4","1","12:04:26","12:04:42",
+Bot4,"Reis",normal,6,Failed,"Underground South","Underground South: Objective #3","1","12:04:48","12:12:16",
+Bot6,"Faupi",easy,10,Failed,"Underground Utility Room","Underground Utility Room: Objective #1","1","12:04:26","12:05:28",
+Bot6,"Faupi",easy,10,Active,"Shooting Cans","Zone Sandbox_2_Kord_exploration","1","12:05:33","N/A",
+Bot2,"Karthel",hard,2,Failed,"TerraGroup Office Upstairs","TerraGroup Office Upstairs: Objective #5","1","12:04:26","12:07:20",
+Bot5,"ClaudioIonck",normal,6,Pending,"Shooting Cans","Zone Sandbox_2_AGS_exploration","1","12:04:26","N/A",
+Bot7,"ClaudioIonck",easy,3,Failed,"First in Line","Zone Sandbox_1_MedicalArea_exploration","1","12:04:26","12:08:11",
+Bot18,"defonotmaple",easy,1,Active,"Shooting Cans","Zone Sandbox_2_AGS_exploration","1","12:14:25","N/A",
+Bot19,"jbs4bmx",easy,2,Pending,"Capital Insight","Capital Insight: Objective #3","1","12:14:25","N/A",
