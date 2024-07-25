@@ -4,5 +4,14 @@
 	"keepItemsInSecureContainer": true,
 	"retainFoundInRaidStatus": true,
 	"useSacredAmulet": false,
-	"saveVitality": false
+	"saveVitality": false,
+
+	"profileSaving": {
+		"level": true,
+		"experience": true,
+		"skills": true,
+		"encyclopedia": true,
+		"questProgress": true,
+		"survivorClass": true
+	}
 }
